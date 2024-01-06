@@ -41187,6 +41187,9 @@ var App = /*#__PURE__*/function () {
     this._mousemoveCb = function (e) {
       return _this._onMousemove(e);
     };
+    this._hovercb = function (e) {
+      return _this._onHover(e);
+    };
   }
   _createClass(App, [{
     key: "init",
@@ -41338,6 +41341,9 @@ var App = /*#__PURE__*/function () {
       window.addEventListener('mousemove', this._mousemoveCb, {
         passive: true
       });
+      window.addEventListener('hover', this._mousemoveCb, {
+        passive: true
+      });
     }
   }, {
     key: "_removeListeners",
@@ -41346,6 +41352,9 @@ var App = /*#__PURE__*/function () {
         passive: true
       });
       window.removeEventListener('mousemove', this._mousemoveCb, {
+        passive: true
+      });
+      window.removeEventListener('hover', this._mousemoveCb, {
         passive: true
       });
     }
@@ -41463,7 +41472,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37649" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42565" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];
