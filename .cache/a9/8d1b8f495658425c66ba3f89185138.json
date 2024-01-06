@@ -1,0 +1,1 @@
+{"id":"bybr","dependencies":[{"name":"/home/hari/Desktop/mystery-ai/brain/package.json","includedInParent":true,"mtime":1704390744954}],"generated":{"js":"module.exports=\"#define GLSLIFY 1\\nvarying vec3 vColor;\\n\\nvoid main() {\\n  gl_FragColor = vec4(vColor, 1.0);\\n}\\n\";"},"sourceMaps":null,"error":null,"hash":"316fbc6c235f1972802ffdb372c5a00b","cacheData":{"env":{}}}

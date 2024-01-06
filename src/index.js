@@ -23,7 +23,7 @@ import Stats from 'stats.js'
 import { gsap } from 'gsap'
 
 const stats = new Stats()
-document.body.appendChild(stats.dom)
+// document.body.appendChild(stats.dom)
 
 class App {
   constructor(container) {
@@ -44,6 +44,7 @@ class App {
 
     this._resizeCb = () => this._onResize()
     this._mousemoveCb = e => this._onMousemove(e)
+    this._hovercb = e => this._onHover(e)
   }
 
   init() {
@@ -188,11 +189,13 @@ class App {
   _addListeners() {
     window.addEventListener('resize', this._resizeCb, { passive: true })
     window.addEventListener('mousemove', this._mousemoveCb, { passive: true })
+    window.addEventListener('hover', this._mousemoveCb, { passive: true })
   }
 
   _removeListeners() {
     window.removeEventListener('resize', this._resizeCb, { passive: true })
     window.removeEventListener('mousemove', this._mousemoveCb, { passive: true })
+    window.removeEventListener('hover', this._mousemoveCb, { passive: true })
   }
 
   _onMousemove(e) {
