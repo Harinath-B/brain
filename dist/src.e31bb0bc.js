@@ -123,55 +123,81 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.AxesHelper = exports.AudioLoader = exports.AudioListener = exports.AudioContext = exports.AudioAnalyser = exports.Audio = exports.ArrowHelper = exports.ArrayCamera = exports.ArcCurve = exports.AnimationUtils = exports.AnimationObjectGroup = exports.AnimationMixer = exports.AnimationLoader = exports.AnimationClip = exports.AmbientLightProbe = exports.AmbientLight = exports.AlwaysStencilFunc = exports.AlwaysDepth = exports.AlphaFormat = exports.AdditiveBlending = exports.AdditiveAnimationBlendMode = exports.AddOperation = exports.AddEquation = exports.ACESFilmicToneMapping = void 0;
 exports.AxisHelper = AxisHelper;
+exports.BasicShadowMap = exports.BasicDepthPacking = exports.BackSide = void 0;
 exports.BinaryTextureLoader = BinaryTextureLoader;
+exports.BooleanKeyframeTrack = exports.Bone = void 0;
 exports.BoundingBoxHelper = BoundingBoxHelper;
+exports.CameraHelper = exports.Camera = exports.Cache = exports.ByteType = exports.BufferGeometryLoader = exports.BufferGeometry = exports.BufferAttribute = exports.BoxHelper = exports.BoxGeometry = exports.BoxBufferGeometry = exports.Box3Helper = exports.Box3 = exports.Box2 = void 0;
 exports.CanvasRenderer = CanvasRenderer;
+exports.DstColorFactor = exports.DstAlphaFactor = exports.DoubleSide = exports.DodecahedronGeometry = exports.DodecahedronBufferGeometry = exports.DiscreteInterpolant = exports.DirectionalLightHelper = exports.DirectionalLight = exports.DepthTexture = exports.DepthStencilFormat = exports.DepthFormat = exports.DefaultLoadingManager = exports.DecrementWrapStencilOp = exports.DecrementStencilOp = exports.DataUtils = exports.DataTextureLoader = exports.DataTexture3D = exports.DataTexture2DArray = exports.DataTexture = exports.Cylindrical = exports.CylinderGeometry = exports.CylinderBufferGeometry = exports.CustomToneMapping = exports.CustomBlending = exports.CurvePath = exports.Curve = exports.CullFaceNone = exports.CullFaceFrontBack = exports.CullFaceFront = exports.CullFaceBack = exports.CubicInterpolant = exports.CubicBezierCurve3 = exports.CubicBezierCurve = exports.CubeUVRefractionMapping = exports.CubeUVReflectionMapping = exports.CubeTextureLoader = exports.CubeTexture = exports.CubeRefractionMapping = exports.CubeReflectionMapping = exports.CubeCamera = exports.ConeGeometry = exports.ConeBufferGeometry = exports.CompressedTextureLoader = exports.CompressedTexture = exports.ColorKeyframeTrack = exports.Color = exports.Clock = exports.ClampToEdgeWrapping = exports.CircleGeometry = exports.CircleBufferGeometry = exports.CineonToneMapping = exports.CatmullRomCurve3 = exports.CanvasTexture = void 0;
 exports.DynamicBufferAttribute = DynamicBufferAttribute;
+exports.EdgesGeometry = exports.DynamicReadUsage = exports.DynamicDrawUsage = exports.DynamicCopyUsage = void 0;
 exports.EdgesHelper = EdgesHelper;
+exports.Float16BufferAttribute = exports.FlatShading = exports.FileLoader = exports.FaceColors = exports.ExtrudeGeometry = exports.ExtrudeBufferGeometry = exports.EventDispatcher = exports.Euler = exports.EquirectangularRefractionMapping = exports.EquirectangularReflectionMapping = exports.EqualStencilFunc = exports.EqualDepth = exports.EllipseCurve = void 0;
 exports.Float32Attribute = Float32Attribute;
+exports.Float32BufferAttribute = void 0;
 exports.Float64Attribute = Float64Attribute;
+exports.FogExp2 = exports.Fog = exports.FloatType = exports.Float64BufferAttribute = void 0;
 exports.Font = Font;
 exports.FontLoader = FontLoader;
+exports.ImageUtils = exports.ImageLoader = exports.ImageBitmapLoader = exports.IcosahedronGeometry = exports.IcosahedronBufferGeometry = exports.HemisphereLightProbe = exports.HemisphereLightHelper = exports.HemisphereLight = exports.HalfFloatType = exports.Group = exports.GridHelper = exports.GreaterStencilFunc = exports.GreaterEqualStencilFunc = exports.GreaterEqualDepth = exports.GreaterDepth = exports.GLSL3 = exports.GLSL1 = exports.GLBufferAttribute = exports.Frustum = exports.FrontSide = exports.FramebufferTexture = void 0;
 exports.ImmediateRenderObject = ImmediateRenderObject;
+exports.InstancedMesh = exports.InstancedInterleavedBuffer = exports.InstancedBufferGeometry = exports.InstancedBufferAttribute = exports.IncrementWrapStencilOp = exports.IncrementStencilOp = void 0;
 exports.Int16Attribute = Int16Attribute;
+exports.Int16BufferAttribute = void 0;
 exports.Int32Attribute = Int32Attribute;
+exports.Int32BufferAttribute = void 0;
 exports.Int8Attribute = Int8Attribute;
+exports.InvertStencilOp = exports.InterpolateSmooth = exports.InterpolateLinear = exports.InterpolateDiscrete = exports.Interpolant = exports.InterleavedBufferAttribute = exports.InterleavedBuffer = exports.IntType = exports.Int8BufferAttribute = void 0;
 exports.JSONLoader = JSONLoader;
+exports.Layers = exports.LatheGeometry = exports.LatheBufferGeometry = exports.LOD = exports.KeyframeTrack = exports.KeepStencilOp = void 0;
 exports.LensFlare = LensFlare;
+exports.LinearMipmapNearestFilter = exports.LinearMipmapLinearFilter = exports.LinearMipMapNearestFilter = exports.LinearMipMapLinearFilter = exports.LinearInterpolant = exports.LinearFilter = exports.LinearEncoding = exports.LineStrip = exports.LineSegments = exports.LinePieces = exports.LineLoop = exports.LineDashedMaterial = exports.LineCurve3 = exports.LineCurve = exports.LineBasicMaterial = exports.Line3 = exports.Line = exports.LightProbe = exports.Light = exports.LessStencilFunc = exports.LessEqualStencilFunc = exports.LessEqualDepth = exports.LessDepth = void 0;
+exports.MeshDistanceMaterial = exports.MeshDepthMaterial = exports.MeshBasicMaterial = exports.Mesh = exports.MaxEquation = exports.Matrix4 = exports.Matrix3 = exports.MathUtils = exports.Math = exports.MaterialLoader = exports.Material = exports.MOUSE = exports.LuminanceFormat = exports.LuminanceAlphaFormat = exports.LoopRepeat = exports.LoopPingPong = exports.LoopOnce = exports.LoadingManager = exports.LoaderUtils = exports.Loader = exports.LinearToneMapping = void 0;
 exports.MeshFaceMaterial = MeshFaceMaterial;
+exports.MixOperation = exports.MirroredRepeatWrapping = exports.MinEquation = exports.MeshToonMaterial = exports.MeshStandardMaterial = exports.MeshPhysicalMaterial = exports.MeshPhongMaterial = exports.MeshNormalMaterial = exports.MeshMatcapMaterial = exports.MeshLambertMaterial = void 0;
 exports.MultiMaterial = MultiMaterial;
+exports.PMREMGenerator = exports.PCFSoftShadowMap = exports.PCFShadowMap = exports.OrthographicCamera = exports.OneMinusSrcColorFactor = exports.OneMinusSrcAlphaFactor = exports.OneMinusDstColorFactor = exports.OneMinusDstAlphaFactor = exports.OneFactor = exports.OctahedronGeometry = exports.OctahedronBufferGeometry = exports.ObjectSpaceNormalMap = exports.ObjectLoader = exports.Object3D = exports.NumberKeyframeTrack = exports.NotEqualStencilFunc = exports.NotEqualDepth = exports.NormalBlending = exports.NormalAnimationBlendMode = exports.NoToneMapping = exports.NoColors = exports.NoBlending = exports.NeverStencilFunc = exports.NeverDepth = exports.NearestMipmapNearestFilter = exports.NearestMipmapLinearFilter = exports.NearestMipMapNearestFilter = exports.NearestMipMapLinearFilter = exports.NearestFilter = exports.MultiplyOperation = exports.MultiplyBlending = void 0;
 exports.ParametricGeometry = ParametricGeometry;
 exports.Particle = Particle;
 exports.ParticleBasicMaterial = ParticleBasicMaterial;
 exports.ParticleSystem = ParticleSystem;
 exports.ParticleSystemMaterial = ParticleSystemMaterial;
+exports.PlaneHelper = exports.PlaneGeometry = exports.PlaneBufferGeometry = exports.Plane = exports.PerspectiveCamera = exports.Path = void 0;
 exports.PointCloud = PointCloud;
 exports.PointCloudMaterial = PointCloudMaterial;
+exports.RGBA_ASTC_10x8_Format = exports.RGBA_ASTC_10x6_Format = exports.RGBA_ASTC_10x5_Format = exports.RGBA_ASTC_10x10_Format = exports.RGBAIntegerFormat = exports.RGBAFormat = exports.RGBADepthPacking = exports.REVISION = exports.QuaternionLinearInterpolant = exports.QuaternionKeyframeTrack = exports.Quaternion = exports.QuadraticBezierCurve3 = exports.QuadraticBezierCurve = exports.PropertyMixer = exports.PropertyBinding = exports.PositionalAudio = exports.PolyhedronGeometry = exports.PolyhedronBufferGeometry = exports.PolarGridHelper = exports.PointsMaterial = exports.Points = exports.PointLightHelper = exports.PointLight = void 0;
+exports.TetrahedronGeometry = exports.TetrahedronBufferGeometry = exports.TangentSpaceNormalMap = exports.TOUCH = exports.SubtractiveBlending = exports.SubtractEquation = exports.StringKeyframeTrack = exports.StreamReadUsage = exports.StreamDrawUsage = exports.StreamCopyUsage = exports.StereoCamera = exports.StaticReadUsage = exports.StaticDrawUsage = exports.StaticCopyUsage = exports.SrcColorFactor = exports.SrcAlphaSaturateFactor = exports.SrcAlphaFactor = exports.SpriteMaterial = exports.Sprite = exports.SpotLightHelper = exports.SpotLight = exports.SplineCurve = exports.SphericalHarmonics3 = exports.Spherical = exports.SphereGeometry = exports.SphereBufferGeometry = exports.Sphere = exports.SmoothShading = exports.SkinnedMesh = exports.SkeletonHelper = exports.Skeleton = exports.ShortType = exports.ShapeUtils = exports.ShapePath = exports.ShapeGeometry = exports.ShapeBufferGeometry = exports.Shape = exports.ShadowMaterial = exports.ShaderMaterial = exports.ShaderLib = exports.ShaderChunk = exports.SceneUtils = exports.Scene = exports.SRGB8_ALPHA8_ASTC_8x8_Format = exports.SRGB8_ALPHA8_ASTC_8x6_Format = exports.SRGB8_ALPHA8_ASTC_8x5_Format = exports.SRGB8_ALPHA8_ASTC_6x6_Format = exports.SRGB8_ALPHA8_ASTC_6x5_Format = exports.SRGB8_ALPHA8_ASTC_5x5_Format = exports.SRGB8_ALPHA8_ASTC_5x4_Format = exports.SRGB8_ALPHA8_ASTC_4x4_Format = exports.SRGB8_ALPHA8_ASTC_12x12_Format = exports.SRGB8_ALPHA8_ASTC_12x10_Format = exports.SRGB8_ALPHA8_ASTC_10x8_Format = exports.SRGB8_ALPHA8_ASTC_10x6_Format = exports.SRGB8_ALPHA8_ASTC_10x5_Format = exports.SRGB8_ALPHA8_ASTC_10x10_Format = exports.RingGeometry = exports.RingBufferGeometry = exports.ReverseSubtractEquation = exports.ReplaceStencilOp = exports.RepeatWrapping = exports.ReinhardToneMapping = exports.RedIntegerFormat = exports.RedFormat = exports.RectAreaLight = exports.Raycaster = exports.Ray = exports.RawShaderMaterial = exports.RGIntegerFormat = exports.RGFormat = exports.RGB_S3TC_DXT1_Format = exports.RGB_PVRTC_4BPPV1_Format = exports.RGB_PVRTC_2BPPV1_Format = exports.RGB_ETC2_Format = exports.RGB_ETC1_Format = exports.RGBIntegerFormat = exports.RGBFormat = exports.RGBA_S3TC_DXT5_Format = exports.RGBA_S3TC_DXT3_Format = exports.RGBA_S3TC_DXT1_Format = exports.RGBA_PVRTC_4BPPV1_Format = exports.RGBA_PVRTC_2BPPV1_Format = exports.RGBA_ETC2_EAC_Format = exports.RGBA_BPTC_Format = exports.RGBA_ASTC_8x8_Format = exports.RGBA_ASTC_8x6_Format = exports.RGBA_ASTC_8x5_Format = exports.RGBA_ASTC_6x6_Format = exports.RGBA_ASTC_6x5_Format = exports.RGBA_ASTC_5x5_Format = exports.RGBA_ASTC_5x4_Format = exports.RGBA_ASTC_4x4_Format = exports.RGBA_ASTC_12x12_Format = exports.RGBA_ASTC_12x10_Format = void 0;
 exports.TextGeometry = TextGeometry;
+exports.TorusGeometry = exports.TorusBufferGeometry = exports.TextureLoader = exports.Texture = void 0;
+exports.UVMapping = exports.TubeGeometry = exports.TubeBufferGeometry = exports.TrianglesDrawMode = exports.TriangleStripDrawMode = exports.TriangleFanDrawMode = exports.Triangle = exports.TorusKnotGeometry = exports.TorusKnotBufferGeometry = void 0;
 exports.Uint16Attribute = Uint16Attribute;
+exports.Uint16BufferAttribute = void 0;
 exports.Uint32Attribute = Uint32Attribute;
+exports.Uint32BufferAttribute = void 0;
 exports.Uint8Attribute = Uint8Attribute;
+exports.Uint8BufferAttribute = void 0;
 exports.Uint8ClampedAttribute = Uint8ClampedAttribute;
+exports.VectorKeyframeTrack = exports.Vector4 = exports.Vector3 = exports.Vector2 = exports.VSMShadowMap = exports.UnsignedShortType = exports.UnsignedShort565Type = exports.UnsignedShort5551Type = exports.UnsignedShort4444Type = exports.UnsignedIntType = exports.UnsignedInt248Type = exports.UnsignedByteType = exports.UniformsUtils = exports.UniformsLib = exports.Uniform = exports.Uint8ClampedBufferAttribute = void 0;
 exports.Vertex = Vertex;
+exports.WebGLRenderTarget = exports.WebGLMultisampleRenderTarget = exports.WebGLMultipleRenderTargets = exports.WebGLCubeRenderTarget = exports.WebGL1Renderer = exports.VideoTexture = exports.VertexColors = void 0;
 exports.WebGLRenderTargetCube = WebGLRenderTargetCube;
 exports.WebGLRenderer = WebGLRenderer;
 exports.WebGLUtils = WebGLUtils;
+exports.WireframeGeometry = void 0;
 exports.WireframeHelper = WireframeHelper;
+exports.WrapAroundEnding = void 0;
 exports.XHRLoader = XHRLoader;
-exports.EllipseCurve = exports.EdgesGeometry = exports.DynamicReadUsage = exports.DynamicDrawUsage = exports.DynamicCopyUsage = exports.DstColorFactor = exports.DstAlphaFactor = exports.DoubleSide = exports.DodecahedronGeometry = exports.DodecahedronBufferGeometry = exports.DiscreteInterpolant = exports.DirectionalLightHelper = exports.DirectionalLight = exports.DepthTexture = exports.DepthStencilFormat = exports.DepthFormat = exports.DefaultLoadingManager = exports.DecrementWrapStencilOp = exports.DecrementStencilOp = exports.DataUtils = exports.DataTextureLoader = exports.DataTexture3D = exports.DataTexture2DArray = exports.DataTexture = exports.Cylindrical = exports.CylinderGeometry = exports.CylinderBufferGeometry = exports.CustomToneMapping = exports.CustomBlending = exports.CurvePath = exports.Curve = exports.CullFaceNone = exports.CullFaceFrontBack = exports.CullFaceFront = exports.CullFaceBack = exports.CubicInterpolant = exports.CubicBezierCurve3 = exports.CubicBezierCurve = exports.CubeUVRefractionMapping = exports.CubeUVReflectionMapping = exports.CubeTextureLoader = exports.CubeTexture = exports.CubeRefractionMapping = exports.CubeReflectionMapping = exports.CubeCamera = exports.ConeGeometry = exports.ConeBufferGeometry = exports.CompressedTextureLoader = exports.CompressedTexture = exports.ColorKeyframeTrack = exports.Color = exports.Clock = exports.ClampToEdgeWrapping = exports.CircleGeometry = exports.CircleBufferGeometry = exports.CineonToneMapping = exports.CatmullRomCurve3 = exports.CanvasTexture = exports.CameraHelper = exports.Camera = exports.Cache = exports.ByteType = exports.BufferGeometryLoader = exports.BufferGeometry = exports.BufferAttribute = exports.BoxHelper = exports.BoxGeometry = exports.BoxBufferGeometry = exports.Box3Helper = exports.Box3 = exports.Box2 = exports.BooleanKeyframeTrack = exports.Bone = exports.BasicShadowMap = exports.BasicDepthPacking = exports.BackSide = exports.AxesHelper = exports.AudioLoader = exports.AudioListener = exports.AudioContext = exports.AudioAnalyser = exports.Audio = exports.ArrowHelper = exports.ArrayCamera = exports.ArcCurve = exports.AnimationUtils = exports.AnimationObjectGroup = exports.AnimationMixer = exports.AnimationLoader = exports.AnimationClip = exports.AmbientLightProbe = exports.AmbientLight = exports.AlwaysStencilFunc = exports.AlwaysDepth = exports.AlphaFormat = exports.AdditiveBlending = exports.AdditiveAnimationBlendMode = exports.AddOperation = exports.AddEquation = exports.ACESFilmicToneMapping = void 0;
-exports.Matrix4 = exports.Matrix3 = exports.MathUtils = exports.Math = exports.MaterialLoader = exports.Material = exports.MOUSE = exports.LuminanceFormat = exports.LuminanceAlphaFormat = exports.LoopRepeat = exports.LoopPingPong = exports.LoopOnce = exports.LoadingManager = exports.LoaderUtils = exports.Loader = exports.LinearToneMapping = exports.LinearMipmapNearestFilter = exports.LinearMipmapLinearFilter = exports.LinearMipMapNearestFilter = exports.LinearMipMapLinearFilter = exports.LinearInterpolant = exports.LinearFilter = exports.LinearEncoding = exports.LineStrip = exports.LineSegments = exports.LinePieces = exports.LineLoop = exports.LineDashedMaterial = exports.LineCurve3 = exports.LineCurve = exports.LineBasicMaterial = exports.Line3 = exports.Line = exports.LightProbe = exports.Light = exports.LessStencilFunc = exports.LessEqualStencilFunc = exports.LessEqualDepth = exports.LessDepth = exports.Layers = exports.LatheGeometry = exports.LatheBufferGeometry = exports.LOD = exports.KeyframeTrack = exports.KeepStencilOp = exports.InvertStencilOp = exports.InterpolateSmooth = exports.InterpolateLinear = exports.InterpolateDiscrete = exports.Interpolant = exports.InterleavedBufferAttribute = exports.InterleavedBuffer = exports.IntType = exports.Int8BufferAttribute = exports.Int32BufferAttribute = exports.Int16BufferAttribute = exports.InstancedMesh = exports.InstancedInterleavedBuffer = exports.InstancedBufferGeometry = exports.InstancedBufferAttribute = exports.IncrementWrapStencilOp = exports.IncrementStencilOp = exports.ImageUtils = exports.ImageLoader = exports.ImageBitmapLoader = exports.IcosahedronGeometry = exports.IcosahedronBufferGeometry = exports.HemisphereLightProbe = exports.HemisphereLightHelper = exports.HemisphereLight = exports.HalfFloatType = exports.Group = exports.GridHelper = exports.GreaterStencilFunc = exports.GreaterEqualStencilFunc = exports.GreaterEqualDepth = exports.GreaterDepth = exports.GLSL3 = exports.GLSL1 = exports.GLBufferAttribute = exports.Frustum = exports.FrontSide = exports.FramebufferTexture = exports.FogExp2 = exports.Fog = exports.FloatType = exports.Float64BufferAttribute = exports.Float32BufferAttribute = exports.Float16BufferAttribute = exports.FlatShading = exports.FileLoader = exports.FaceColors = exports.ExtrudeGeometry = exports.ExtrudeBufferGeometry = exports.EventDispatcher = exports.Euler = exports.EquirectangularRefractionMapping = exports.EquirectangularReflectionMapping = exports.EqualStencilFunc = exports.EqualDepth = void 0;
-exports.RGFormat = exports.RGB_S3TC_DXT1_Format = exports.RGB_PVRTC_4BPPV1_Format = exports.RGB_PVRTC_2BPPV1_Format = exports.RGB_ETC2_Format = exports.RGB_ETC1_Format = exports.RGBIntegerFormat = exports.RGBFormat = exports.RGBA_S3TC_DXT5_Format = exports.RGBA_S3TC_DXT3_Format = exports.RGBA_S3TC_DXT1_Format = exports.RGBA_PVRTC_4BPPV1_Format = exports.RGBA_PVRTC_2BPPV1_Format = exports.RGBA_ETC2_EAC_Format = exports.RGBA_BPTC_Format = exports.RGBA_ASTC_8x8_Format = exports.RGBA_ASTC_8x6_Format = exports.RGBA_ASTC_8x5_Format = exports.RGBA_ASTC_6x6_Format = exports.RGBA_ASTC_6x5_Format = exports.RGBA_ASTC_5x5_Format = exports.RGBA_ASTC_5x4_Format = exports.RGBA_ASTC_4x4_Format = exports.RGBA_ASTC_12x12_Format = exports.RGBA_ASTC_12x10_Format = exports.RGBA_ASTC_10x8_Format = exports.RGBA_ASTC_10x6_Format = exports.RGBA_ASTC_10x5_Format = exports.RGBA_ASTC_10x10_Format = exports.RGBAIntegerFormat = exports.RGBAFormat = exports.RGBADepthPacking = exports.REVISION = exports.QuaternionLinearInterpolant = exports.QuaternionKeyframeTrack = exports.Quaternion = exports.QuadraticBezierCurve3 = exports.QuadraticBezierCurve = exports.PropertyMixer = exports.PropertyBinding = exports.PositionalAudio = exports.PolyhedronGeometry = exports.PolyhedronBufferGeometry = exports.PolarGridHelper = exports.PointsMaterial = exports.Points = exports.PointLightHelper = exports.PointLight = exports.PlaneHelper = exports.PlaneGeometry = exports.PlaneBufferGeometry = exports.Plane = exports.PerspectiveCamera = exports.Path = exports.PMREMGenerator = exports.PCFSoftShadowMap = exports.PCFShadowMap = exports.OrthographicCamera = exports.OneMinusSrcColorFactor = exports.OneMinusSrcAlphaFactor = exports.OneMinusDstColorFactor = exports.OneMinusDstAlphaFactor = exports.OneFactor = exports.OctahedronGeometry = exports.OctahedronBufferGeometry = exports.ObjectSpaceNormalMap = exports.ObjectLoader = exports.Object3D = exports.NumberKeyframeTrack = exports.NotEqualStencilFunc = exports.NotEqualDepth = exports.NormalBlending = exports.NormalAnimationBlendMode = exports.NoToneMapping = exports.NoColors = exports.NoBlending = exports.NeverStencilFunc = exports.NeverDepth = exports.NearestMipmapNearestFilter = exports.NearestMipmapLinearFilter = exports.NearestMipMapNearestFilter = exports.NearestMipMapLinearFilter = exports.NearestFilter = exports.MultiplyOperation = exports.MultiplyBlending = exports.MixOperation = exports.MirroredRepeatWrapping = exports.MinEquation = exports.MeshToonMaterial = exports.MeshStandardMaterial = exports.MeshPhysicalMaterial = exports.MeshPhongMaterial = exports.MeshNormalMaterial = exports.MeshMatcapMaterial = exports.MeshLambertMaterial = exports.MeshDistanceMaterial = exports.MeshDepthMaterial = exports.MeshBasicMaterial = exports.Mesh = exports.MaxEquation = void 0;
-exports.Vector3 = exports.Vector2 = exports.VSMShadowMap = exports.UnsignedShortType = exports.UnsignedShort565Type = exports.UnsignedShort5551Type = exports.UnsignedShort4444Type = exports.UnsignedIntType = exports.UnsignedInt248Type = exports.UnsignedByteType = exports.UniformsUtils = exports.UniformsLib = exports.Uniform = exports.Uint8ClampedBufferAttribute = exports.Uint8BufferAttribute = exports.Uint32BufferAttribute = exports.Uint16BufferAttribute = exports.UVMapping = exports.TubeGeometry = exports.TubeBufferGeometry = exports.TrianglesDrawMode = exports.TriangleStripDrawMode = exports.TriangleFanDrawMode = exports.Triangle = exports.TorusKnotGeometry = exports.TorusKnotBufferGeometry = exports.TorusGeometry = exports.TorusBufferGeometry = exports.TextureLoader = exports.Texture = exports.TetrahedronGeometry = exports.TetrahedronBufferGeometry = exports.TangentSpaceNormalMap = exports.TOUCH = exports.SubtractiveBlending = exports.SubtractEquation = exports.StringKeyframeTrack = exports.StreamReadUsage = exports.StreamDrawUsage = exports.StreamCopyUsage = exports.StereoCamera = exports.StaticReadUsage = exports.StaticDrawUsage = exports.StaticCopyUsage = exports.SrcColorFactor = exports.SrcAlphaSaturateFactor = exports.SrcAlphaFactor = exports.SpriteMaterial = exports.Sprite = exports.SpotLightHelper = exports.SpotLight = exports.SplineCurve = exports.SphericalHarmonics3 = exports.Spherical = exports.SphereGeometry = exports.SphereBufferGeometry = exports.Sphere = exports.SmoothShading = exports.SkinnedMesh = exports.SkeletonHelper = exports.Skeleton = exports.ShortType = exports.ShapeUtils = exports.ShapePath = exports.ShapeGeometry = exports.ShapeBufferGeometry = exports.Shape = exports.ShadowMaterial = exports.ShaderMaterial = exports.ShaderLib = exports.ShaderChunk = exports.SceneUtils = exports.Scene = exports.SRGB8_ALPHA8_ASTC_8x8_Format = exports.SRGB8_ALPHA8_ASTC_8x6_Format = exports.SRGB8_ALPHA8_ASTC_8x5_Format = exports.SRGB8_ALPHA8_ASTC_6x6_Format = exports.SRGB8_ALPHA8_ASTC_6x5_Format = exports.SRGB8_ALPHA8_ASTC_5x5_Format = exports.SRGB8_ALPHA8_ASTC_5x4_Format = exports.SRGB8_ALPHA8_ASTC_4x4_Format = exports.SRGB8_ALPHA8_ASTC_12x12_Format = exports.SRGB8_ALPHA8_ASTC_12x10_Format = exports.SRGB8_ALPHA8_ASTC_10x8_Format = exports.SRGB8_ALPHA8_ASTC_10x6_Format = exports.SRGB8_ALPHA8_ASTC_10x5_Format = exports.SRGB8_ALPHA8_ASTC_10x10_Format = exports.RingGeometry = exports.RingBufferGeometry = exports.ReverseSubtractEquation = exports.ReplaceStencilOp = exports.RepeatWrapping = exports.ReinhardToneMapping = exports.RedIntegerFormat = exports.RedFormat = exports.RectAreaLight = exports.Raycaster = exports.Ray = exports.RawShaderMaterial = exports.RGIntegerFormat = void 0;
-exports.sRGBEncoding = exports.ZeroStencilOp = exports.ZeroSlopeEnding = exports.ZeroFactor = exports.ZeroCurvatureEnding = exports.WrapAroundEnding = exports.WireframeGeometry = exports.WebGLRenderTarget = exports.WebGLMultisampleRenderTarget = exports.WebGLMultipleRenderTargets = exports.WebGLCubeRenderTarget = exports.WebGL1Renderer = exports.VideoTexture = exports.VertexColors = exports.VectorKeyframeTrack = exports.Vector4 = void 0;
+exports.sRGBEncoding = exports.ZeroStencilOp = exports.ZeroSlopeEnding = exports.ZeroFactor = exports.ZeroCurvatureEnding = void 0;
 /**
  * @license
  * Copyright 2010-2021 Three.js Authors
  * SPDX-License-Identifier: MIT
  */
-const REVISION = '136';
-exports.REVISION = REVISION;
-const MOUSE = {
+const REVISION = exports.REVISION = '136';
+const MOUSE = exports.MOUSE = {
   LEFT: 0,
   MIDDLE: 1,
   RIGHT: 2,
@@ -179,386 +205,201 @@ const MOUSE = {
   DOLLY: 1,
   PAN: 2
 };
-exports.MOUSE = MOUSE;
-const TOUCH = {
+const TOUCH = exports.TOUCH = {
   ROTATE: 0,
   PAN: 1,
   DOLLY_PAN: 2,
   DOLLY_ROTATE: 3
 };
-exports.TOUCH = TOUCH;
-const CullFaceNone = 0;
-exports.CullFaceNone = CullFaceNone;
-const CullFaceBack = 1;
-exports.CullFaceBack = CullFaceBack;
-const CullFaceFront = 2;
-exports.CullFaceFront = CullFaceFront;
-const CullFaceFrontBack = 3;
-exports.CullFaceFrontBack = CullFaceFrontBack;
-const BasicShadowMap = 0;
-exports.BasicShadowMap = BasicShadowMap;
-const PCFShadowMap = 1;
-exports.PCFShadowMap = PCFShadowMap;
-const PCFSoftShadowMap = 2;
-exports.PCFSoftShadowMap = PCFSoftShadowMap;
-const VSMShadowMap = 3;
-exports.VSMShadowMap = VSMShadowMap;
-const FrontSide = 0;
-exports.FrontSide = FrontSide;
-const BackSide = 1;
-exports.BackSide = BackSide;
-const DoubleSide = 2;
-exports.DoubleSide = DoubleSide;
-const FlatShading = 1;
-exports.FlatShading = FlatShading;
-const SmoothShading = 2;
-exports.SmoothShading = SmoothShading;
-const NoBlending = 0;
-exports.NoBlending = NoBlending;
-const NormalBlending = 1;
-exports.NormalBlending = NormalBlending;
-const AdditiveBlending = 2;
-exports.AdditiveBlending = AdditiveBlending;
-const SubtractiveBlending = 3;
-exports.SubtractiveBlending = SubtractiveBlending;
-const MultiplyBlending = 4;
-exports.MultiplyBlending = MultiplyBlending;
-const CustomBlending = 5;
-exports.CustomBlending = CustomBlending;
-const AddEquation = 100;
-exports.AddEquation = AddEquation;
-const SubtractEquation = 101;
-exports.SubtractEquation = SubtractEquation;
-const ReverseSubtractEquation = 102;
-exports.ReverseSubtractEquation = ReverseSubtractEquation;
-const MinEquation = 103;
-exports.MinEquation = MinEquation;
-const MaxEquation = 104;
-exports.MaxEquation = MaxEquation;
-const ZeroFactor = 200;
-exports.ZeroFactor = ZeroFactor;
-const OneFactor = 201;
-exports.OneFactor = OneFactor;
-const SrcColorFactor = 202;
-exports.SrcColorFactor = SrcColorFactor;
-const OneMinusSrcColorFactor = 203;
-exports.OneMinusSrcColorFactor = OneMinusSrcColorFactor;
-const SrcAlphaFactor = 204;
-exports.SrcAlphaFactor = SrcAlphaFactor;
-const OneMinusSrcAlphaFactor = 205;
-exports.OneMinusSrcAlphaFactor = OneMinusSrcAlphaFactor;
-const DstAlphaFactor = 206;
-exports.DstAlphaFactor = DstAlphaFactor;
-const OneMinusDstAlphaFactor = 207;
-exports.OneMinusDstAlphaFactor = OneMinusDstAlphaFactor;
-const DstColorFactor = 208;
-exports.DstColorFactor = DstColorFactor;
-const OneMinusDstColorFactor = 209;
-exports.OneMinusDstColorFactor = OneMinusDstColorFactor;
-const SrcAlphaSaturateFactor = 210;
-exports.SrcAlphaSaturateFactor = SrcAlphaSaturateFactor;
-const NeverDepth = 0;
-exports.NeverDepth = NeverDepth;
-const AlwaysDepth = 1;
-exports.AlwaysDepth = AlwaysDepth;
-const LessDepth = 2;
-exports.LessDepth = LessDepth;
-const LessEqualDepth = 3;
-exports.LessEqualDepth = LessEqualDepth;
-const EqualDepth = 4;
-exports.EqualDepth = EqualDepth;
-const GreaterEqualDepth = 5;
-exports.GreaterEqualDepth = GreaterEqualDepth;
-const GreaterDepth = 6;
-exports.GreaterDepth = GreaterDepth;
-const NotEqualDepth = 7;
-exports.NotEqualDepth = NotEqualDepth;
-const MultiplyOperation = 0;
-exports.MultiplyOperation = MultiplyOperation;
-const MixOperation = 1;
-exports.MixOperation = MixOperation;
-const AddOperation = 2;
-exports.AddOperation = AddOperation;
-const NoToneMapping = 0;
-exports.NoToneMapping = NoToneMapping;
-const LinearToneMapping = 1;
-exports.LinearToneMapping = LinearToneMapping;
-const ReinhardToneMapping = 2;
-exports.ReinhardToneMapping = ReinhardToneMapping;
-const CineonToneMapping = 3;
-exports.CineonToneMapping = CineonToneMapping;
-const ACESFilmicToneMapping = 4;
-exports.ACESFilmicToneMapping = ACESFilmicToneMapping;
-const CustomToneMapping = 5;
-exports.CustomToneMapping = CustomToneMapping;
-const UVMapping = 300;
-exports.UVMapping = UVMapping;
-const CubeReflectionMapping = 301;
-exports.CubeReflectionMapping = CubeReflectionMapping;
-const CubeRefractionMapping = 302;
-exports.CubeRefractionMapping = CubeRefractionMapping;
-const EquirectangularReflectionMapping = 303;
-exports.EquirectangularReflectionMapping = EquirectangularReflectionMapping;
-const EquirectangularRefractionMapping = 304;
-exports.EquirectangularRefractionMapping = EquirectangularRefractionMapping;
-const CubeUVReflectionMapping = 306;
-exports.CubeUVReflectionMapping = CubeUVReflectionMapping;
-const CubeUVRefractionMapping = 307;
-exports.CubeUVRefractionMapping = CubeUVRefractionMapping;
-const RepeatWrapping = 1000;
-exports.RepeatWrapping = RepeatWrapping;
-const ClampToEdgeWrapping = 1001;
-exports.ClampToEdgeWrapping = ClampToEdgeWrapping;
-const MirroredRepeatWrapping = 1002;
-exports.MirroredRepeatWrapping = MirroredRepeatWrapping;
-const NearestFilter = 1003;
-exports.NearestFilter = NearestFilter;
-const NearestMipmapNearestFilter = 1004;
-exports.NearestMipmapNearestFilter = NearestMipmapNearestFilter;
-const NearestMipMapNearestFilter = 1004;
-exports.NearestMipMapNearestFilter = NearestMipMapNearestFilter;
-const NearestMipmapLinearFilter = 1005;
-exports.NearestMipmapLinearFilter = NearestMipmapLinearFilter;
-const NearestMipMapLinearFilter = 1005;
-exports.NearestMipMapLinearFilter = NearestMipMapLinearFilter;
-const LinearFilter = 1006;
-exports.LinearFilter = LinearFilter;
-const LinearMipmapNearestFilter = 1007;
-exports.LinearMipmapNearestFilter = LinearMipmapNearestFilter;
-const LinearMipMapNearestFilter = 1007;
-exports.LinearMipMapNearestFilter = LinearMipMapNearestFilter;
-const LinearMipmapLinearFilter = 1008;
-exports.LinearMipmapLinearFilter = LinearMipmapLinearFilter;
-const LinearMipMapLinearFilter = 1008;
-exports.LinearMipMapLinearFilter = LinearMipMapLinearFilter;
-const UnsignedByteType = 1009;
-exports.UnsignedByteType = UnsignedByteType;
-const ByteType = 1010;
-exports.ByteType = ByteType;
-const ShortType = 1011;
-exports.ShortType = ShortType;
-const UnsignedShortType = 1012;
-exports.UnsignedShortType = UnsignedShortType;
-const IntType = 1013;
-exports.IntType = IntType;
-const UnsignedIntType = 1014;
-exports.UnsignedIntType = UnsignedIntType;
-const FloatType = 1015;
-exports.FloatType = FloatType;
-const HalfFloatType = 1016;
-exports.HalfFloatType = HalfFloatType;
-const UnsignedShort4444Type = 1017;
-exports.UnsignedShort4444Type = UnsignedShort4444Type;
-const UnsignedShort5551Type = 1018;
-exports.UnsignedShort5551Type = UnsignedShort5551Type;
-const UnsignedShort565Type = 1019;
-exports.UnsignedShort565Type = UnsignedShort565Type;
-const UnsignedInt248Type = 1020;
-exports.UnsignedInt248Type = UnsignedInt248Type;
-const AlphaFormat = 1021;
-exports.AlphaFormat = AlphaFormat;
-const RGBFormat = 1022;
-exports.RGBFormat = RGBFormat;
-const RGBAFormat = 1023;
-exports.RGBAFormat = RGBAFormat;
-const LuminanceFormat = 1024;
-exports.LuminanceFormat = LuminanceFormat;
-const LuminanceAlphaFormat = 1025;
-exports.LuminanceAlphaFormat = LuminanceAlphaFormat;
-const DepthFormat = 1026;
-exports.DepthFormat = DepthFormat;
-const DepthStencilFormat = 1027;
-exports.DepthStencilFormat = DepthStencilFormat;
-const RedFormat = 1028;
-exports.RedFormat = RedFormat;
-const RedIntegerFormat = 1029;
-exports.RedIntegerFormat = RedIntegerFormat;
-const RGFormat = 1030;
-exports.RGFormat = RGFormat;
-const RGIntegerFormat = 1031;
-exports.RGIntegerFormat = RGIntegerFormat;
-const RGBIntegerFormat = 1032;
-exports.RGBIntegerFormat = RGBIntegerFormat;
-const RGBAIntegerFormat = 1033;
-exports.RGBAIntegerFormat = RGBAIntegerFormat;
-const RGB_S3TC_DXT1_Format = 33776;
-exports.RGB_S3TC_DXT1_Format = RGB_S3TC_DXT1_Format;
-const RGBA_S3TC_DXT1_Format = 33777;
-exports.RGBA_S3TC_DXT1_Format = RGBA_S3TC_DXT1_Format;
-const RGBA_S3TC_DXT3_Format = 33778;
-exports.RGBA_S3TC_DXT3_Format = RGBA_S3TC_DXT3_Format;
-const RGBA_S3TC_DXT5_Format = 33779;
-exports.RGBA_S3TC_DXT5_Format = RGBA_S3TC_DXT5_Format;
-const RGB_PVRTC_4BPPV1_Format = 35840;
-exports.RGB_PVRTC_4BPPV1_Format = RGB_PVRTC_4BPPV1_Format;
-const RGB_PVRTC_2BPPV1_Format = 35841;
-exports.RGB_PVRTC_2BPPV1_Format = RGB_PVRTC_2BPPV1_Format;
-const RGBA_PVRTC_4BPPV1_Format = 35842;
-exports.RGBA_PVRTC_4BPPV1_Format = RGBA_PVRTC_4BPPV1_Format;
-const RGBA_PVRTC_2BPPV1_Format = 35843;
-exports.RGBA_PVRTC_2BPPV1_Format = RGBA_PVRTC_2BPPV1_Format;
-const RGB_ETC1_Format = 36196;
-exports.RGB_ETC1_Format = RGB_ETC1_Format;
-const RGB_ETC2_Format = 37492;
-exports.RGB_ETC2_Format = RGB_ETC2_Format;
-const RGBA_ETC2_EAC_Format = 37496;
-exports.RGBA_ETC2_EAC_Format = RGBA_ETC2_EAC_Format;
-const RGBA_ASTC_4x4_Format = 37808;
-exports.RGBA_ASTC_4x4_Format = RGBA_ASTC_4x4_Format;
-const RGBA_ASTC_5x4_Format = 37809;
-exports.RGBA_ASTC_5x4_Format = RGBA_ASTC_5x4_Format;
-const RGBA_ASTC_5x5_Format = 37810;
-exports.RGBA_ASTC_5x5_Format = RGBA_ASTC_5x5_Format;
-const RGBA_ASTC_6x5_Format = 37811;
-exports.RGBA_ASTC_6x5_Format = RGBA_ASTC_6x5_Format;
-const RGBA_ASTC_6x6_Format = 37812;
-exports.RGBA_ASTC_6x6_Format = RGBA_ASTC_6x6_Format;
-const RGBA_ASTC_8x5_Format = 37813;
-exports.RGBA_ASTC_8x5_Format = RGBA_ASTC_8x5_Format;
-const RGBA_ASTC_8x6_Format = 37814;
-exports.RGBA_ASTC_8x6_Format = RGBA_ASTC_8x6_Format;
-const RGBA_ASTC_8x8_Format = 37815;
-exports.RGBA_ASTC_8x8_Format = RGBA_ASTC_8x8_Format;
-const RGBA_ASTC_10x5_Format = 37816;
-exports.RGBA_ASTC_10x5_Format = RGBA_ASTC_10x5_Format;
-const RGBA_ASTC_10x6_Format = 37817;
-exports.RGBA_ASTC_10x6_Format = RGBA_ASTC_10x6_Format;
-const RGBA_ASTC_10x8_Format = 37818;
-exports.RGBA_ASTC_10x8_Format = RGBA_ASTC_10x8_Format;
-const RGBA_ASTC_10x10_Format = 37819;
-exports.RGBA_ASTC_10x10_Format = RGBA_ASTC_10x10_Format;
-const RGBA_ASTC_12x10_Format = 37820;
-exports.RGBA_ASTC_12x10_Format = RGBA_ASTC_12x10_Format;
-const RGBA_ASTC_12x12_Format = 37821;
-exports.RGBA_ASTC_12x12_Format = RGBA_ASTC_12x12_Format;
-const RGBA_BPTC_Format = 36492;
-exports.RGBA_BPTC_Format = RGBA_BPTC_Format;
-const SRGB8_ALPHA8_ASTC_4x4_Format = 37840;
-exports.SRGB8_ALPHA8_ASTC_4x4_Format = SRGB8_ALPHA8_ASTC_4x4_Format;
-const SRGB8_ALPHA8_ASTC_5x4_Format = 37841;
-exports.SRGB8_ALPHA8_ASTC_5x4_Format = SRGB8_ALPHA8_ASTC_5x4_Format;
-const SRGB8_ALPHA8_ASTC_5x5_Format = 37842;
-exports.SRGB8_ALPHA8_ASTC_5x5_Format = SRGB8_ALPHA8_ASTC_5x5_Format;
-const SRGB8_ALPHA8_ASTC_6x5_Format = 37843;
-exports.SRGB8_ALPHA8_ASTC_6x5_Format = SRGB8_ALPHA8_ASTC_6x5_Format;
-const SRGB8_ALPHA8_ASTC_6x6_Format = 37844;
-exports.SRGB8_ALPHA8_ASTC_6x6_Format = SRGB8_ALPHA8_ASTC_6x6_Format;
-const SRGB8_ALPHA8_ASTC_8x5_Format = 37845;
-exports.SRGB8_ALPHA8_ASTC_8x5_Format = SRGB8_ALPHA8_ASTC_8x5_Format;
-const SRGB8_ALPHA8_ASTC_8x6_Format = 37846;
-exports.SRGB8_ALPHA8_ASTC_8x6_Format = SRGB8_ALPHA8_ASTC_8x6_Format;
-const SRGB8_ALPHA8_ASTC_8x8_Format = 37847;
-exports.SRGB8_ALPHA8_ASTC_8x8_Format = SRGB8_ALPHA8_ASTC_8x8_Format;
-const SRGB8_ALPHA8_ASTC_10x5_Format = 37848;
-exports.SRGB8_ALPHA8_ASTC_10x5_Format = SRGB8_ALPHA8_ASTC_10x5_Format;
-const SRGB8_ALPHA8_ASTC_10x6_Format = 37849;
-exports.SRGB8_ALPHA8_ASTC_10x6_Format = SRGB8_ALPHA8_ASTC_10x6_Format;
-const SRGB8_ALPHA8_ASTC_10x8_Format = 37850;
-exports.SRGB8_ALPHA8_ASTC_10x8_Format = SRGB8_ALPHA8_ASTC_10x8_Format;
-const SRGB8_ALPHA8_ASTC_10x10_Format = 37851;
-exports.SRGB8_ALPHA8_ASTC_10x10_Format = SRGB8_ALPHA8_ASTC_10x10_Format;
-const SRGB8_ALPHA8_ASTC_12x10_Format = 37852;
-exports.SRGB8_ALPHA8_ASTC_12x10_Format = SRGB8_ALPHA8_ASTC_12x10_Format;
-const SRGB8_ALPHA8_ASTC_12x12_Format = 37853;
-exports.SRGB8_ALPHA8_ASTC_12x12_Format = SRGB8_ALPHA8_ASTC_12x12_Format;
-const LoopOnce = 2200;
-exports.LoopOnce = LoopOnce;
-const LoopRepeat = 2201;
-exports.LoopRepeat = LoopRepeat;
-const LoopPingPong = 2202;
-exports.LoopPingPong = LoopPingPong;
-const InterpolateDiscrete = 2300;
-exports.InterpolateDiscrete = InterpolateDiscrete;
-const InterpolateLinear = 2301;
-exports.InterpolateLinear = InterpolateLinear;
-const InterpolateSmooth = 2302;
-exports.InterpolateSmooth = InterpolateSmooth;
-const ZeroCurvatureEnding = 2400;
-exports.ZeroCurvatureEnding = ZeroCurvatureEnding;
-const ZeroSlopeEnding = 2401;
-exports.ZeroSlopeEnding = ZeroSlopeEnding;
-const WrapAroundEnding = 2402;
-exports.WrapAroundEnding = WrapAroundEnding;
-const NormalAnimationBlendMode = 2500;
-exports.NormalAnimationBlendMode = NormalAnimationBlendMode;
-const AdditiveAnimationBlendMode = 2501;
-exports.AdditiveAnimationBlendMode = AdditiveAnimationBlendMode;
-const TrianglesDrawMode = 0;
-exports.TrianglesDrawMode = TrianglesDrawMode;
-const TriangleStripDrawMode = 1;
-exports.TriangleStripDrawMode = TriangleStripDrawMode;
-const TriangleFanDrawMode = 2;
-exports.TriangleFanDrawMode = TriangleFanDrawMode;
-const LinearEncoding = 3000;
-exports.LinearEncoding = LinearEncoding;
-const sRGBEncoding = 3001;
-exports.sRGBEncoding = sRGBEncoding;
-const BasicDepthPacking = 3200;
-exports.BasicDepthPacking = BasicDepthPacking;
-const RGBADepthPacking = 3201;
-exports.RGBADepthPacking = RGBADepthPacking;
-const TangentSpaceNormalMap = 0;
-exports.TangentSpaceNormalMap = TangentSpaceNormalMap;
-const ObjectSpaceNormalMap = 1;
-exports.ObjectSpaceNormalMap = ObjectSpaceNormalMap;
-const ZeroStencilOp = 0;
-exports.ZeroStencilOp = ZeroStencilOp;
-const KeepStencilOp = 7680;
-exports.KeepStencilOp = KeepStencilOp;
-const ReplaceStencilOp = 7681;
-exports.ReplaceStencilOp = ReplaceStencilOp;
-const IncrementStencilOp = 7682;
-exports.IncrementStencilOp = IncrementStencilOp;
-const DecrementStencilOp = 7683;
-exports.DecrementStencilOp = DecrementStencilOp;
-const IncrementWrapStencilOp = 34055;
-exports.IncrementWrapStencilOp = IncrementWrapStencilOp;
-const DecrementWrapStencilOp = 34056;
-exports.DecrementWrapStencilOp = DecrementWrapStencilOp;
-const InvertStencilOp = 5386;
-exports.InvertStencilOp = InvertStencilOp;
-const NeverStencilFunc = 512;
-exports.NeverStencilFunc = NeverStencilFunc;
-const LessStencilFunc = 513;
-exports.LessStencilFunc = LessStencilFunc;
-const EqualStencilFunc = 514;
-exports.EqualStencilFunc = EqualStencilFunc;
-const LessEqualStencilFunc = 515;
-exports.LessEqualStencilFunc = LessEqualStencilFunc;
-const GreaterStencilFunc = 516;
-exports.GreaterStencilFunc = GreaterStencilFunc;
-const NotEqualStencilFunc = 517;
-exports.NotEqualStencilFunc = NotEqualStencilFunc;
-const GreaterEqualStencilFunc = 518;
-exports.GreaterEqualStencilFunc = GreaterEqualStencilFunc;
-const AlwaysStencilFunc = 519;
-exports.AlwaysStencilFunc = AlwaysStencilFunc;
-const StaticDrawUsage = 35044;
-exports.StaticDrawUsage = StaticDrawUsage;
-const DynamicDrawUsage = 35048;
-exports.DynamicDrawUsage = DynamicDrawUsage;
-const StreamDrawUsage = 35040;
-exports.StreamDrawUsage = StreamDrawUsage;
-const StaticReadUsage = 35045;
-exports.StaticReadUsage = StaticReadUsage;
-const DynamicReadUsage = 35049;
-exports.DynamicReadUsage = DynamicReadUsage;
-const StreamReadUsage = 35041;
-exports.StreamReadUsage = StreamReadUsage;
-const StaticCopyUsage = 35046;
-exports.StaticCopyUsage = StaticCopyUsage;
-const DynamicCopyUsage = 35050;
-exports.DynamicCopyUsage = DynamicCopyUsage;
-const StreamCopyUsage = 35042;
-exports.StreamCopyUsage = StreamCopyUsage;
-const GLSL1 = '100';
-exports.GLSL1 = GLSL1;
-const GLSL3 = '300 es';
+const CullFaceNone = exports.CullFaceNone = 0;
+const CullFaceBack = exports.CullFaceBack = 1;
+const CullFaceFront = exports.CullFaceFront = 2;
+const CullFaceFrontBack = exports.CullFaceFrontBack = 3;
+const BasicShadowMap = exports.BasicShadowMap = 0;
+const PCFShadowMap = exports.PCFShadowMap = 1;
+const PCFSoftShadowMap = exports.PCFSoftShadowMap = 2;
+const VSMShadowMap = exports.VSMShadowMap = 3;
+const FrontSide = exports.FrontSide = 0;
+const BackSide = exports.BackSide = 1;
+const DoubleSide = exports.DoubleSide = 2;
+const FlatShading = exports.FlatShading = 1;
+const SmoothShading = exports.SmoothShading = 2;
+const NoBlending = exports.NoBlending = 0;
+const NormalBlending = exports.NormalBlending = 1;
+const AdditiveBlending = exports.AdditiveBlending = 2;
+const SubtractiveBlending = exports.SubtractiveBlending = 3;
+const MultiplyBlending = exports.MultiplyBlending = 4;
+const CustomBlending = exports.CustomBlending = 5;
+const AddEquation = exports.AddEquation = 100;
+const SubtractEquation = exports.SubtractEquation = 101;
+const ReverseSubtractEquation = exports.ReverseSubtractEquation = 102;
+const MinEquation = exports.MinEquation = 103;
+const MaxEquation = exports.MaxEquation = 104;
+const ZeroFactor = exports.ZeroFactor = 200;
+const OneFactor = exports.OneFactor = 201;
+const SrcColorFactor = exports.SrcColorFactor = 202;
+const OneMinusSrcColorFactor = exports.OneMinusSrcColorFactor = 203;
+const SrcAlphaFactor = exports.SrcAlphaFactor = 204;
+const OneMinusSrcAlphaFactor = exports.OneMinusSrcAlphaFactor = 205;
+const DstAlphaFactor = exports.DstAlphaFactor = 206;
+const OneMinusDstAlphaFactor = exports.OneMinusDstAlphaFactor = 207;
+const DstColorFactor = exports.DstColorFactor = 208;
+const OneMinusDstColorFactor = exports.OneMinusDstColorFactor = 209;
+const SrcAlphaSaturateFactor = exports.SrcAlphaSaturateFactor = 210;
+const NeverDepth = exports.NeverDepth = 0;
+const AlwaysDepth = exports.AlwaysDepth = 1;
+const LessDepth = exports.LessDepth = 2;
+const LessEqualDepth = exports.LessEqualDepth = 3;
+const EqualDepth = exports.EqualDepth = 4;
+const GreaterEqualDepth = exports.GreaterEqualDepth = 5;
+const GreaterDepth = exports.GreaterDepth = 6;
+const NotEqualDepth = exports.NotEqualDepth = 7;
+const MultiplyOperation = exports.MultiplyOperation = 0;
+const MixOperation = exports.MixOperation = 1;
+const AddOperation = exports.AddOperation = 2;
+const NoToneMapping = exports.NoToneMapping = 0;
+const LinearToneMapping = exports.LinearToneMapping = 1;
+const ReinhardToneMapping = exports.ReinhardToneMapping = 2;
+const CineonToneMapping = exports.CineonToneMapping = 3;
+const ACESFilmicToneMapping = exports.ACESFilmicToneMapping = 4;
+const CustomToneMapping = exports.CustomToneMapping = 5;
+const UVMapping = exports.UVMapping = 300;
+const CubeReflectionMapping = exports.CubeReflectionMapping = 301;
+const CubeRefractionMapping = exports.CubeRefractionMapping = 302;
+const EquirectangularReflectionMapping = exports.EquirectangularReflectionMapping = 303;
+const EquirectangularRefractionMapping = exports.EquirectangularRefractionMapping = 304;
+const CubeUVReflectionMapping = exports.CubeUVReflectionMapping = 306;
+const CubeUVRefractionMapping = exports.CubeUVRefractionMapping = 307;
+const RepeatWrapping = exports.RepeatWrapping = 1000;
+const ClampToEdgeWrapping = exports.ClampToEdgeWrapping = 1001;
+const MirroredRepeatWrapping = exports.MirroredRepeatWrapping = 1002;
+const NearestFilter = exports.NearestFilter = 1003;
+const NearestMipmapNearestFilter = exports.NearestMipmapNearestFilter = 1004;
+const NearestMipMapNearestFilter = exports.NearestMipMapNearestFilter = 1004;
+const NearestMipmapLinearFilter = exports.NearestMipmapLinearFilter = 1005;
+const NearestMipMapLinearFilter = exports.NearestMipMapLinearFilter = 1005;
+const LinearFilter = exports.LinearFilter = 1006;
+const LinearMipmapNearestFilter = exports.LinearMipmapNearestFilter = 1007;
+const LinearMipMapNearestFilter = exports.LinearMipMapNearestFilter = 1007;
+const LinearMipmapLinearFilter = exports.LinearMipmapLinearFilter = 1008;
+const LinearMipMapLinearFilter = exports.LinearMipMapLinearFilter = 1008;
+const UnsignedByteType = exports.UnsignedByteType = 1009;
+const ByteType = exports.ByteType = 1010;
+const ShortType = exports.ShortType = 1011;
+const UnsignedShortType = exports.UnsignedShortType = 1012;
+const IntType = exports.IntType = 1013;
+const UnsignedIntType = exports.UnsignedIntType = 1014;
+const FloatType = exports.FloatType = 1015;
+const HalfFloatType = exports.HalfFloatType = 1016;
+const UnsignedShort4444Type = exports.UnsignedShort4444Type = 1017;
+const UnsignedShort5551Type = exports.UnsignedShort5551Type = 1018;
+const UnsignedShort565Type = exports.UnsignedShort565Type = 1019;
+const UnsignedInt248Type = exports.UnsignedInt248Type = 1020;
+const AlphaFormat = exports.AlphaFormat = 1021;
+const RGBFormat = exports.RGBFormat = 1022;
+const RGBAFormat = exports.RGBAFormat = 1023;
+const LuminanceFormat = exports.LuminanceFormat = 1024;
+const LuminanceAlphaFormat = exports.LuminanceAlphaFormat = 1025;
+const DepthFormat = exports.DepthFormat = 1026;
+const DepthStencilFormat = exports.DepthStencilFormat = 1027;
+const RedFormat = exports.RedFormat = 1028;
+const RedIntegerFormat = exports.RedIntegerFormat = 1029;
+const RGFormat = exports.RGFormat = 1030;
+const RGIntegerFormat = exports.RGIntegerFormat = 1031;
+const RGBIntegerFormat = exports.RGBIntegerFormat = 1032;
+const RGBAIntegerFormat = exports.RGBAIntegerFormat = 1033;
+const RGB_S3TC_DXT1_Format = exports.RGB_S3TC_DXT1_Format = 33776;
+const RGBA_S3TC_DXT1_Format = exports.RGBA_S3TC_DXT1_Format = 33777;
+const RGBA_S3TC_DXT3_Format = exports.RGBA_S3TC_DXT3_Format = 33778;
+const RGBA_S3TC_DXT5_Format = exports.RGBA_S3TC_DXT5_Format = 33779;
+const RGB_PVRTC_4BPPV1_Format = exports.RGB_PVRTC_4BPPV1_Format = 35840;
+const RGB_PVRTC_2BPPV1_Format = exports.RGB_PVRTC_2BPPV1_Format = 35841;
+const RGBA_PVRTC_4BPPV1_Format = exports.RGBA_PVRTC_4BPPV1_Format = 35842;
+const RGBA_PVRTC_2BPPV1_Format = exports.RGBA_PVRTC_2BPPV1_Format = 35843;
+const RGB_ETC1_Format = exports.RGB_ETC1_Format = 36196;
+const RGB_ETC2_Format = exports.RGB_ETC2_Format = 37492;
+const RGBA_ETC2_EAC_Format = exports.RGBA_ETC2_EAC_Format = 37496;
+const RGBA_ASTC_4x4_Format = exports.RGBA_ASTC_4x4_Format = 37808;
+const RGBA_ASTC_5x4_Format = exports.RGBA_ASTC_5x4_Format = 37809;
+const RGBA_ASTC_5x5_Format = exports.RGBA_ASTC_5x5_Format = 37810;
+const RGBA_ASTC_6x5_Format = exports.RGBA_ASTC_6x5_Format = 37811;
+const RGBA_ASTC_6x6_Format = exports.RGBA_ASTC_6x6_Format = 37812;
+const RGBA_ASTC_8x5_Format = exports.RGBA_ASTC_8x5_Format = 37813;
+const RGBA_ASTC_8x6_Format = exports.RGBA_ASTC_8x6_Format = 37814;
+const RGBA_ASTC_8x8_Format = exports.RGBA_ASTC_8x8_Format = 37815;
+const RGBA_ASTC_10x5_Format = exports.RGBA_ASTC_10x5_Format = 37816;
+const RGBA_ASTC_10x6_Format = exports.RGBA_ASTC_10x6_Format = 37817;
+const RGBA_ASTC_10x8_Format = exports.RGBA_ASTC_10x8_Format = 37818;
+const RGBA_ASTC_10x10_Format = exports.RGBA_ASTC_10x10_Format = 37819;
+const RGBA_ASTC_12x10_Format = exports.RGBA_ASTC_12x10_Format = 37820;
+const RGBA_ASTC_12x12_Format = exports.RGBA_ASTC_12x12_Format = 37821;
+const RGBA_BPTC_Format = exports.RGBA_BPTC_Format = 36492;
+const SRGB8_ALPHA8_ASTC_4x4_Format = exports.SRGB8_ALPHA8_ASTC_4x4_Format = 37840;
+const SRGB8_ALPHA8_ASTC_5x4_Format = exports.SRGB8_ALPHA8_ASTC_5x4_Format = 37841;
+const SRGB8_ALPHA8_ASTC_5x5_Format = exports.SRGB8_ALPHA8_ASTC_5x5_Format = 37842;
+const SRGB8_ALPHA8_ASTC_6x5_Format = exports.SRGB8_ALPHA8_ASTC_6x5_Format = 37843;
+const SRGB8_ALPHA8_ASTC_6x6_Format = exports.SRGB8_ALPHA8_ASTC_6x6_Format = 37844;
+const SRGB8_ALPHA8_ASTC_8x5_Format = exports.SRGB8_ALPHA8_ASTC_8x5_Format = 37845;
+const SRGB8_ALPHA8_ASTC_8x6_Format = exports.SRGB8_ALPHA8_ASTC_8x6_Format = 37846;
+const SRGB8_ALPHA8_ASTC_8x8_Format = exports.SRGB8_ALPHA8_ASTC_8x8_Format = 37847;
+const SRGB8_ALPHA8_ASTC_10x5_Format = exports.SRGB8_ALPHA8_ASTC_10x5_Format = 37848;
+const SRGB8_ALPHA8_ASTC_10x6_Format = exports.SRGB8_ALPHA8_ASTC_10x6_Format = 37849;
+const SRGB8_ALPHA8_ASTC_10x8_Format = exports.SRGB8_ALPHA8_ASTC_10x8_Format = 37850;
+const SRGB8_ALPHA8_ASTC_10x10_Format = exports.SRGB8_ALPHA8_ASTC_10x10_Format = 37851;
+const SRGB8_ALPHA8_ASTC_12x10_Format = exports.SRGB8_ALPHA8_ASTC_12x10_Format = 37852;
+const SRGB8_ALPHA8_ASTC_12x12_Format = exports.SRGB8_ALPHA8_ASTC_12x12_Format = 37853;
+const LoopOnce = exports.LoopOnce = 2200;
+const LoopRepeat = exports.LoopRepeat = 2201;
+const LoopPingPong = exports.LoopPingPong = 2202;
+const InterpolateDiscrete = exports.InterpolateDiscrete = 2300;
+const InterpolateLinear = exports.InterpolateLinear = 2301;
+const InterpolateSmooth = exports.InterpolateSmooth = 2302;
+const ZeroCurvatureEnding = exports.ZeroCurvatureEnding = 2400;
+const ZeroSlopeEnding = exports.ZeroSlopeEnding = 2401;
+const WrapAroundEnding = exports.WrapAroundEnding = 2402;
+const NormalAnimationBlendMode = exports.NormalAnimationBlendMode = 2500;
+const AdditiveAnimationBlendMode = exports.AdditiveAnimationBlendMode = 2501;
+const TrianglesDrawMode = exports.TrianglesDrawMode = 0;
+const TriangleStripDrawMode = exports.TriangleStripDrawMode = 1;
+const TriangleFanDrawMode = exports.TriangleFanDrawMode = 2;
+const LinearEncoding = exports.LinearEncoding = 3000;
+const sRGBEncoding = exports.sRGBEncoding = 3001;
+const BasicDepthPacking = exports.BasicDepthPacking = 3200;
+const RGBADepthPacking = exports.RGBADepthPacking = 3201;
+const TangentSpaceNormalMap = exports.TangentSpaceNormalMap = 0;
+const ObjectSpaceNormalMap = exports.ObjectSpaceNormalMap = 1;
+const ZeroStencilOp = exports.ZeroStencilOp = 0;
+const KeepStencilOp = exports.KeepStencilOp = 7680;
+const ReplaceStencilOp = exports.ReplaceStencilOp = 7681;
+const IncrementStencilOp = exports.IncrementStencilOp = 7682;
+const DecrementStencilOp = exports.DecrementStencilOp = 7683;
+const IncrementWrapStencilOp = exports.IncrementWrapStencilOp = 34055;
+const DecrementWrapStencilOp = exports.DecrementWrapStencilOp = 34056;
+const InvertStencilOp = exports.InvertStencilOp = 5386;
+const NeverStencilFunc = exports.NeverStencilFunc = 512;
+const LessStencilFunc = exports.LessStencilFunc = 513;
+const EqualStencilFunc = exports.EqualStencilFunc = 514;
+const LessEqualStencilFunc = exports.LessEqualStencilFunc = 515;
+const GreaterStencilFunc = exports.GreaterStencilFunc = 516;
+const NotEqualStencilFunc = exports.NotEqualStencilFunc = 517;
+const GreaterEqualStencilFunc = exports.GreaterEqualStencilFunc = 518;
+const AlwaysStencilFunc = exports.AlwaysStencilFunc = 519;
+const StaticDrawUsage = exports.StaticDrawUsage = 35044;
+const DynamicDrawUsage = exports.DynamicDrawUsage = 35048;
+const StreamDrawUsage = exports.StreamDrawUsage = 35040;
+const StaticReadUsage = exports.StaticReadUsage = 35045;
+const DynamicReadUsage = exports.DynamicReadUsage = 35049;
+const StreamReadUsage = exports.StreamReadUsage = 35041;
+const StaticCopyUsage = exports.StaticCopyUsage = 35046;
+const DynamicCopyUsage = exports.DynamicCopyUsage = 35050;
+const StreamCopyUsage = exports.StreamCopyUsage = 35042;
+const GLSL1 = exports.GLSL1 = '100';
+const GLSL3 = exports.GLSL3 = '300 es';
 
 /**
  * https://github.com/mrdoob/eventdispatcher.js/
  */
-exports.GLSL3 = GLSL3;
+
 class EventDispatcher {
   addEventListener(type, listener) {
     if (this._listeners === undefined) this._listeners = {};
@@ -754,7 +595,7 @@ function setQuaternionFromProperEuler(q, a, b, c, order) {
       console.warn('THREE.MathUtils: .setQuaternionFromProperEuler() encountered an unknown order: ' + order);
   }
 }
-var MathUtils = /*#__PURE__*/Object.freeze({
+var MathUtils = exports.MathUtils = exports.Math = /*#__PURE__*/Object.freeze({
   __proto__: null,
   DEG2RAD: DEG2RAD,
   RAD2DEG: RAD2DEG,
@@ -779,7 +620,6 @@ var MathUtils = /*#__PURE__*/Object.freeze({
   floorPowerOfTwo: floorPowerOfTwo,
   setQuaternionFromProperEuler: setQuaternionFromProperEuler
 });
-exports.MathUtils = exports.Math = MathUtils;
 class Vector2 {
   constructor(x = 0, y = 0) {
     this.x = x;
@@ -7768,11 +7608,10 @@ function mergeUniforms(uniforms) {
 
 // Legacy
 
-const UniformsUtils = {
+const UniformsUtils = exports.UniformsUtils = {
   clone: cloneUniforms,
   merge: mergeUniforms
 };
-exports.UniformsUtils = UniformsUtils;
 var default_vertex = "void main() {\n\tgl_Position = projectionMatrix * modelViewMatrix * vec4( position, 1.0 );\n}";
 var default_fragment = "void main() {\n\tgl_FragColor = vec4( 1.0, 0.0, 0.0, 1.0 );\n}";
 
@@ -8839,7 +8678,7 @@ const vertex$2 = "#include <common>\n#include <fog_pars_vertex>\n#include <morph
 const fragment$2 = "uniform vec3 color;\nuniform float opacity;\n#include <common>\n#include <packing>\n#include <fog_pars_fragment>\n#include <bsdfs>\n#include <lights_pars_begin>\n#include <shadowmap_pars_fragment>\n#include <shadowmask_pars_fragment>\nvoid main() {\n\tgl_FragColor = vec4( color, opacity * ( 1.0 - getShadowMask() ) );\n\t#include <tonemapping_fragment>\n\t#include <encodings_fragment>\n\t#include <fog_fragment>\n}";
 const vertex$1 = "uniform float rotation;\nuniform vec2 center;\n#include <common>\n#include <uv_pars_vertex>\n#include <fog_pars_vertex>\n#include <logdepthbuf_pars_vertex>\n#include <clipping_planes_pars_vertex>\nvoid main() {\n\t#include <uv_vertex>\n\tvec4 mvPosition = modelViewMatrix * vec4( 0.0, 0.0, 0.0, 1.0 );\n\tvec2 scale;\n\tscale.x = length( vec3( modelMatrix[ 0 ].x, modelMatrix[ 0 ].y, modelMatrix[ 0 ].z ) );\n\tscale.y = length( vec3( modelMatrix[ 1 ].x, modelMatrix[ 1 ].y, modelMatrix[ 1 ].z ) );\n\t#ifndef USE_SIZEATTENUATION\n\t\tbool isPerspective = isPerspectiveMatrix( projectionMatrix );\n\t\tif ( isPerspective ) scale *= - mvPosition.z;\n\t#endif\n\tvec2 alignedPosition = ( position.xy - ( center - vec2( 0.5 ) ) ) * scale;\n\tvec2 rotatedPosition;\n\trotatedPosition.x = cos( rotation ) * alignedPosition.x - sin( rotation ) * alignedPosition.y;\n\trotatedPosition.y = sin( rotation ) * alignedPosition.x + cos( rotation ) * alignedPosition.y;\n\tmvPosition.xy += rotatedPosition;\n\tgl_Position = projectionMatrix * mvPosition;\n\t#include <logdepthbuf_vertex>\n\t#include <clipping_planes_vertex>\n\t#include <fog_vertex>\n}";
 const fragment$1 = "uniform vec3 diffuse;\nuniform float opacity;\n#include <common>\n#include <uv_pars_fragment>\n#include <map_pars_fragment>\n#include <alphamap_pars_fragment>\n#include <alphatest_pars_fragment>\n#include <fog_pars_fragment>\n#include <logdepthbuf_pars_fragment>\n#include <clipping_planes_pars_fragment>\nvoid main() {\n\t#include <clipping_planes_fragment>\n\tvec3 outgoingLight = vec3( 0.0 );\n\tvec4 diffuseColor = vec4( diffuse, opacity );\n\t#include <logdepthbuf_fragment>\n\t#include <map_fragment>\n\t#include <alphamap_fragment>\n\t#include <alphatest_fragment>\n\toutgoingLight = diffuseColor.rgb;\n\t#include <output_fragment>\n\t#include <tonemapping_fragment>\n\t#include <encodings_fragment>\n\t#include <fog_fragment>\n}";
-const ShaderChunk = {
+const ShaderChunk = exports.ShaderChunk = {
   alphamap_fragment: alphamap_fragment,
   alphamap_pars_fragment: alphamap_pars_fragment,
   alphatest_fragment: alphatest_fragment,
@@ -8979,8 +8818,8 @@ const ShaderChunk = {
 /**
  * Uniforms library for shared webgl shaders
  */
-exports.ShaderChunk = ShaderChunk;
-const UniformsLib = {
+
+const UniformsLib = exports.UniformsLib = {
   common: {
     diffuse: {
       value: new Color(0xffffff)
@@ -9265,8 +9104,7 @@ const UniformsLib = {
     }
   }
 };
-exports.UniformsLib = UniformsLib;
-const ShaderLib = {
+const ShaderLib = exports.ShaderLib = {
   basic: {
     uniforms: mergeUniforms([UniformsLib.common, UniformsLib.specularmap, UniformsLib.envmap, UniformsLib.aomap, UniformsLib.lightmap, UniformsLib.fog]),
     vertexShader: ShaderChunk.meshbasic_vert,
@@ -9433,7 +9271,6 @@ const ShaderLib = {
     fragmentShader: ShaderChunk.shadow_frag
   }
 };
-exports.ShaderLib = ShaderLib;
 ShaderLib.physical = {
   uniforms: mergeUniforms([ShaderLib.standard.uniforms, {
     clearcoat: {
@@ -24375,7 +24212,7 @@ var Materials = /*#__PURE__*/Object.freeze({
   LineBasicMaterial: LineBasicMaterial,
   Material: Material
 });
-const AnimationUtils = {
+const AnimationUtils = exports.AnimationUtils = {
   // same as Array.prototype.slice, but also works on typed arrays
   arraySlice: function (array, from, to) {
     if (AnimationUtils.isTypedArray(array)) {
@@ -24607,7 +24444,7 @@ const AnimationUtils = {
  * 		http://www.oodesign.com/template-method-pattern.html
  *
  */
-exports.AnimationUtils = AnimationUtils;
+
 class Interpolant {
   constructor(parameterPositions, sampleValues, sampleSize, resultBuffer) {
     this.parameterPositions = parameterPositions;
@@ -25512,7 +25349,7 @@ function parseKeyframeTrack(json) {
     return new trackType(json.name, json.times, json.values, json.interpolation);
   }
 }
-const Cache = {
+const Cache = exports.Cache = {
   enabled: false,
   files: {},
   add: function (key, file) {
@@ -25536,7 +25373,6 @@ const Cache = {
     this.files = {};
   }
 };
-exports.Cache = Cache;
 class LoadingManager {
   constructor(onLoad, onProgress, onError) {
     const scope = this;
@@ -25615,8 +25451,7 @@ class LoadingManager {
   }
 }
 exports.LoadingManager = LoadingManager;
-const DefaultLoadingManager = new LoadingManager();
-exports.DefaultLoadingManager = DefaultLoadingManager;
+const DefaultLoadingManager = exports.DefaultLoadingManager = new LoadingManager();
 class Loader {
   constructor(manager) {
     this.manager = manager !== undefined ? manager : DefaultLoadingManager;
@@ -27653,7 +27488,7 @@ class ImageBitmapLoader extends Loader {
 exports.ImageBitmapLoader = ImageBitmapLoader;
 ImageBitmapLoader.prototype.isImageBitmapLoader = true;
 let _context;
-const AudioContext = {
+const AudioContext = exports.AudioContext = {
   getContext: function () {
     if (_context === undefined) {
       _context = new (window.AudioContext || window.webkitAudioContext)();
@@ -27664,7 +27499,6 @@ const AudioContext = {
     _context = value;
   }
 };
-exports.AudioContext = AudioContext;
 class AudioLoader extends Loader {
   constructor(manager) {
     super(manager);
@@ -31451,16 +31285,11 @@ class DataUtils {
   }
 }
 exports.DataUtils = DataUtils;
-const LineStrip = 0;
-exports.LineStrip = LineStrip;
-const LinePieces = 1;
-exports.LinePieces = LinePieces;
-const NoColors = 0;
-exports.NoColors = NoColors;
-const FaceColors = 1;
-exports.FaceColors = FaceColors;
-const VertexColors = 2;
-exports.VertexColors = VertexColors;
+const LineStrip = exports.LineStrip = 0;
+const LinePieces = exports.LinePieces = 1;
+const NoColors = exports.NoColors = 0;
+const FaceColors = exports.FaceColors = 1;
+const VertexColors = exports.VertexColors = 2;
 function MeshFaceMaterial(materials) {
   console.warn('THREE.MeshFaceMaterial has been removed. Use an Array instead.');
   return materials;
@@ -32635,7 +32464,7 @@ function JSONLoader() {
 
 //
 
-const SceneUtils = {
+const SceneUtils = exports.SceneUtils = {
   createMultiMaterialObject: function /* geometry, materials */
   () {
     console.error('THREE.SceneUtils has been moved to /examples/jsm/utils/SceneUtils.js');
@@ -32651,7 +32480,7 @@ const SceneUtils = {
 };
 
 //
-exports.SceneUtils = SceneUtils;
+
 function LensFlare() {
   console.error('THREE.LensFlare has been moved to /examples/jsm/objects/Lensflare.js');
 }
@@ -35350,18 +35179,19 @@ function toTrianglesDrawMode(geometry, drawMode) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+exports.BezierMesh = void 0;
 exports.createDerivedMaterial = createDerivedMaterial;
 exports.expandShaderIncludes = expandShaderIncludes;
 exports.getShaderUniformTypes = getShaderUniformTypes;
 exports.getShadersForMaterial = getShadersForMaterial;
 exports.invertMatrix4 = invertMatrix4;
-exports.voidMainRegExp = exports.BezierMesh = void 0;
+exports.voidMainRegExp = void 0;
 var _three = require("three");
 /**
  * Regular expression for matching the `void main() {` opener line in GLSL.
  * @type {RegExp}
  */
-const voidMainRegExp = /\bvoid\s+main\s*\(\s*\)\s*{/g;
+const voidMainRegExp = exports.voidMainRegExp = /\bvoid\s+main\s*\(\s*\)\s*{/g;
 
 /**
  * Recursively expands all `#include <xyz>` statements within string of shader code.
@@ -35370,7 +35200,6 @@ const voidMainRegExp = /\bvoid\s+main\s*\(\s*\)\s*{/g;
  * @param {string} source - The GLSL source code to evaluate
  * @return {string} The GLSL code with all includes expanded
  */
-exports.voidMainRegExp = voidMainRegExp;
 function expandShaderIncludes(source) {
   const pattern = /^[ \t]*#include +<([\w\d./]+)>/gm;
   function replace(match, include) {
@@ -36071,8 +35900,8 @@ exports.BezierMesh = BezierMesh;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.createInstancedUniformsDerivedMaterial = createInstancedUniformsDerivedMaterial;
 exports.InstancedUniformsMesh = void 0;
+exports.createInstancedUniformsDerivedMaterial = createInstancedUniformsDerivedMaterial;
 var _three = require("three");
 var _troikaThreeUtils = require("troika-three-utils");
 const precededByUniformRE = /\buniform\s+(int|float|vec[234])\s+$/;
@@ -36298,7 +36127,7 @@ b.fillRect(d,m,n,p);b.fillStyle=l;b.globalAlpha=.9;b.fillRect(d,m,n,p);return{do
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports._colorExp = exports._getCache = exports._getSetter = exports._missingPlugin = exports._round = exports._roundModifier = exports._config = exports._ticker = exports._plugins = exports._checkPlugin = exports._replaceRandom = exports._colorStringFilter = exports._sortPropTweensByPriority = exports._forEachName = exports._removeLinkedListItem = exports._setDefaults = exports._relExp = exports._renderComplexString = exports._isUndefined = exports._isString = exports._numWithUnitExp = exports._numExp = exports._getProperty = exports.shuffle = exports.interpolate = exports.unitize = exports.pipe = exports.mapRange = exports.selector = exports.toArray = exports.splitColor = exports.clamp = exports.getUnit = exports.normalize = exports.snap = exports.random = exports.distribute = exports.wrapYoyo = exports.wrap = exports.Circ = exports.Expo = exports.Sine = exports.Bounce = exports.SteppedEase = exports.Back = exports.Elastic = exports.Strong = exports.Quint = exports.Quart = exports.Cubic = exports.Quad = exports.Linear = exports.Power4 = exports.Power3 = exports.Power2 = exports.Power1 = exports.Power0 = exports.default = exports.gsap = exports.PropTween = exports.TweenLite = exports.TweenMax = exports.Tween = exports.TimelineLite = exports.TimelineMax = exports.Timeline = exports.Animation = exports.GSCache = void 0;
+exports.wrapYoyo = exports.wrap = exports.unitize = exports.toArray = exports.splitColor = exports.snap = exports.shuffle = exports.selector = exports.random = exports.pipe = exports.normalize = exports.mapRange = exports.interpolate = exports.gsap = exports.getUnit = exports.distribute = exports.default = exports.clamp = exports._ticker = exports._sortPropTweensByPriority = exports._setDefaults = exports._roundModifier = exports._round = exports._replaceRandom = exports._renderComplexString = exports._removeLinkedListItem = exports._relExp = exports._plugins = exports._parseRelative = exports._numWithUnitExp = exports._numExp = exports._missingPlugin = exports._isUndefined = exports._isString = exports._getSetter = exports._getProperty = exports._getCache = exports._forEachName = exports._config = exports._colorStringFilter = exports._colorExp = exports._checkPlugin = exports.TweenMax = exports.TweenLite = exports.Tween = exports.TimelineMax = exports.TimelineLite = exports.Timeline = exports.Strong = exports.SteppedEase = exports.Sine = exports.Quint = exports.Quart = exports.Quad = exports.PropTween = exports.Power4 = exports.Power3 = exports.Power2 = exports.Power1 = exports.Power0 = exports.Linear = exports.GSCache = exports.Expo = exports.Elastic = exports.Cubic = exports.Circ = exports.Bounce = exports.Back = exports.Animation = void 0;
 function _assertThisInitialized(self) {
   if (self === void 0) {
     throw new ReferenceError("this hasn't been initialised - super() hasn't been called");
@@ -36312,17 +36141,17 @@ function _inheritsLoose(subClass, superClass) {
 }
 
 /*!
- * GSAP 3.9.1
- * https://greensock.com
+ * GSAP 3.12.4
+ * https://gsap.com
  *
- * @license Copyright 2008-2021, GreenSock. All rights reserved.
- * Subject to the terms at https://greensock.com/standard-license or for
- * Club GreenSock members, the agreement issued with that membership.
+ * @license Copyright 2008-2023, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
 */
 
 /* eslint-disable */
-var _config = {
+var _config = exports._config = {
     autoSleep: 120,
     force3D: "auto",
     nullTargetWarn: 1,
@@ -36336,6 +36165,8 @@ var _config = {
     delay: 0
   },
   _suppressOverwrites,
+  _reverting,
+  _context,
   _bigNum = 1e8,
   _tinyNum = 1 / _bigNum,
   _2PI = Math.PI * 2,
@@ -36344,7 +36175,7 @@ var _config = {
   _sqrt = Math.sqrt,
   _cos = Math.cos,
   _sin = Math.sin,
-  _isString = function _isString(value) {
+  _isString = exports._isString = function _isString(value) {
     return typeof value === "string";
   },
   _isFunction = function _isFunction(value) {
@@ -36353,7 +36184,7 @@ var _config = {
   _isNumber = function _isNumber(value) {
     return typeof value === "number";
   },
-  _isUndefined = function _isUndefined(value) {
+  _isUndefined = exports._isUndefined = function _isUndefined(value) {
     return typeof value === "undefined";
   },
   _isObject = function _isObject(value) {
@@ -36373,15 +36204,15 @@ var _config = {
   _isArray = Array.isArray,
   _strictNumExp = /(?:-?\.?\d|\.)+/gi,
   //only numbers (including negatives and decimals) but NOT relative values.
-  _numExp = /[-+=.]*\d+[.e\-+]*\d*[e\-+]*\d*/g,
+  _numExp = exports._numExp = /[-+=.]*\d+[.e\-+]*\d*[e\-+]*\d*/g,
   //finds any numbers, including ones that start with += or -=, negative numbers, and ones in scientific notation like 1e-8.
-  _numWithUnitExp = /[-+=.]*\d+[.e-]*\d*[a-z%]*/g,
+  _numWithUnitExp = exports._numWithUnitExp = /[-+=.]*\d+[.e-]*\d*[a-z%]*/g,
   _complexStringNumExp = /[-+=.]*\d+\.?\d*(?:e-|e\+)?\d*/gi,
   //duplicate so that while we're looping through matches from exec(), it doesn't contaminate the lastIndex of _numExp which we use to search for colors too.
-  _relExp = /[+-]=-?[.\d]+/,
+  _relExp = exports._relExp = /[+-]=-?[.\d]+/,
   _delimitedValueExp = /[^,'"\[\]\s]+/gi,
   // previously /[#\-+.]*\b[a-z\d\-=+%.]+/gi but didn't catch special characters.
-  _unitExp = /[\d.+\-=]+(?:e[-+]\d*)*/i,
+  _unitExp = /^[+\-=e\s\d]*\d+[.\d]*([a-z]*|%)\s*$/i,
   _globalTimeline,
   _win,
   _coreInitted,
@@ -36392,7 +36223,7 @@ var _config = {
   _install = function _install(scope) {
     return (_installScope = _merge(scope, _globals)) && gsap;
   },
-  _missingPlugin = function _missingPlugin(property, value) {
+  _missingPlugin = exports._missingPlugin = function _missingPlugin(property, value) {
     return console.warn("Invalid property", property, "set to", value, "Missing plugin? gsap.registerPlugin()");
   },
   _warn = function _warn(message, suppress) {
@@ -36404,11 +36235,23 @@ var _config = {
   _emptyFunc = function _emptyFunc() {
     return 0;
   },
+  _startAtRevertConfig = {
+    suppressEvents: true,
+    isStart: true,
+    kill: false
+  },
+  _revertConfigNoKill = {
+    suppressEvents: true,
+    kill: false
+  },
+  _revertConfig = {
+    suppressEvents: true
+  },
   _reservedProps = {},
   _lazyTweens = [],
   _lazyLookup = {},
   _lastRenderedFrame,
-  _plugins = {},
+  _plugins = exports._plugins = {},
   _effects = {},
   _nextGCFrame = 30,
   _harnessPlugins = [],
@@ -36430,23 +36273,29 @@ var _config = {
     }
     return targets;
   },
-  _getCache = function _getCache(target) {
+  _getCache = exports._getCache = function _getCache(target) {
     return target._gsap || _harness(toArray(target))[0]._gsap;
   },
-  _getProperty = function _getProperty(target, property, v) {
+  _getProperty = exports._getProperty = function _getProperty(target, property, v) {
     return (v = target[property]) && _isFunction(v) ? target[property]() : _isUndefined(v) && target.getAttribute && target.getAttribute(property) || v;
   },
-  _forEachName = function _forEachName(names, func) {
+  _forEachName = exports._forEachName = function _forEachName(names, func) {
     return (names = names.split(",")).forEach(func) || names;
   },
   //split a comma-delimited list of names into an array, then run a forEach() function and return the split array (this is just a way to consolidate/shorten some code).
-  _round = function _round(value) {
+  _round = exports._round = function _round(value) {
     return Math.round(value * 100000) / 100000 || 0;
   },
   _roundPrecise = function _roundPrecise(value) {
     return Math.round(value * 10000000) / 10000000 || 0;
   },
   // increased precision mostly for timing values.
+  _parseRelative = exports._parseRelative = function _parseRelative(start, value) {
+    var operator = value.charAt(0),
+      end = parseFloat(value.substr(2));
+    start = parseFloat(start);
+    return operator === "+" ? start + end : operator === "-" ? start - end : operator === "*" ? start * end : start / end;
+  },
   _arrayContainsAny = function _arrayContainsAny(toSearch, toFind) {
     //searches one array to find matches for any of the items in the toFind array. As soon as one is found, it returns true. It does NOT return all the matches; it's simply a boolean search.
     var l = toFind.length,
@@ -36467,9 +36316,9 @@ var _config = {
     }
   },
   _lazySafeRender = function _lazySafeRender(animation, time, suppressEvents, force) {
-    _lazyTweens.length && _lazyRender();
-    animation.render(time, suppressEvents, force);
-    _lazyTweens.length && _lazyRender(); //in case rendering caused any tweens to lazy-init, we should render them because typically when someone calls seek() or time() or progress(), they expect an immediate render.
+    _lazyTweens.length && !_reverting && _lazyRender();
+    animation.render(time, suppressEvents, force || _reverting && time < 0 && (animation._initted || animation._startAt));
+    _lazyTweens.length && !_reverting && _lazyRender(); //in case rendering caused any tweens to lazy-init, we should render them because typically when someone calls seek() or time() or progress(), they expect an immediate render.
   },
   _numericIfPossible = function _numericIfPossible(value) {
     var n = parseFloat(value);
@@ -36478,7 +36327,7 @@ var _config = {
   _passThrough = function _passThrough(p) {
     return p;
   },
-  _setDefaults = function _setDefaults(obj, defaults) {
+  _setDefaults = exports._setDefaults = function _setDefaults(obj, defaults) {
     for (var p in defaults) {
       p in obj || (obj[p] = defaults[p]);
     }
@@ -36559,7 +36408,7 @@ var _config = {
     child.parent = child._dp = parent;
     return child;
   },
-  _removeLinkedListItem = function _removeLinkedListItem(parent, child, firstProp, lastProp) {
+  _removeLinkedListItem = exports._removeLinkedListItem = function _removeLinkedListItem(parent, child, firstProp, lastProp) {
     if (firstProp === void 0) {
       firstProp = "_first";
     }
@@ -36581,7 +36430,7 @@ var _config = {
     child._next = child._prev = child.parent = null; // don't delete the _dp just so we can revert if necessary. But parent should be null to indicate the item isn't in a linked list.
   },
   _removeFromParent = function _removeFromParent(child, onlyIfParentHasAutoRemove) {
-    child.parent && (!onlyIfParentHasAutoRemove || child.parent.autoRemoveChildren) && child.parent.remove(child);
+    child.parent && (!onlyIfParentHasAutoRemove || child.parent.autoRemoveChildren) && child.parent.remove && child.parent.remove(child);
     child._act = 0;
   },
   _uncache = function _uncache(animation, child) {
@@ -36604,6 +36453,9 @@ var _config = {
       parent = parent.parent;
     }
     return animation;
+  },
+  _rewindStartAt = function _rewindStartAt(tween, totalTime, suppressEvents, force) {
+    return tween._startAt && (_reverting ? tween._startAt.revert(_revertConfigNoKill) : tween.vars.immediateRender && !tween.vars.autoRevert || tween._startAt.render(totalTime, true, force));
   },
   _hasNoPausedAncestors = function _hasNoPausedAncestors(animation) {
     return !animation || animation._ts && _hasNoPausedAncestors(animation.parent);
@@ -36644,8 +36496,8 @@ var _config = {
   */
   _postAddChecks = function _postAddChecks(timeline, child) {
     var t;
-    if (child._time || child._initted && !child._dur) {
-      //in case, for example, the _start is moved on a tween that has already rendered. Imagine it's at its end state, then the startTime is moved WAY later (after the end of this timeline), it should render at its beginning.
+    if (child._time || !child._dur && child._initted || child._start < timeline._time && (child._dur || !child.add)) {
+      // in case, for example, the _start is moved on a tween that has already rendered, or if it's being inserted into a timeline BEFORE where the playhead is currently. Imagine it's at its end state, then the startTime is moved WAY later (after the end of this timeline), it should render at its beginning. Special case: if it's a timeline (has .add() method) and no duration, we can skip rendering because the user may be populating it AFTER adding it to a parent timeline (unconventional, but possible, and we wouldn't want it to get removed if the parent's autoRemoveChildren is true).
       t = _parentToChildTotalTime(timeline.rawTime(), child);
       if (!child._dur || _clamp(0, child.totalDuration(), t) - child._tTime > _tinyNum) {
         child.render(t, true);
@@ -36672,19 +36524,21 @@ var _config = {
     _addLinkedListItem(timeline, child, "_first", "_last", timeline._sort ? "_start" : 0);
     _isFromOrFromStart(child) || (timeline._recent = child);
     skipChecks || _postAddChecks(timeline, child);
+    timeline._ts < 0 && _alignPlayhead(timeline, timeline._tTime); // if the timeline is reversed and the new child makes it longer, we may need to adjust the parent's _start (push it back)
+
     return timeline;
   },
   _scrollTrigger = function _scrollTrigger(animation, trigger) {
     return (_globals.ScrollTrigger || _missingPlugin("scrollTrigger", trigger)) && _globals.ScrollTrigger.create(trigger, animation);
   },
-  _attemptInitTween = function _attemptInitTween(tween, totalTime, force, suppressEvents) {
-    _initTween(tween, totalTime);
+  _attemptInitTween = function _attemptInitTween(tween, time, force, suppressEvents, tTime) {
+    _initTween(tween, time, tTime);
     if (!tween._initted) {
       return 1;
     }
-    if (!force && tween._pt && (tween._dur && tween.vars.lazy !== false || !tween._dur && tween.vars.lazy) && _lastRenderedFrame !== _ticker.frame) {
+    if (!force && tween._pt && !_reverting && (tween._dur && tween.vars.lazy !== false || !tween._dur && tween.vars.lazy) && _lastRenderedFrame !== _ticker.frame) {
       _lazyTweens.push(tween);
-      tween._lazy = [totalTime, suppressEvents];
+      tween._lazy = [tTime, suppressEvents];
       return 1;
     }
   },
@@ -36717,8 +36571,8 @@ var _config = {
         tween.vars.repeatRefresh && tween._initted && tween.invalidate();
       }
     }
-    if (ratio !== prevRatio || force || tween._zTime === _tinyNum || !totalTime && tween._zTime) {
-      if (!tween._initted && _attemptInitTween(tween, totalTime, force, suppressEvents)) {
+    if (ratio !== prevRatio || _reverting || force || tween._zTime === _tinyNum || !totalTime && tween._zTime) {
+      if (!tween._initted && _attemptInitTween(tween, totalTime, force, suppressEvents, tTime)) {
         // if we render the very beginning (time == 0) of a fromTo(), we must force the render (normal tweens wouldn't need to render at a time of 0 when the prevTime was also 0). This is also mandatory to make sure overwriting kicks in immediately.
         return;
       }
@@ -36736,12 +36590,12 @@ var _config = {
         pt.r(ratio, pt.d);
         pt = pt._next;
       }
-      tween._startAt && totalTime < 0 && tween._startAt.render(totalTime, true, true);
+      totalTime < 0 && _rewindStartAt(tween, totalTime, suppressEvents, true);
       tween._onUpdate && !suppressEvents && _callback(tween, "onUpdate");
       tTime && tween._repeat && !suppressEvents && tween.parent && _callback(tween, "onRepeat");
       if ((totalTime >= tween._tDur || totalTime < 0) && tween.ratio === ratio) {
         ratio && _removeFromParent(tween, 1);
-        if (!suppressEvents) {
+        if (!suppressEvents && !_reverting) {
           _callback(tween, ratio ? "onComplete" : "onReverseComplete", true);
           tween._prom && tween._prom();
         }
@@ -36777,7 +36631,8 @@ var _config = {
     totalProgress && !leavePlayhead && (animation._time *= dur / animation._dur);
     animation._dur = dur;
     animation._tDur = !repeat ? dur : repeat < 0 ? 1e10 : _roundPrecise(dur * (repeat + 1) + animation._rDelay * repeat);
-    totalProgress > 0 && !leavePlayhead ? _alignPlayhead(animation, animation._tTime = animation._tDur * totalProgress) : animation.parent && _setEnd(animation);
+    totalProgress > 0 && !leavePlayhead && _alignPlayhead(animation, animation._tTime = animation._tDur * totalProgress);
+    animation.parent && _setEnd(animation);
     skipUncache || _uncache(animation.parent, animation);
     return animation;
   },
@@ -36845,11 +36700,11 @@ var _config = {
   _clamp = function _clamp(min, max, value) {
     return value < min ? min : value > max ? max : value;
   },
-  getUnit = function getUnit(value, v) {
-    return !_isString(value) || !(v = _unitExp.exec(value)) ? "" : value.substr(v.index + v[0].length);
+  getUnit = exports.getUnit = function getUnit(value, v) {
+    return !_isString(value) || !(v = _unitExp.exec(value)) ? "" : v[1];
   },
   // note: protect against padded numbers as strings, like "100.100". That shouldn't return "00" as the unit. If it's numeric, return no unit.
-  clamp = function clamp(min, max, value) {
+  clamp = exports.clamp = function clamp(min, max, value) {
     return _conditionalReturn(value, function (v) {
       return _clamp(min, max, v);
     });
@@ -36868,24 +36723,24 @@ var _config = {
     }) || accumulator;
   },
   //takes any value and returns an array. If it's a string (and leaveStrings isn't true), it'll use document.querySelectorAll() and convert that to an array. It'll also accept iterables like jQuery objects.
-  toArray = function toArray(value, scope, leaveStrings) {
-    return _isString(value) && !leaveStrings && (_coreInitted || !_wake()) ? _slice.call((scope || _doc).querySelectorAll(value), 0) : _isArray(value) ? _flatten(value, leaveStrings) : _isArrayLike(value) ? _slice.call(value, 0) : value ? [value] : [];
+  toArray = exports.toArray = function toArray(value, scope, leaveStrings) {
+    return _context && !scope && _context.selector ? _context.selector(value) : _isString(value) && !leaveStrings && (_coreInitted || !_wake()) ? _slice.call((scope || _doc).querySelectorAll(value), 0) : _isArray(value) ? _flatten(value, leaveStrings) : _isArrayLike(value) ? _slice.call(value, 0) : value ? [value] : [];
   },
-  selector = function selector(value) {
+  selector = exports.selector = function selector(value) {
     value = toArray(value)[0] || _warn("Invalid scope") || {};
     return function (v) {
       var el = value.current || value.nativeElement || value;
       return toArray(v, el.querySelectorAll ? el : el === value ? _warn("Invalid scope") || _doc.createElement("div") : value);
     };
   },
-  shuffle = function shuffle(a) {
+  shuffle = exports.shuffle = function shuffle(a) {
     return a.sort(function () {
       return .5 - Math.random();
     });
   },
   // alternative that's a bit faster and more reliably diverse but bigger:   for (let j, v, i = a.length; i; j = Math.floor(Math.random() * i), v = a[--i], a[i] = a[j], a[j] = v); return a;
   //for distributing values across an array. Can accept a number, a function or (most commonly) a function which can contain the following properties: {base, amount, from, ease, grid, axis, length, each}. Returns a function that expects the following parameters: index, target, array. Recognizes the following
-  distribute = function distribute(v) {
+  distribute = exports.distribute = function distribute(v) {
     if (_isFunction(v)) {
       return v;
     }
@@ -36929,7 +36784,7 @@ var _config = {
         if (!wrapAt) {
           max = -_bigNum;
           while (max < (max = a[wrapAt++].getBoundingClientRect().left) && wrapAt < l) {}
-          wrapAt--;
+          wrapAt < l && wrapAt--;
         }
         distances = cache[l] = [];
         originX = ratios ? Math.min(wrapAt, l) * ratioX - .5 : from % wrapAt;
@@ -36956,16 +36811,16 @@ var _config = {
       return _roundPrecise(distances.b + (ease ? ease(l) : l) * distances.v) + distances.u; //round in order to work around floating point errors
     };
   },
-  _roundModifier = function _roundModifier(v) {
+  _roundModifier = exports._roundModifier = function _roundModifier(v) {
     //pass in 0.1 get a function that'll round to the nearest tenth, or 5 to round to the closest 5, or 0.001 to the closest 1000th, etc.
     var p = Math.pow(10, ((v + "").split(".")[1] || "").length); //to avoid floating point math errors (like 24 * 0.1 == 2.4000000000000004), we chop off at a specific number of decimal places (much faster than toFixed())
 
     return function (raw) {
-      var n = Math.round(parseFloat(raw) / v) * v * p;
+      var n = _roundPrecise(Math.round(parseFloat(raw) / v) * v * p);
       return (n - n % 1) / p + (_isNumber(raw) ? 0 : getUnit(raw)); // n - n % 1 replaces Math.floor() in order to handle negative values properly. For example, Math.floor(-150.00000000000003) is 151!
     };
   },
-  snap = function snap(snapTo, value) {
+  snap = exports.snap = function snap(snapTo, value) {
     var isArray = _isArray(snapTo),
       radius,
       is2D;
@@ -37008,12 +36863,12 @@ var _config = {
       return is2D || closest === raw || _isNumber(raw) ? closest : closest + getUnit(raw);
     });
   },
-  random = function random(min, max, roundingIncrement, returnFunction) {
+  random = exports.random = function random(min, max, roundingIncrement, returnFunction) {
     return _conditionalReturn(_isArray(min) ? !max : roundingIncrement === true ? !!(roundingIncrement = 0) : !returnFunction, function () {
       return _isArray(min) ? min[~~(Math.random() * min.length)] : (roundingIncrement = roundingIncrement || 1e-5) && (returnFunction = roundingIncrement < 1 ? Math.pow(10, (roundingIncrement + "").length - 2) : 1) && Math.floor(Math.round((min - roundingIncrement / 2 + Math.random() * (max - min + roundingIncrement * .99)) / roundingIncrement) * roundingIncrement * returnFunction) / returnFunction;
     });
   },
-  pipe = function pipe() {
+  pipe = exports.pipe = function pipe() {
     for (var _len = arguments.length, functions = new Array(_len), _key = 0; _key < _len; _key++) {
       functions[_key] = arguments[_key];
     }
@@ -37023,12 +36878,12 @@ var _config = {
       }, value);
     };
   },
-  unitize = function unitize(func, unit) {
+  unitize = exports.unitize = function unitize(func, unit) {
     return function (value) {
       return func(parseFloat(value)) + (unit || getUnit(value));
     };
   },
-  normalize = function normalize(min, max, value) {
+  normalize = exports.normalize = function normalize(min, max, value) {
     return mapRange(min, max, 0, 1, value);
   },
   _wrapArray = function _wrapArray(a, wrapper, value) {
@@ -37036,14 +36891,14 @@ var _config = {
       return a[~~wrapper(index)];
     });
   },
-  wrap = function wrap(min, max, value) {
+  wrap = exports.wrap = function wrap(min, max, value) {
     // NOTE: wrap() CANNOT be an arrow function! A very odd compiling bug causes problems (unrelated to GSAP).
     var range = max - min;
     return _isArray(min) ? _wrapArray(min, wrap(0, min.length), max) : _conditionalReturn(value, function (value) {
       return (range + (value - min) % range) % range + min;
     });
   },
-  wrapYoyo = function wrapYoyo(min, max, value) {
+  wrapYoyo = exports.wrapYoyo = function wrapYoyo(min, max, value) {
     var range = max - min,
       total = range * 2;
     return _isArray(min) ? _wrapArray(min, wrapYoyo(0, min.length - 1), max) : _conditionalReturn(value, function (value) {
@@ -37051,7 +36906,7 @@ var _config = {
       return min + (value > range ? total - value : value);
     });
   },
-  _replaceRandom = function _replaceRandom(value) {
+  _replaceRandom = exports._replaceRandom = function _replaceRandom(value) {
     //replaces all occurrences of random(...) in a string with the calculated random value. can be a range like random(-100, 100, 5) or an array like random([0, 100, 500])
     var prev = 0,
       s = "",
@@ -37068,14 +36923,14 @@ var _config = {
     }
     return s + value.substr(prev, value.length - prev);
   },
-  mapRange = function mapRange(inMin, inMax, outMin, outMax, value) {
+  mapRange = exports.mapRange = function mapRange(inMin, inMax, outMin, outMax, value) {
     var inRange = inMax - inMin,
       outRange = outMax - outMin;
     return _conditionalReturn(value, function (value) {
       return outMin + ((value - inMin) / inRange * outRange || 0);
     });
   },
-  interpolate = function interpolate(start, end, progress, mutate) {
+  interpolate = exports.interpolate = function interpolate(start, end, progress, mutate) {
     var func = isNaN(start + end) ? 0 : function (p) {
       return (1 - p) * start + p * end;
     };
@@ -37142,8 +36997,11 @@ var _config = {
   _callback = function _callback(animation, type, executeLazyFirst) {
     var v = animation.vars,
       callback = v[type],
+      prevContext = _context,
+      context = animation._ctx,
       params,
-      scope;
+      scope,
+      result;
     if (!callback) {
       return;
     }
@@ -37151,57 +37009,66 @@ var _config = {
     scope = v.callbackScope || animation;
     executeLazyFirst && _lazyTweens.length && _lazyRender(); //in case rendering caused any tweens to lazy-init, we should render them because typically when a timeline finishes, users expect things to have rendered fully. Imagine an onUpdate on a timeline that reports/checks tweened values.
 
-    return params ? callback.apply(scope, params) : callback.call(scope);
+    context && (_context = context);
+    result = params ? callback.apply(scope, params) : callback.call(scope);
+    _context = prevContext;
+    return result;
   },
   _interrupt = function _interrupt(animation) {
     _removeFromParent(animation);
-    animation.scrollTrigger && animation.scrollTrigger.kill(false);
+    animation.scrollTrigger && animation.scrollTrigger.kill(!!_reverting);
     animation.progress() < 1 && _callback(animation, "onInterrupt");
     return animation;
   },
   _quickTween,
+  _registerPluginQueue = [],
   _createPlugin = function _createPlugin(config) {
-    config = !config.name && config["default"] || config; //UMD packaging wraps things oddly, so for example MotionPathHelper becomes {MotionPathHelper:MotionPathHelper, default:MotionPathHelper}.
+    if (_windowExists() && config) {
+      // edge case: some build tools may pass in a null/undefined value
+      config = !config.name && config["default"] || config; //UMD packaging wraps things oddly, so for example MotionPathHelper becomes {MotionPathHelper:MotionPathHelper, default:MotionPathHelper}.
 
-    var name = config.name,
-      isFunc = _isFunction(config),
-      Plugin = name && !isFunc && config.init ? function () {
-        this._props = [];
-      } : config,
-      //in case someone passes in an object that's not a plugin, like CustomEase
-      instanceDefaults = {
-        init: _emptyFunc,
-        render: _renderPropTweens,
-        add: _addPropTween,
-        kill: _killPropTweensOf,
-        modifier: _addPluginModifier,
-        rawVars: 0
-      },
-      statics = {
-        targetTest: 0,
-        get: 0,
-        getSetter: _getSetter,
-        aliases: {},
-        register: 0
-      };
-    _wake();
-    if (config !== Plugin) {
-      if (_plugins[name]) {
-        return;
+      var name = config.name,
+        isFunc = _isFunction(config),
+        Plugin = name && !isFunc && config.init ? function () {
+          this._props = [];
+        } : config,
+        //in case someone passes in an object that's not a plugin, like CustomEase
+        instanceDefaults = {
+          init: _emptyFunc,
+          render: _renderPropTweens,
+          add: _addPropTween,
+          kill: _killPropTweensOf,
+          modifier: _addPluginModifier,
+          rawVars: 0
+        },
+        statics = {
+          targetTest: 0,
+          get: 0,
+          getSetter: _getSetter,
+          aliases: {},
+          register: 0
+        };
+      _wake();
+      if (config !== Plugin) {
+        if (_plugins[name]) {
+          return;
+        }
+        _setDefaults(Plugin, _setDefaults(_copyExcluding(config, instanceDefaults), statics)); //static methods
+
+        _merge(Plugin.prototype, _merge(instanceDefaults, _copyExcluding(config, statics))); //instance methods
+
+        _plugins[Plugin.prop = name] = Plugin;
+        if (config.targetTest) {
+          _harnessPlugins.push(Plugin);
+          _reservedProps[name] = 1;
+        }
+        name = (name === "css" ? "CSS" : name.charAt(0).toUpperCase() + name.substr(1)) + "Plugin"; //for the global name. "motionPath" should become MotionPathPlugin
       }
-      _setDefaults(Plugin, _setDefaults(_copyExcluding(config, instanceDefaults), statics)); //static methods
-
-      _merge(Plugin.prototype, _merge(instanceDefaults, _copyExcluding(config, statics))); //instance methods
-
-      _plugins[Plugin.prop = name] = Plugin;
-      if (config.targetTest) {
-        _harnessPlugins.push(Plugin);
-        _reservedProps[name] = 1;
-      }
-      name = (name === "css" ? "CSS" : name.charAt(0).toUpperCase() + name.substr(1)) + "Plugin"; //for the global name. "motionPath" should become MotionPathPlugin
+      _addGlobal(name, Plugin);
+      config.register && config.register(gsap, Plugin, PropTween);
+    } else {
+      config && _registerPluginQueue.push(config);
     }
-    _addGlobal(name, Plugin);
-    config.register && config.register(gsap, Plugin, PropTween);
   },
   /*
    * --------------------------------------------------------------------------------------
@@ -37237,7 +37104,7 @@ var _config = {
     h += h < 0 ? 1 : h > 1 ? -1 : 0;
     return (h * 6 < 1 ? m1 + (m2 - m1) * h * 6 : h < .5 ? m2 : h * 3 < 2 ? m1 + (m2 - m1) * (2 / 3 - h) * 6 : m1) * _255 + .5 | 0;
   },
-  splitColor = function splitColor(v, toHSL, forceAlpha) {
+  splitColor = exports.splitColor = function splitColor(v, toHSL, forceAlpha) {
     var a = !v ? _colorLookup.black : _isNumber(v) ? [v >> 16, v >> 8 & _255, v & _255] : 0,
       r,
       g,
@@ -37365,7 +37232,7 @@ var _config = {
     }
     return result + shell[l];
   },
-  _colorExp = function () {
+  _colorExp = exports._colorExp = function () {
     var s = "(?:\\b(?:(?:rgb|rgba|hsl|hsla)\\(.+?\\))|\\B#(?:[0-9a-f]{3,4}){1,2}\\b",
       //we'll dynamically build this Regular Expression to conserve file size. After building it, it will be able to find rgb(), rgba(), # (hexadecimal), and named color values like red, blue, purple, etc.,
       p;
@@ -37375,7 +37242,7 @@ var _config = {
     return new RegExp(s + ")", "gi");
   }(),
   _hslExp = /hsl[a]?\(/,
-  _colorStringFilter = function _colorStringFilter(a) {
+  _colorStringFilter = exports._colorStringFilter = function _colorStringFilter(a) {
     var combined = a.join(" "),
       toHSL;
     _colorExp.lastIndex = 0;
@@ -37393,7 +37260,7 @@ var _config = {
    * --------------------------------------------------------------------------------------
    */
   _tickerActive,
-  _ticker = function () {
+  _ticker = exports._ticker = function () {
     var _getTime = Date.now,
       _lagThreshold = 500,
       _adjustedLag = 33,
@@ -37453,6 +37320,7 @@ var _config = {
             (_win.gsapVersions || (_win.gsapVersions = [])).push(gsap.version);
             _install(_installScope || _win.GreenSockGlobals || !_win.gsap && _win || {});
             _raf = _win.requestAnimationFrame;
+            _registerPluginQueue.forEach(_createPlugin);
           }
           _id && _self.sleep();
           _req = _raf || function (f) {
@@ -37468,17 +37336,23 @@ var _config = {
         _req = _emptyFunc;
       },
       lagSmoothing: function lagSmoothing(threshold, adjustedLag) {
-        _lagThreshold = threshold || 1 / _tinyNum; //zero should be interpreted as basically unlimited
+        _lagThreshold = threshold || Infinity; // zero should be interpreted as basically unlimited
 
-        _adjustedLag = Math.min(adjustedLag, _lagThreshold, 0);
+        _adjustedLag = Math.min(adjustedLag || 33, _lagThreshold);
       },
       fps: function fps(_fps) {
         _gap = 1000 / (_fps || 240);
         _nextTime = _self.time * 1000 + _gap;
       },
-      add: function add(callback) {
-        _listeners.indexOf(callback) < 0 && _listeners.push(callback);
+      add: function add(callback, once, prioritize) {
+        var func = once ? function (t, d, f, v) {
+          callback(t, d, f, v);
+          _self.remove(func);
+        } : callback;
+        _self.remove(callback);
+        _listeners[prioritize ? "unshift" : "push"](func);
         _wake();
+        return func;
       },
       remove: function remove(callback, i) {
         ~(i = _listeners.indexOf(callback)) && _listeners.splice(i, 1) && _i >= i && _i--;
@@ -37635,41 +37509,7 @@ var _config = {
 // 		c = ratio + o;
 // 	return p => p === 1 ? p : 3 * b * (1 - p) * (1 - p) * p + 3 * c * (1 - p) * p * p + p * p * p;
 // };
-exports._ticker = _ticker;
-exports._colorStringFilter = _colorStringFilter;
-exports._colorExp = _colorExp;
-exports.splitColor = splitColor;
-exports.interpolate = interpolate;
-exports.mapRange = mapRange;
-exports._replaceRandom = _replaceRandom;
-exports.wrapYoyo = wrapYoyo;
-exports.wrap = wrap;
-exports.normalize = normalize;
-exports.unitize = unitize;
-exports.pipe = pipe;
-exports.random = random;
-exports.snap = snap;
-exports._roundModifier = _roundModifier;
-exports.distribute = distribute;
-exports.shuffle = shuffle;
-exports.selector = selector;
-exports.toArray = toArray;
-exports.clamp = clamp;
-exports.getUnit = getUnit;
-exports._removeLinkedListItem = _removeLinkedListItem;
-exports._setDefaults = _setDefaults;
-exports._round = _round;
-exports._forEachName = _forEachName;
-exports._getProperty = _getProperty;
-exports._getCache = _getCache;
-exports._plugins = _plugins;
-exports._missingPlugin = _missingPlugin;
-exports._relExp = _relExp;
-exports._numWithUnitExp = _numWithUnitExp;
-exports._numExp = _numExp;
-exports._isUndefined = _isUndefined;
-exports._isString = _isString;
-exports._config = _config;
+
 _forEachName("Linear,Quad,Cubic,Quart,Quint,Strong", function (name, i) {
   var power = i < 5 ? i + 1 : i;
   _insertEase(name + ",Power" + (power - 1), i ? function (p) {
@@ -37729,7 +37569,7 @@ _forEachName("onComplete,onUpdate,onStart,onRepeat,onReverseComplete,onInterrupt
  * --------------------------------------------------------------------------------------
  */
 
-var GSCache = function GSCache(target, harness) {
+var GSCache = exports.GSCache = function GSCache(target, harness) {
   this.id = _gsID++;
   target._gsap = this;
   this.target = target;
@@ -37742,8 +37582,8 @@ var GSCache = function GSCache(target, harness) {
  * ANIMATION
  * --------------------------------------------------------------------------------------
  */
-exports.GSCache = GSCache;
-var Animation = /*#__PURE__*/function () {
+
+var Animation = exports.Animation = /*#__PURE__*/function () {
   function Animation(vars) {
     this.vars = vars;
     this._delay = +vars.delay || 0;
@@ -37755,6 +37595,10 @@ var Animation = /*#__PURE__*/function () {
     this._ts = 1;
     _setDuration(this, +vars.duration, 1, 1);
     this.data = vars.data;
+    if (_context) {
+      this._ctx = _context;
+      _context.data.push(this);
+    }
     _tickerActive || _ticker.wake();
   }
   var _proto = Animation.prototype;
@@ -37813,10 +37657,10 @@ var Animation = /*#__PURE__*/function () {
     return arguments.length ? this.totalTime(Math.min(this.totalDuration(), value + _elapsedCycleDuration(this)) % (this._dur + this._rDelay) || (value ? this._dur : 0), suppressEvents) : this._time; // note: if the modulus results in 0, the playhead could be exactly at the end or the beginning, and we always defer to the END with a non-zero value, otherwise if you set the time() to the very end (duration()), it would render at the START!
   };
   _proto.totalProgress = function totalProgress(value, suppressEvents) {
-    return arguments.length ? this.totalTime(this.totalDuration() * value, suppressEvents) : this.totalDuration() ? Math.min(1, this._tTime / this._tDur) : this.ratio;
+    return arguments.length ? this.totalTime(this.totalDuration() * value, suppressEvents) : this.totalDuration() ? Math.min(1, this._tTime / this._tDur) : this.rawTime() > 0 ? 1 : 0;
   };
   _proto.progress = function progress(value, suppressEvents) {
-    return arguments.length ? this.totalTime(this.duration() * (this._yoyo && !(this.iteration() & 1) ? 1 - value : value) + _elapsedCycleDuration(this), suppressEvents) : this.duration() ? Math.min(1, this._time / this._dur) : this.ratio;
+    return arguments.length ? this.totalTime(this.duration() * (this._yoyo && !(this.iteration() & 1) ? 1 - value : value) + _elapsedCycleDuration(this), suppressEvents) : this.duration() ? Math.min(1, this._time / this._dur) : this.rawTime() > 0 ? 1 : 0;
   };
   _proto.iteration = function iteration(value, suppressEvents) {
     var cycleDuration = this.duration() + this._rDelay;
@@ -37832,7 +37676,7 @@ var Animation = /*#__PURE__*/function () {
   // 	return orientation < 0;
   // }
   ;
-  _proto.timeScale = function timeScale(value) {
+  _proto.timeScale = function timeScale(value, suppressEvents) {
     if (!arguments.length) {
       return this._rts === -_tinyNum ? 0 : this._rts; // recorded timeScale. Special case: if someone calls reverse() on an animation with timeScale of 0, we assign it -_tinyNum to remember it's reversed.
     }
@@ -37847,10 +37691,10 @@ var Animation = /*#__PURE__*/function () {
     this._rts = +value || 0;
     this._ts = this._ps || value === -_tinyNum ? 0 : this._rts; // _ts is the functional timeScale which would be 0 if the animation is paused.
 
-    _recacheAncestors(this.totalTime(_clamp(-this._delay, this._tDur, tTime), true));
+    this.totalTime(_clamp(-Math.abs(this._delay), this._tDur, tTime), suppressEvents !== false);
     _setEnd(this); // if parent.smoothChildTiming was false, the end time didn't get updated in the _alignPlayhead() method, so do it here.
 
-    return this;
+    return _recacheAncestors(this);
   };
   _proto.paused = function paused(value) {
     if (!arguments.length) {
@@ -37888,14 +37732,28 @@ var Animation = /*#__PURE__*/function () {
 
     return !parent ? this._tTime : wrapRepeats && (!this._ts || this._repeat && this._time && this.totalProgress() < 1) ? this._tTime % (this._dur + this._rDelay) : !this._ts ? this._tTime : _parentToChildTotalTime(parent.rawTime(wrapRepeats), this);
   };
+  _proto.revert = function revert(config) {
+    if (config === void 0) {
+      config = _revertConfig;
+    }
+    var prevIsReverting = _reverting;
+    _reverting = config;
+    if (this._initted || this._startAt) {
+      this.timeline && this.timeline.revert(config);
+      this.totalTime(-0.01, config.suppressEvents);
+    }
+    this.data !== "nested" && config.kill !== false && this.kill();
+    _reverting = prevIsReverting;
+    return this;
+  };
   _proto.globalTime = function globalTime(rawTime) {
     var animation = this,
       time = arguments.length ? rawTime : animation.rawTime();
     while (animation) {
-      time = animation._start + time / (animation._ts || 1);
+      time = animation._start + time / (Math.abs(animation._ts) || 1);
       animation = animation._dp;
     }
-    return time;
+    return !this.parent && this._sat ? this._sat.globalTime(rawTime) : time; // the _startAt tweens for .fromTo() and .from() that have immediateRender should always be FIRST in the timeline (important for context.revert()). "_sat" stands for _startAtTween, referring to the parent tween that created the _startAt. We must discern if that tween had immediateRender so that we can know whether or not to prioritize it in revert().
   };
   _proto.repeat = function repeat(value) {
     if (arguments.length) {
@@ -37998,7 +37856,6 @@ var Animation = /*#__PURE__*/function () {
   };
   return Animation;
 }();
-exports.Animation = Animation;
 _setDefaults(Animation.prototype, {
   _time: 0,
   _start: 0,
@@ -38025,7 +37882,7 @@ _setDefaults(Animation.prototype, {
  * -------------------------------------------------
  */
 
-var Timeline = /*#__PURE__*/function (_Animation) {
+var Timeline = exports.TimelineLite = exports.TimelineMax = exports.Timeline = /*#__PURE__*/function (_Animation) {
   _inheritsLoose(Timeline, _Animation);
   function Timeline(vars, position) {
     var _this;
@@ -38144,7 +38001,7 @@ var Timeline = /*#__PURE__*/function (_Animation) {
           time > dur && (time = dur);
         }
         prevIteration = _animationCycle(this._tTime, cycleDuration);
-        !prevTime && this._tTime && prevIteration !== iteration && (prevIteration = iteration); // edge case - if someone does addPause() at the very beginning of a repeating timeline, that pause is technically at the same spot as the end which causes this._time to get set to 0 when the totalTime would normally place the playhead at the end. See https://greensock.com/forums/topic/23823-closing-nav-animation-not-working-on-ie-and-iphone-6-maybe-other-older-browser/?tab=comments#comment-113005
+        !prevTime && this._tTime && prevIteration !== iteration && this._tTime - prevIteration * cycleDuration - this._dur <= 0 && (prevIteration = iteration); // edge case - if someone does addPause() at the very beginning of a repeating timeline, that pause is technically at the same spot as the end which causes this._time to get set to 0 when the totalTime would normally place the playhead at the end. See https://gsap.com/forums/topic/23823-closing-nav-animation-not-working-on-ie-and-iphone-6-maybe-other-older-browser/?tab=comments#comment-113005 also, this._tTime - prevIteration * cycleDuration - this._dur <= 0 just checks to make sure it wasn't previously in the "repeatDelay" portion
 
         if (yoyo && iteration & 1) {
           time = dur - time;
@@ -38163,7 +38020,8 @@ var Timeline = /*#__PURE__*/function (_Animation) {
           var rewinding = yoyo && prevIteration & 1,
             doesWrap = rewinding === (yoyo && iteration & 1);
           iteration < prevIteration && (rewinding = !rewinding);
-          prevTime = rewinding ? 0 : dur;
+          prevTime = rewinding ? 0 : tTime % dur ? dur : tTime; // if the playhead is landing exactly at the end of an iteration, use that totalTime rather than only the duration, otherwise it'll skip the 2nd render since it's effectively at the same time.
+
           this._lock = 1;
           this.render(prevTime || (isYoyo ? 0 : _roundPrecise(iteration * cycleDuration)), suppressEvents, !dur)._lock = 0;
           this._tTime = tTime; // if a user gets the iteration() inside the onRepeat, for example, it should be accurate.
@@ -38207,7 +38065,7 @@ var Timeline = /*#__PURE__*/function (_Animation) {
         this._zTime = totalTime;
         prevTime = 0; // upon init, the playhead should always go forward; someone could invalidate() a completed timeline and then if they restart(), that would make child tweens render in reverse order which could lock in the wrong starting values if they build on each other, like tl.to(obj, {x: 100}).to(obj, {x: 0}).
       }
-      if (!prevTime && time && !suppressEvents) {
+      if (!prevTime && time && !suppressEvents && !iteration) {
         _callback(this, "onStart");
         if (this._tTime !== tTime) {
           // in case the onStart triggered a render at a different spot, eject. Like if someone did animation.pause(0.5) or something inside the onStart.
@@ -38245,7 +38103,8 @@ var Timeline = /*#__PURE__*/function (_Animation) {
               // an extreme edge case - the child's render could do something like kill() the "next" one in the linked list, or reparent it. In that case we must re-initiate the whole render to be safe.
               return this.render(totalTime, suppressEvents, force);
             }
-            child.render(child._ts > 0 ? (adjustedTime - child._start) * child._ts : (child._dirty ? child.totalDuration() : child._tDur) + (adjustedTime - child._start) * child._ts, suppressEvents, force);
+            child.render(child._ts > 0 ? (adjustedTime - child._start) * child._ts : (child._dirty ? child.totalDuration() : child._tDur) + (adjustedTime - child._start) * child._ts, suppressEvents, force || _reverting && (child._initted || child._startAt)); // if reverting, we should always force renders of initted tweens (but remember that .fromTo() or .from() may have a _startAt but not _initted yet). If, for example, a .fromTo() tween with a stagger (which creates an internal timeline) gets reverted BEFORE some of its child tweens render for the first time, it may not properly trigger them to revert.
+
             if (time !== this._time || !this._ts && !prevPaused) {
               //in case a tween pauses or seeks the timeline when rendering, like inside of an onUpdate/onComplete
               pauseTween = 0;
@@ -38269,7 +38128,8 @@ var Timeline = /*#__PURE__*/function (_Animation) {
         }
       }
       this._onUpdate && !suppressEvents && _callback(this, "onUpdate", true);
-      if (tTime === tDur && tDur >= this.totalDuration() || !tTime && prevTime) if (prevStart === this._start || Math.abs(timeScale) !== Math.abs(this._ts)) if (!this._lock) {
+      if (tTime === tDur && this._tTime >= this.totalDuration() || !tTime && prevTime) if (prevStart === this._start || Math.abs(timeScale) !== Math.abs(this._ts)) if (!this._lock) {
+        // remember, a child's callback may alter this timeline's playhead or timeScale which is why we need to add some of these checks.
         (totalTime || !dur) && (tTime === tDur && this._ts > 0 || !tTime && this._ts < 0) && _removeFromParent(this, 1); // don't remove if the timeline is reversed and the playhead isn't at 0, otherwise tl.progress(1).reverse() won't work. Only remove if the playhead is at the end and timeScale is positive, or if the playhead is at 0 and the timeScale is negative.
 
         if (!suppressEvents && !(totalTime < 0 && !prevTime) && (tTime || prevTime || !tDur)) {
@@ -38499,14 +38359,14 @@ var Timeline = /*#__PURE__*/function (_Animation) {
     }
     return _uncache(this);
   };
-  _proto2.invalidate = function invalidate() {
+  _proto2.invalidate = function invalidate(soft) {
     var child = this._first;
     this._lock = 0;
     while (child) {
-      child.invalidate();
+      child.invalidate(soft);
       child = child._next;
     }
-    return _Animation.prototype.invalidate.call(this);
+    return _Animation.prototype.invalidate.call(this, soft);
   };
   _proto2.clear = function clear(includeLabels) {
     if (includeLabels === void 0) {
@@ -38587,7 +38447,6 @@ var Timeline = /*#__PURE__*/function (_Animation) {
   };
   return Timeline;
 }(Animation);
-exports.TimelineLite = exports.TimelineMax = exports.Timeline = Timeline;
 _setDefaults(Timeline.prototype, {
   _lock: 0,
   _hasPause: 0,
@@ -38638,7 +38497,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
           p: chunk || matchIndex === 1 ? chunk : ",",
           //note: SVG spec allows omission of comma/space when a negative sign is wedged between two numbers, like 2.5-5.3 instead of 2.5,-5.3 but when tweening, the negative value may switch to positive, so we insert the comma just in case.
           s: startNum,
-          c: endNum.charAt(1) === "=" ? parseFloat(endNum.substr(2)) * (endNum.charAt(0) === "-" ? -1 : 1) : parseFloat(endNum) - startNum,
+          c: endNum.charAt(1) === "=" ? _parseRelative(startNum, endNum) - startNum : parseFloat(endNum) - startNum,
           m: color && color < 4 ? Math.round : 0
         };
         index = _complexStringNumExp.lastIndex;
@@ -38654,7 +38513,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
 
     return pt;
   },
-  _addPropTween = function _addPropTween(target, prop, start, end, index, targets, modifier, stringFilter, funcParam) {
+  _addPropTween = function _addPropTween(target, prop, start, end, index, targets, modifier, stringFilter, funcParam, optional) {
     _isFunction(end) && (end = end(index || 0, target, targets));
     var currentValue = target[prop],
       parsedStart = start !== "get" ? start : !_isFunction(currentValue) ? currentValue : funcParam ? target[prop.indexOf("set") || !_isFunction(target["get" + prop.substr(3)]) ? prop : "get" + prop.substr(3)](funcParam) : target[prop](),
@@ -38665,14 +38524,14 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
         end = _replaceRandom(end);
       }
       if (end.charAt(1) === "=") {
-        pt = parseFloat(parsedStart) + parseFloat(end.substr(2)) * (end.charAt(0) === "-" ? -1 : 1) + (getUnit(parsedStart) || 0);
+        pt = _parseRelative(parsedStart, end) + (getUnit(parsedStart) || 0);
         if (pt || pt === 0) {
           // to avoid isNaN, like if someone passes in a value like "!= whatever"
           end = pt;
         }
       }
     }
-    if (parsedStart !== end) {
+    if (!optional || parsedStart !== end || _forceAllPropTweens) {
       if (!isNaN(parsedStart * end) && end !== "") {
         // fun fact: any number multiplied by "" is evaluated as the number 0!
         pt = new PropTween(this._pt, target, prop, +parsedStart || 0, end - (parsedStart || 0), typeof currentValue === "boolean" ? _renderBoolean : _renderPlain, 0, setter);
@@ -38697,7 +38556,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
     }
     return copy;
   },
-  _checkPlugin = function _checkPlugin(property, vars, tween, index, target, targets) {
+  _checkPlugin = exports._checkPlugin = function _checkPlugin(property, vars, tween, index, target, targets) {
     var plugin, pt, ptLookup, i;
     if (_plugins[property] && (plugin = new _plugins[property]()).init(target, plugin.rawVars ? vars[property] : _processVars(vars[property], index, target, targets, tween), tween, index, targets) !== false) {
       tween._pt = pt = new PropTween(tween._pt, target, property, 0, 1, plugin.render, plugin, 0, plugin.priority);
@@ -38714,15 +38573,14 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
   },
   _overwritingTween,
   //store a reference temporarily so we can avoid overwriting itself.
-  _initTween = function _initTween(tween, time) {
+  _forceAllPropTweens,
+  _initTween = function _initTween(tween, time, tTime) {
     var vars = tween.vars,
       ease = vars.ease,
       startAt = vars.startAt,
       immediateRender = vars.immediateRender,
       lazy = vars.lazy,
       onUpdate = vars.onUpdate,
-      onUpdateParams = vars.onUpdateParams,
-      callbackScope = vars.callbackScope,
       runBackwards = vars.runBackwards,
       yoyoEase = vars.yoyoEase,
       keyframes = vars.keyframes,
@@ -38731,7 +38589,7 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
       prevStartAt = tween._startAt,
       targets = tween._targets,
       parent = tween.parent,
-      fullTargets = parent && parent.data === "nested" ? parent.parent._targets : targets,
+      fullTargets = parent && parent.data === "nested" ? parent.vars.targets : targets,
       autoOverwrite = tween._overwrite === "auto" && !_suppressOverwrites,
       tl = tween.timeline,
       cleanVars,
@@ -38764,70 +38622,74 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
       harnessVars = harness && vars[harness.prop]; //someone may need to specify CSS-specific values AND non-CSS values, like if the element has an "x" property plus it's a standard DOM element. We allow people to distinguish by wrapping plugin-specific stuff in a css:{} object for example.
 
       cleanVars = _copyExcluding(vars, _reservedProps);
-      prevStartAt && _removeFromParent(prevStartAt.render(-1, true));
+      if (prevStartAt) {
+        prevStartAt._zTime < 0 && prevStartAt.progress(1); // in case it's a lazy startAt that hasn't rendered yet.
+
+        time < 0 && runBackwards && immediateRender && !autoRevert ? prevStartAt.render(-1, true) : prevStartAt.revert(runBackwards && dur ? _revertConfigNoKill : _startAtRevertConfig); // if it's a "startAt" (not "from()" or runBackwards: true), we only need to do a shallow revert (keep transforms cached in CSSPlugin)
+        // don't just _removeFromParent(prevStartAt.render(-1, true)) because that'll leave inline styles. We're creating a new _startAt for "startAt" tweens that re-capture things to ensure that if the pre-tween values changed since the tween was created, they're recorded.
+
+        prevStartAt._lazy = 0;
+      }
       if (startAt) {
         _removeFromParent(tween._startAt = Tween.set(targets, _setDefaults({
           data: "isStart",
           overwrite: false,
           parent: parent,
           immediateRender: true,
-          lazy: _isNotFalse(lazy),
+          lazy: !prevStartAt && _isNotFalse(lazy),
           startAt: null,
           delay: 0,
-          onUpdate: onUpdate,
-          onUpdateParams: onUpdateParams,
-          callbackScope: callbackScope,
+          onUpdate: onUpdate && function () {
+            return _callback(tween, "onUpdate");
+          },
           stagger: 0
         }, startAt))); //copy the properties/values into a new object to avoid collisions, like var to = {x:0}, from = {x:500}; timeline.fromTo(e, from, to).fromTo(e, to, from);
 
-        time < 0 && !immediateRender && !autoRevert && tween._startAt.render(-1, true); // rare edge case, like if a render is forced in the negative direction of a non-initted tween.
+        tween._startAt._dp = 0; // don't allow it to get put back into root timeline! Like when revert() is called and totalTime() gets set.
+
+        tween._startAt._sat = tween; // used in globalTime(). _sat stands for _startAtTween
+
+        time < 0 && (_reverting || !immediateRender && !autoRevert) && tween._startAt.revert(_revertConfigNoKill); // rare edge case, like if a render is forced in the negative direction of a non-initted tween.
 
         if (immediateRender) {
-          time > 0 && !autoRevert && (tween._startAt = 0); //tweens that render immediately (like most from() and fromTo() tweens) shouldn't revert when their parent timeline's playhead goes backward past the startTime because the initial render could have happened anytime and it shouldn't be directly correlated to this tween's startTime. Imagine setting up a complex animation where the beginning states of various objects are rendered immediately but the tween doesn't happen for quite some time - if we revert to the starting values as soon as the playhead goes backward past the tween's startTime, it will throw things off visually. Reversion should only happen in Timeline instances where immediateRender was false or when autoRevert is explicitly set to true.
-
-          if (dur && time <= 0) {
+          if (dur && time <= 0 && tTime <= 0) {
+            // check tTime here because in the case of a yoyo tween whose playhead gets pushed to the end like tween.progress(1), we should allow it through so that the onComplete gets fired properly.
             time && (tween._zTime = time);
             return; //we skip initialization here so that overwriting doesn't occur until the tween actually begins. Otherwise, if you create several immediateRender:true tweens of the same target/properties to drop into a Timeline, the last one created would overwrite the first ones because they didn't get placed into the timeline yet before the first render occurs and kicks in overwriting.
-          } // if (time > 0) {
-          // 	autoRevert || (tween._startAt = 0); //tweens that render immediately (like most from() and fromTo() tweens) shouldn't revert when their parent timeline's playhead goes backward past the startTime because the initial render could have happened anytime and it shouldn't be directly correlated to this tween's startTime. Imagine setting up a complex animation where the beginning states of various objects are rendered immediately but the tween doesn't happen for quite some time - if we revert to the starting values as soon as the playhead goes backward past the tween's startTime, it will throw things off visually. Reversion should only happen in Timeline instances where immediateRender was false or when autoRevert is explicitly set to true.
-          // } else if (dur && !(time < 0 && prevStartAt)) {
-          // 	time && (tween._zTime = time);
-          // 	return; //we skip initialization here so that overwriting doesn't occur until the tween actually begins. Otherwise, if you create several immediateRender:true tweens of the same target/properties to drop into a Timeline, the last one created would overwrite the first ones because they didn't get placed into the timeline yet before the first render occurs and kicks in overwriting.
-          // }
-        } else if (autoRevert === false) {
-          tween._startAt = 0;
+          }
         }
       } else if (runBackwards && dur) {
         //from() tweens must be handled uniquely: their beginning values must be rendered but we don't want overwriting to occur yet (when time is still 0). Wait until the tween actually begins before doing all the routines like overwriting. At that time, we should render at the END of the tween to ensure that things initialize correctly (remember, from() tweens go backwards)
-        if (prevStartAt) {
-          !autoRevert && (tween._startAt = 0);
-        } else {
+        if (!prevStartAt) {
           time && (immediateRender = false); //in rare cases (like if a from() tween runs and then is invalidate()-ed), immediateRender could be true but the initial forced-render gets skipped, so there's no need to force the render in this context when the _time is greater than 0
 
           p = _setDefaults({
             overwrite: false,
             data: "isFromStart",
             //we tag the tween with as "isFromStart" so that if [inside a plugin] we need to only do something at the very END of a tween, we have a way of identifying this tween as merely the one that's setting the beginning values for a "from()" tween. For example, clearProps in CSSPlugin should only get applied at the very END of a tween and without this tag, from(...{height:100, clearProps:"height", delay:1}) would wipe the height at the beginning of the tween and after 1 second, it'd kick back in.
-            lazy: immediateRender && _isNotFalse(lazy),
+            lazy: immediateRender && !prevStartAt && _isNotFalse(lazy),
             immediateRender: immediateRender,
             //zero-duration tweens render immediately by default, but if we're not specifically instructed to render this tween immediately, we should skip this and merely _init() to record the starting values (rendering them immediately would push them to completion which is wasteful in that case - we'd have to render(-1) immediately after)
             stagger: 0,
-            parent: parent //ensures that nested tweens that had a stagger are handled properly, like gsap.from(".class", {y:gsap.utils.wrap([-100,100])})
+            parent: parent //ensures that nested tweens that had a stagger are handled properly, like gsap.from(".class", {y: gsap.utils.wrap([-100,100]), stagger: 0.5})
           }, cleanVars);
           harnessVars && (p[harness.prop] = harnessVars); // in case someone does something like .from(..., {css:{}})
 
           _removeFromParent(tween._startAt = Tween.set(targets, p));
-          time < 0 && tween._startAt.render(-1, true); // rare edge case, like if a render is forced in the negative direction of a non-initted from() tween.
+          tween._startAt._dp = 0; // don't allow it to get put back into root timeline!
 
+          tween._startAt._sat = tween; // used in globalTime()
+
+          time < 0 && (_reverting ? tween._startAt.revert(_revertConfigNoKill) : tween._startAt.render(-1, true));
           tween._zTime = time;
           if (!immediateRender) {
-            _initTween(tween._startAt, _tinyNum); //ensures that the initial values are recorded
+            _initTween(tween._startAt, _tinyNum, _tinyNum); //ensures that the initial values are recorded
           } else if (!time) {
             return;
           }
         }
       }
-      tween._pt = 0;
+      tween._pt = tween._ptCache = 0;
       lazy = dur && _isNotFalse(lazy) || lazy && !dur;
       for (i = 0; i < targets.length; i++) {
         target = targets[i];
@@ -38869,6 +38731,51 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
     tween._initted = (!tween._op || tween._pt) && !overwritten; // if overwrittenProps resulted in the entire tween being killed, do NOT flag it as initted or else it may render for one tick.
 
     keyframes && time <= 0 && tl.render(_bigNum, true, true); // if there's a 0% keyframe, it'll render in the "before" state for any staggered/delayed animations thus when the following tween initializes, it'll use the "before" state instead of the "after" state as the initial values.
+  },
+  _updatePropTweens = function _updatePropTweens(tween, property, value, start, startIsRelative, ratio, time, skipRecursion) {
+    var ptCache = (tween._pt && tween._ptCache || (tween._ptCache = {}))[property],
+      pt,
+      rootPT,
+      lookup,
+      i;
+    if (!ptCache) {
+      ptCache = tween._ptCache[property] = [];
+      lookup = tween._ptLookup;
+      i = tween._targets.length;
+      while (i--) {
+        pt = lookup[i][property];
+        if (pt && pt.d && pt.d._pt) {
+          // it's a plugin, so find the nested PropTween
+          pt = pt.d._pt;
+          while (pt && pt.p !== property && pt.fp !== property) {
+            // "fp" is functionParam for things like setting CSS variables which require .setProperty("--var-name", value)
+            pt = pt._next;
+          }
+        }
+        if (!pt) {
+          // there is no PropTween associated with that property, so we must FORCE one to be created and ditch out of this
+          // if the tween has other properties that already rendered at new positions, we'd normally have to rewind to put them back like tween.render(0, true) before forcing an _initTween(), but that can create another edge case like tweening a timeline's progress would trigger onUpdates to fire which could move other things around. It's better to just inform users that .resetTo() should ONLY be used for tweens that already have that property. For example, you can't gsap.to(...{ y: 0 }) and then tween.restTo("x", 200) for example.
+          _forceAllPropTweens = 1; // otherwise, when we _addPropTween() and it finds no change between the start and end values, it skips creating a PropTween (for efficiency...why tween when there's no difference?) but in this case we NEED that PropTween created so we can edit it.
+
+          tween.vars[property] = "+=0";
+          _initTween(tween, time);
+          _forceAllPropTweens = 0;
+          return skipRecursion ? _warn(property + " not eligible for reset") : 1; // if someone tries to do a quickTo() on a special property like borderRadius which must get split into 4 different properties, that's not eligible for .resetTo().
+        }
+        ptCache.push(pt);
+      }
+    }
+    i = ptCache.length;
+    while (i--) {
+      rootPT = ptCache[i];
+      pt = rootPT._pt || rootPT; // complex values may have nested PropTweens. We only accommodate the FIRST value.
+
+      pt.s = (start || start === 0) && !startIsRelative ? start : pt.s + (start || 0) + ratio * pt.c;
+      pt.c = value - pt.s;
+      rootPT.e && (rootPT.e = _round(value) + getUnit(rootPT.e)); // mainly for CSSPlugin (end value)
+
+      rootPT.b && (rootPT.b = pt.s + getUnit(rootPT.b)); // (beginning value)
+    }
   },
   _addAliasesToVars = function _addAliasesToVars(targets, vars) {
     var harness = targets[0] ? _getCache(targets[0]).harness : 0,
@@ -38921,9 +38828,8 @@ var _addComplexStringPropTween = function _addComplexStringPropTween(target, pro
   _parseFuncOrString = function _parseFuncOrString(value, tween, i, target, targets) {
     return _isFunction(value) ? value.call(tween, i, target, targets) : _isString(value) && ~value.indexOf("random(") ? _replaceRandom(value) : value;
   },
-  _staggerTweenProps = _callbackNames + "repeat,repeatDelay,yoyo,repeatRefresh,yoyoEase",
+  _staggerTweenProps = _callbackNames + "repeat,repeatDelay,yoyo,repeatRefresh,yoyoEase,autoRevert",
   _staggerPropsToSkip = {};
-exports._checkPlugin = _checkPlugin;
 _forEachName(_staggerTweenProps + ",id,stagger,delay,duration,paused,scrollTrigger", function (name) {
   return _staggerPropsToSkip[name] = 1;
 });
@@ -38933,7 +38839,7 @@ _forEachName(_staggerTweenProps + ",id,stagger,delay,duration,paused,scrollTrigg
  * --------------------------------------------------------------------------------------
  */
 
-var Tween = /*#__PURE__*/function (_Animation2) {
+var Tween = exports.TweenLite = exports.TweenMax = exports.Tween = /*#__PURE__*/function (_Animation2) {
   _inheritsLoose(Tween, _Animation2);
   function Tween(targets, vars, position, skipInherit) {
     var _this3;
@@ -38963,7 +38869,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
       curTarget,
       staggerFunc,
       staggerVarsToMerge;
-    _this3._targets = parsedTargets.length ? _harness(parsedTargets) : _warn("GSAP target " + targets + " not found. https://greensock.com", !_config.nullTargetWarn) || [];
+    _this3._targets = parsedTargets.length ? _harness(parsedTargets) : _warn("GSAP target " + targets + " not found. https://gsap.com", !_config.nullTargetWarn) || [];
     _this3._ptLookup = []; //PropTween lookup. An array containing an object for each target, having keys for each tweening property
 
     _this3._overwrite = overwrite;
@@ -38971,8 +38877,10 @@ var Tween = /*#__PURE__*/function (_Animation2) {
       vars = _this3.vars;
       tl = _this3.timeline = new Timeline({
         data: "nested",
-        defaults: defaults || {}
-      });
+        defaults: defaults || {},
+        targets: parent && parent.data === "nested" ? parent.vars.targets : parsedTargets
+      }); // we need to store the targets because for staggers and keyframes, we end up creating an individual tween for each but function-based values need to know the index and the whole Array of targets.
+
       tl.kill();
       tl.parent = tl._dp = _assertThisInitialized(_this3);
       tl._start = 0;
@@ -39020,6 +38928,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
           keyframes.forEach(function (frame) {
             return tl.to(parsedTargets, frame, ">");
           });
+          tl.duration(); // to ensure tl._dur is cached because we tap into it for performance purposes in the render() method.
         } else {
           copy = {};
           for (p in keyframes) {
@@ -39061,7 +38970,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
     if (immediateRender || !duration && !keyframes && _this3._start === _roundPrecise(parent._time) && _isNotFalse(immediateRender) && _hasNoPausedAncestors(_assertThisInitialized(_this3)) && parent.data !== "nested") {
       _this3._tTime = -_tinyNum; //forces a render without having to set the render() "force" parameter to true because we want to allow lazying by default (using the "force" parameter always forces an immediate full render)
 
-      _this3.render(Math.max(0, -delay)); //in case delay is negative
+      _this3.render(Math.max(0, -delay) || 0); //in case delay is negative
     }
     scrollTrigger && _scrollTrigger(_assertThisInitialized(_this3), scrollTrigger);
     return _this3;
@@ -39071,7 +38980,8 @@ var Tween = /*#__PURE__*/function (_Animation2) {
     var prevTime = this._time,
       tDur = this._tDur,
       dur = this._dur,
-      tTime = totalTime > tDur - _tinyNum && totalTime >= 0 ? tDur : totalTime < _tinyNum ? 0 : totalTime,
+      isNegative = totalTime < 0,
+      tTime = totalTime > tDur - _tinyNum && !isNegative ? tDur : totalTime < _tinyNum ? 0 : totalTime,
       time,
       pt,
       iteration,
@@ -39083,14 +38993,14 @@ var Tween = /*#__PURE__*/function (_Animation2) {
       yoyoEase;
     if (!dur) {
       _renderZeroDurationTween(this, totalTime, suppressEvents, force);
-    } else if (tTime !== this._tTime || !totalTime || force || !this._initted && this._tTime || this._startAt && this._zTime < 0 !== totalTime < 0) {
+    } else if (tTime !== this._tTime || !totalTime || force || !this._initted && this._tTime || this._startAt && this._zTime < 0 !== isNegative) {
       //this senses if we're crossing over the start time, in which case we must record _zTime and force the render, but we do it in this lengthy conditional way for performance reasons (usually we can skip the calculations): this._initted && (this._zTime < 0) !== (totalTime < 0)
       time = tTime;
       timeline = this.timeline;
       if (this._repeat) {
         //adjust the time for repeats and yoyos
         cycleDuration = dur + this._rDelay;
-        if (this._repeat < -1 && totalTime < 0) {
+        if (this._repeat < -1 && isNegative) {
           return this.totalTime(cycleDuration * 100 + totalTime, suppressEvents, force);
         }
         time = _roundPrecise(tTime % cycleDuration); //round to avoid floating point errors. (4 % 0.8 should be 0 but some browsers report it as 0.79999999!)
@@ -39101,7 +39011,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
           time = dur;
         } else {
           iteration = ~~(tTime / cycleDuration);
-          if (iteration && iteration === tTime / cycleDuration) {
+          if (iteration && iteration === _roundPrecise(tTime / cycleDuration)) {
             time = dur;
             iteration--;
           }
@@ -39113,14 +39023,16 @@ var Tween = /*#__PURE__*/function (_Animation2) {
           time = dur - time;
         }
         prevIteration = _animationCycle(this._tTime, cycleDuration);
-        if (time === prevTime && !force && this._initted) {
+        if (time === prevTime && !force && this._initted && iteration === prevIteration) {
           //could be during the repeatDelay part. No need to render and fire callbacks.
+          this._tTime = tTime;
           return this;
         }
         if (iteration !== prevIteration) {
           timeline && this._yEase && _propagateYoyoEase(timeline, isYoyo); //repeatRefresh functionality
 
-          if (this.vars.repeatRefresh && !isYoyo && !this._lock) {
+          if (this.vars.repeatRefresh && !isYoyo && !this._lock && this._time !== dur && this._initted) {
+            // this._time will === dur when we render at EXACTLY the end of an iteration. Without this condition, it'd often do the repeatRefresh render TWICE (again on the very next tick).
             this._lock = force = 1; //force, otherwise if lazy is true, the _attemptInitTween() will return and we'll jump out and get caught bouncing on each tick.
 
             this.render(_roundPrecise(cycleDuration * iteration), true).invalidate()._lock = 0;
@@ -39128,9 +39040,13 @@ var Tween = /*#__PURE__*/function (_Animation2) {
         }
       }
       if (!this._initted) {
-        if (_attemptInitTween(this, totalTime < 0 ? totalTime : time, force, suppressEvents)) {
+        if (_attemptInitTween(this, isNegative ? totalTime : time, force, suppressEvents, tTime)) {
           this._tTime = 0; // in constructor if immediateRender is true, we set _tTime to -_tinyNum to have the playhead cross the starting point but we can't leave _tTime as a negative number.
 
+          return this;
+        }
+        if (prevTime !== this._time && !(force && this.vars.repeatRefresh && iteration !== prevIteration)) {
+          // rare edge case - during initialization, an onUpdate in the _startAt (.fromTo()) might force this tween to render at a different spot in which case we should ditch this render() call so that it doesn't revert the values. But we also don't want to dump if we're doing a repeatRefresh render!
           return this;
         }
         if (dur !== this._dur) {
@@ -39149,7 +39065,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
       if (this._from) {
         this.ratio = ratio = 1 - ratio;
       }
-      if (time && !prevTime && !suppressEvents) {
+      if (time && !prevTime && !suppressEvents && !iteration) {
         _callback(this, "onStart");
         if (this._tTime !== tTime) {
           // in case the onStart triggered a render at a different spot, eject. Like if someone did animation.pause(0.5) or something inside the onStart.
@@ -39163,16 +39079,16 @@ var Tween = /*#__PURE__*/function (_Animation2) {
       }
       timeline && timeline.render(totalTime < 0 ? totalTime : !time && isYoyo ? -_tinyNum : timeline._dur * timeline._ease(time / this._dur), suppressEvents, force) || this._startAt && (this._zTime = totalTime);
       if (this._onUpdate && !suppressEvents) {
-        totalTime < 0 && this._startAt && this._startAt.render(totalTime, true, force); //note: for performance reasons, we tuck this conditional logic inside less traveled areas (most tweens don't have an onUpdate). We'd just have it at the end before the onComplete, but the values should be updated before any onUpdate is called, so we ALSO put it here and then if it's not called, we do so later near the onComplete.
+        isNegative && _rewindStartAt(this, totalTime, suppressEvents, force); //note: for performance reasons, we tuck this conditional logic inside less traveled areas (most tweens don't have an onUpdate). We'd just have it at the end before the onComplete, but the values should be updated before any onUpdate is called, so we ALSO put it here and then if it's not called, we do so later near the onComplete.
 
         _callback(this, "onUpdate");
       }
       this._repeat && iteration !== prevIteration && this.vars.onRepeat && !suppressEvents && this.parent && _callback(this, "onRepeat");
       if ((tTime === this._tDur || !tTime) && this._tTime === tTime) {
-        totalTime < 0 && this._startAt && !this._onUpdate && this._startAt.render(totalTime, true, true);
+        isNegative && !this._onUpdate && _rewindStartAt(this, totalTime, true, true);
         (totalTime || !dur) && (tTime === this._tDur && this._ts > 0 || !tTime && this._ts < 0) && _removeFromParent(this, 1); // don't remove if we're rendering at exactly a time of 0, as there could be autoRevert values that should get set on the next tick (if the playhead goes backward beyond the startTime, negative totalTime). Don't remove if the timeline is reversed and the playhead isn't at 0, otherwise tl.progress(1).reverse() won't work. Only remove if the playhead is at the end and timeScale is positive, or if the playhead is at 0 and the timeScale is negative.
 
-        if (!suppressEvents && !(totalTime < 0 && !prevTime) && (tTime || prevTime)) {
+        if (!suppressEvents && !(isNegative && !prevTime) && (tTime || prevTime || isYoyo)) {
           // if prevTime and tTime are zero, we shouldn't fire the onReverseComplete. This could happen if you gsap.to(... {paused:true}).play();
           _callback(this, tTime === tDur ? "onComplete" : "onReverseComplete", true);
           this._prom && !(tTime < tDur && this.timeScale() > 0) && this._prom();
@@ -39184,11 +39100,37 @@ var Tween = /*#__PURE__*/function (_Animation2) {
   _proto3.targets = function targets() {
     return this._targets;
   };
-  _proto3.invalidate = function invalidate() {
-    this._pt = this._op = this._startAt = this._onUpdate = this._lazy = this.ratio = 0;
+  _proto3.invalidate = function invalidate(soft) {
+    // "soft" gives us a way to clear out everything EXCEPT the recorded pre-"from" portion of from() tweens. Otherwise, for example, if you tween.progress(1).render(0, true true).invalidate(), the "from" values would persist and then on the next render, the from() tweens would initialize and the current value would match the "from" values, thus animate from the same value to the same value (no animation). We tap into this in ScrollTrigger's refresh() where we must push a tween to completion and then back again but honor its init state in case the tween is dependent on another tween further up on the page.
+    (!soft || !this.vars.runBackwards) && (this._startAt = 0);
+    this._pt = this._op = this._onUpdate = this._lazy = this.ratio = 0;
     this._ptLookup = [];
-    this.timeline && this.timeline.invalidate();
-    return _Animation2.prototype.invalidate.call(this);
+    this.timeline && this.timeline.invalidate(soft);
+    return _Animation2.prototype.invalidate.call(this, soft);
+  };
+  _proto3.resetTo = function resetTo(property, value, start, startIsRelative, skipRecursion) {
+    _tickerActive || _ticker.wake();
+    this._ts || this.play();
+    var time = Math.min(this._dur, (this._dp._time - this._start) * this._ts),
+      ratio;
+    this._initted || _initTween(this, time);
+    ratio = this._ease(time / this._dur); // don't just get tween.ratio because it may not have rendered yet.
+    // possible future addition to allow an object with multiple values to update, like tween.resetTo({x: 100, y: 200}); At this point, it doesn't seem worth the added kb given the fact that most users will likely opt for the convenient gsap.quickTo() way of interacting with this method.
+    // if (_isObject(property)) { // performance optimization
+    // 	for (p in property) {
+    // 		if (_updatePropTweens(this, p, property[p], value ? value[p] : null, start, ratio, time)) {
+    // 			return this.resetTo(property, value, start, startIsRelative); // if a PropTween wasn't found for the property, it'll get forced with a re-initialization so we need to jump out and start over again.
+    // 		}
+    // 	}
+    // } else {
+
+    if (_updatePropTweens(this, property, value, start, startIsRelative, ratio, time, skipRecursion)) {
+      return this.resetTo(property, value, start, startIsRelative, 1); // if a PropTween wasn't found for the property, it'll get forced with a re-initialization so we need to jump out and start over again.
+    } //}
+
+    _alignPlayhead(this, 0);
+    this.parent || _addLinkedListItem(this._dp, this, "_first", "_last", this._dp._sort ? "_start" : 0);
+    return this.render(0);
   };
   _proto3.kill = function kill(targets, vars) {
     if (vars === void 0) {
@@ -39280,7 +39222,7 @@ var Tween = /*#__PURE__*/function (_Animation2) {
       onCompleteParams: params,
       onReverseCompleteParams: params,
       callbackScope: scope
-    });
+    }); // we must use onReverseComplete too for things like timeline.add(() => {...}) which should be triggered in BOTH directions (forward and reverse)
   };
   Tween.fromTo = function fromTo(targets, fromVars, toVars) {
     return _createTweenType(2, arguments);
@@ -39295,7 +39237,6 @@ var Tween = /*#__PURE__*/function (_Animation2) {
   };
   return Tween;
 }(Animation);
-exports.TweenLite = exports.TweenMax = exports.Tween = Tween;
 _setDefaults(Tween.prototype, {
   _targets: [],
   _lazy: 0,
@@ -39337,7 +39278,7 @@ var _setterPlain = function _setterPlain(target, property, value) {
   _setterAttribute = function _setterAttribute(target, property, value) {
     return target.setAttribute(property, value);
   },
-  _getSetter = function _getSetter(target, property) {
+  _getSetter = exports._getSetter = function _getSetter(target, property) {
     return _isFunction(target[property]) ? _setterFunc : _isUndefined(target[property]) && target.setAttribute ? _setterAttribute : _setterPlain;
   },
   _renderPlain = function _renderPlain(ratio, data) {
@@ -39346,7 +39287,7 @@ var _setterPlain = function _setterPlain(target, property, value) {
   _renderBoolean = function _renderBoolean(ratio, data) {
     return data.set(data.t, data.p, !!(data.s + data.c * ratio), data);
   },
-  _renderComplexString = function _renderComplexString(ratio, data) {
+  _renderComplexString = exports._renderComplexString = function _renderComplexString(ratio, data) {
     var pt = data._pt,
       s = "";
     if (!ratio && data.b) {
@@ -39399,7 +39340,7 @@ var _setterPlain = function _setterPlain(target, property, value) {
   _setterWithModifier = function _setterWithModifier(target, property, value, data) {
     data.mSet(target, property, data.m.call(data.tween, value, data.mt), data);
   },
-  _sortPropTweensByPriority = function _sortPropTweensByPriority(parent) {
+  _sortPropTweensByPriority = exports._sortPropTweensByPriority = function _sortPropTweensByPriority(parent) {
     var pt = parent._pt,
       next,
       pt2,
@@ -39426,10 +39367,8 @@ var _setterPlain = function _setterPlain(target, property, value) {
     }
     parent._pt = first;
   }; //PropTween key: t = target, p = prop, r = renderer, d = data, s = start, c = change, op = overwriteProperty (ONLY populated when it's different than p), pr = priority, _next/_prev for the linked list siblings, set = setter, m = modifier, mSet = modifierSetter (the original setter, before a modifier was added)
-exports._sortPropTweensByPriority = _sortPropTweensByPriority;
-exports._renderComplexString = _renderComplexString;
-exports._getSetter = _getSetter;
-var PropTween = /*#__PURE__*/function () {
+
+var PropTween = exports.PropTween = /*#__PURE__*/function () {
   function PropTween(next, target, prop, start, change, renderer, data, setter, priority) {
     this.t = target;
     this.s = start;
@@ -39456,7 +39395,7 @@ var PropTween = /*#__PURE__*/function () {
   };
   return PropTween;
 }(); //Initialization tasks
-exports.PropTween = PropTween;
+
 _forEachName(_callbackNames + "parent,duration,ease,delay,overwrite,runBackwards,startAt,yoyo,immediateRender,repeat,repeatDelay,data,paused,reversed,lazy,callbackScope,stringFilter,id,yoyoEase,stagger,inherit,repeatRefresh,keyframes,autoRevert,scrollTrigger", function (name) {
   return _reservedProps[name] = 1;
 });
@@ -39470,6 +39409,233 @@ _globalTimeline = new Timeline({
   smoothChildTiming: true
 });
 _config.stringFilter = _colorStringFilter;
+var _media = [],
+  _listeners = {},
+  _emptyArray = [],
+  _lastMediaTime = 0,
+  _contextID = 0,
+  _dispatch = function _dispatch(type) {
+    return (_listeners[type] || _emptyArray).map(function (f) {
+      return f();
+    });
+  },
+  _onMediaChange = function _onMediaChange() {
+    var time = Date.now(),
+      matches = [];
+    if (time - _lastMediaTime > 2) {
+      _dispatch("matchMediaInit");
+      _media.forEach(function (c) {
+        var queries = c.queries,
+          conditions = c.conditions,
+          match,
+          p,
+          anyMatch,
+          toggled;
+        for (p in queries) {
+          match = _win.matchMedia(queries[p]).matches; // Firefox doesn't update the "matches" property of the MediaQueryList object correctly - it only does so as it calls its change handler - so we must re-create a media query here to ensure it's accurate.
+
+          match && (anyMatch = 1);
+          if (match !== conditions[p]) {
+            conditions[p] = match;
+            toggled = 1;
+          }
+        }
+        if (toggled) {
+          c.revert();
+          anyMatch && matches.push(c);
+        }
+      });
+      _dispatch("matchMediaRevert");
+      matches.forEach(function (c) {
+        return c.onMatch(c, function (func) {
+          return c.add(null, func);
+        });
+      });
+      _lastMediaTime = time;
+      _dispatch("matchMedia");
+    }
+  };
+var Context = /*#__PURE__*/function () {
+  function Context(func, scope) {
+    this.selector = scope && selector(scope);
+    this.data = [];
+    this._r = []; // returned/cleanup functions
+
+    this.isReverted = false;
+    this.id = _contextID++; // to work around issues that frameworks like Vue cause by making things into Proxies which make it impossible to do something like _media.indexOf(this) because "this" would no longer refer to the Context instance itself - it'd refer to a Proxy! We needed a way to identify the context uniquely
+
+    func && this.add(func);
+  }
+  var _proto5 = Context.prototype;
+  _proto5.add = function add(name, func, scope) {
+    // possible future addition if we need the ability to add() an animation to a context and for whatever reason cannot create that animation inside of a context.add(() => {...}) function.
+    // if (name && _isFunction(name.revert)) {
+    // 	this.data.push(name);
+    // 	return (name._ctx = this);
+    // }
+    if (_isFunction(name)) {
+      scope = func;
+      func = name;
+      name = _isFunction;
+    }
+    var self = this,
+      f = function f() {
+        var prev = _context,
+          prevSelector = self.selector,
+          result;
+        prev && prev !== self && prev.data.push(self);
+        scope && (self.selector = selector(scope));
+        _context = self;
+        result = func.apply(self, arguments);
+        _isFunction(result) && self._r.push(result);
+        _context = prev;
+        self.selector = prevSelector;
+        self.isReverted = false;
+        return result;
+      };
+    self.last = f;
+    return name === _isFunction ? f(self, function (func) {
+      return self.add(null, func);
+    }) : name ? self[name] = f : f;
+  };
+  _proto5.ignore = function ignore(func) {
+    var prev = _context;
+    _context = null;
+    func(this);
+    _context = prev;
+  };
+  _proto5.getTweens = function getTweens() {
+    var a = [];
+    this.data.forEach(function (e) {
+      return e instanceof Context ? a.push.apply(a, e.getTweens()) : e instanceof Tween && !(e.parent && e.parent.data === "nested") && a.push(e);
+    });
+    return a;
+  };
+  _proto5.clear = function clear() {
+    this._r.length = this.data.length = 0;
+  };
+  _proto5.kill = function kill(revert, matchMedia) {
+    var _this4 = this;
+    if (revert) {
+      (function () {
+        var tweens = _this4.getTweens(),
+          i = _this4.data.length,
+          t;
+        while (i--) {
+          // Flip plugin tweens are very different in that they should actually be pushed to their end. The plugin replaces the timeline's .revert() method to do exactly that. But we also need to remove any of those nested tweens inside the flip timeline so that they don't get individually reverted.
+          t = _this4.data[i];
+          if (t.data === "isFlip") {
+            t.revert();
+            t.getChildren(true, true, false).forEach(function (tween) {
+              return tweens.splice(tweens.indexOf(tween), 1);
+            });
+          }
+        } // save as an object so that we can cache the globalTime for each tween to optimize performance during the sort
+
+        tweens.map(function (t) {
+          return {
+            g: t._dur || t._delay || t._sat && !t._sat.vars.immediateRender ? t.globalTime(0) : -Infinity,
+            t: t
+          };
+        }).sort(function (a, b) {
+          return b.g - a.g || -Infinity;
+        }).forEach(function (o) {
+          return o.t.revert(revert);
+        }); // note: all of the _startAt tweens should be reverted in reverse order that they were created, and they'll all have the same globalTime (-1) so the " || -1" in the sort keeps the order properly.
+
+        i = _this4.data.length;
+        while (i--) {
+          // make sure we loop backwards so that, for example, SplitTexts that were created later on the same element get reverted first
+          t = _this4.data[i];
+          if (t instanceof Timeline) {
+            if (t.data !== "nested") {
+              t.scrollTrigger && t.scrollTrigger.revert();
+              t.kill(); // don't revert() the timeline because that's duplicating efforts since we already reverted all the tweens
+            }
+          } else {
+            !(t instanceof Tween) && t.revert && t.revert(revert);
+          }
+        }
+        _this4._r.forEach(function (f) {
+          return f(revert, _this4);
+        });
+        _this4.isReverted = true;
+      })();
+    } else {
+      this.data.forEach(function (e) {
+        return e.kill && e.kill();
+      });
+    }
+    this.clear();
+    if (matchMedia) {
+      var i = _media.length;
+      while (i--) {
+        // previously, we checked _media.indexOf(this), but some frameworks like Vue enforce Proxy objects that make it impossible to get the proper result that way, so we must use a unique ID number instead.
+        _media[i].id === this.id && _media.splice(i, 1);
+      }
+    }
+  };
+  _proto5.revert = function revert(config) {
+    this.kill(config || {});
+  };
+  return Context;
+}();
+var MatchMedia = /*#__PURE__*/function () {
+  function MatchMedia(scope) {
+    this.contexts = [];
+    this.scope = scope;
+  }
+  var _proto6 = MatchMedia.prototype;
+  _proto6.add = function add(conditions, func, scope) {
+    _isObject(conditions) || (conditions = {
+      matches: conditions
+    });
+    var context = new Context(0, scope || this.scope),
+      cond = context.conditions = {},
+      mq,
+      p,
+      active;
+    _context && !context.selector && (context.selector = _context.selector); // in case a context is created inside a context. Like a gsap.matchMedia() that's inside a scoped gsap.context()
+
+    this.contexts.push(context);
+    func = context.add("onMatch", func);
+    context.queries = conditions;
+    for (p in conditions) {
+      if (p === "all") {
+        active = 1;
+      } else {
+        mq = _win.matchMedia(conditions[p]);
+        if (mq) {
+          _media.indexOf(context) < 0 && _media.push(context);
+          (cond[p] = mq.matches) && (active = 1);
+          mq.addListener ? mq.addListener(_onMediaChange) : mq.addEventListener("change", _onMediaChange);
+        }
+      }
+    }
+    active && func(context, function (f) {
+      return context.add(null, f);
+    });
+    return this;
+  } // refresh() {
+  // 	let time = _lastMediaTime,
+  // 		media = _media;
+  // 	_lastMediaTime = -1;
+  // 	_media = this.contexts;
+  // 	_onMediaChange();
+  // 	_lastMediaTime = time;
+  // 	_media = media;
+  // }
+  ;
+  _proto6.revert = function revert(config) {
+    this.kill(config || {});
+  };
+  _proto6.kill = function kill(revert) {
+    this.contexts.forEach(function (c) {
+      return c.kill(revert, true);
+    });
+  };
+  return MatchMedia;
+}();
 /*
  * --------------------------------------------------------------------------------------
  * GSAP
@@ -39531,6 +39697,15 @@ var _gsap = {
       return setter(target, p, unit ? value + unit : value, cache, 1);
     };
   },
+  quickTo: function quickTo(target, property, vars) {
+    var _merge2;
+    var tween = gsap.to(target, _merge((_merge2 = {}, _merge2[property] = "+=0.1", _merge2.paused = true, _merge2), vars || {})),
+      func = function func(value, start, startIsRelative) {
+        return tween.resetTo(property, value, start, startIsRelative);
+      };
+    func.tween = tween;
+    return func;
+  },
   isTweening: function isTweening(targets) {
     return _globalTimeline.getTweensOf(targets, true).length > 0;
   },
@@ -39591,6 +39766,35 @@ var _gsap = {
     _addToTimeline(_globalTimeline, tl, 0);
     return tl;
   },
+  context: function context(func, scope) {
+    return func ? new Context(func, scope) : _context;
+  },
+  matchMedia: function matchMedia(scope) {
+    return new MatchMedia(scope);
+  },
+  matchMediaRefresh: function matchMediaRefresh() {
+    return _media.forEach(function (c) {
+      var cond = c.conditions,
+        found,
+        p;
+      for (p in cond) {
+        if (cond[p]) {
+          cond[p] = false;
+          found = 1;
+        }
+      }
+      found && c.revert();
+    }) || _onMediaChange();
+  },
+  addEventListener: function addEventListener(type, callback) {
+    var a = _listeners[type] || (_listeners[type] = []);
+    ~a.indexOf(callback) || a.push(callback);
+  },
+  removeEventListener: function removeEventListener(type, callback) {
+    var a = _listeners[type],
+      i = a && a.indexOf(callback);
+    i >= 0 && a.splice(i, 1);
+  },
   utils: {
     wrap: wrap,
     wrapYoyo: wrapYoyo,
@@ -39623,6 +39827,16 @@ var _gsap = {
     Animation: Animation,
     getCache: _getCache,
     _removeLinkedListItem: _removeLinkedListItem,
+    reverting: function reverting() {
+      return _reverting;
+    },
+    context: function context(toAdd) {
+      if (toAdd && _context) {
+        _context.data.push(toAdd);
+        toAdd._ctx = _context;
+      }
+      return _context;
+    },
     suppressOverwrites: function suppressOverwrites(value) {
       return _suppressOverwrites = value;
     }
@@ -39691,14 +39905,26 @@ var _getPluginPropTween = function _getPluginPropTween(plugin, prop) {
     };
   }; //register core plugins
 
-var gsap = _gsap.registerPlugin({
+var gsap = exports.default = exports.gsap = _gsap.registerPlugin({
   name: "attr",
   init: function init(target, vars, tween, index, targets) {
-    var p, pt;
+    var p, pt, v;
+    this.tween = tween;
     for (p in vars) {
-      pt = this.add(target, "setAttribute", (target.getAttribute(p) || 0) + "", vars[p], index, targets, 0, 0, p);
-      pt && (pt.op = p);
+      v = target.getAttribute(p) || "";
+      pt = this.add(target, "setAttribute", (v || 0) + "", vars[p], index, targets, 0, 0, p);
+      pt.op = p;
+      pt.b = v; // record the beginning value so we can revert()
+
       this._props.push(p);
+    }
+  },
+  render: function render(ratio, data) {
+    var pt = data._pt;
+    while (pt) {
+      _reverting ? pt.set(pt.t, pt.p, pt.b, pt) : pt.r(ratio, pt.d); // if reverting, go back to the original (pt.b)
+
+      pt = pt._next;
     }
   }
 }, {
@@ -39706,67 +39932,49 @@ var gsap = _gsap.registerPlugin({
   init: function init(target, value) {
     var i = value.length;
     while (i--) {
-      this.add(target, i, target[i] || 0, value[i]);
+      this.add(target, i, target[i] || 0, value[i], 0, 0, 0, 0, 0, 1);
     }
   }
 }, _buildModifierPlugin("roundProps", _roundModifier), _buildModifierPlugin("modifiers"), _buildModifierPlugin("snap", snap)) || _gsap; //to prevent the core plugins from being dropped via aggressive tree shaking, we must include them in the variable declaration in this way.
-exports.default = exports.gsap = gsap;
-Tween.version = Timeline.version = gsap.version = "3.9.1";
+
+Tween.version = Timeline.version = gsap.version = "3.12.4";
 _coreReady = 1;
 _windowExists() && _wake();
-var Power0 = _easeMap.Power0,
-  Power1 = _easeMap.Power1,
-  Power2 = _easeMap.Power2,
-  Power3 = _easeMap.Power3,
-  Power4 = _easeMap.Power4,
-  Linear = _easeMap.Linear,
-  Quad = _easeMap.Quad,
-  Cubic = _easeMap.Cubic,
-  Quart = _easeMap.Quart,
-  Quint = _easeMap.Quint,
-  Strong = _easeMap.Strong,
-  Elastic = _easeMap.Elastic,
-  Back = _easeMap.Back,
-  SteppedEase = _easeMap.SteppedEase,
-  Bounce = _easeMap.Bounce,
-  Sine = _easeMap.Sine,
-  Expo = _easeMap.Expo,
-  Circ = _easeMap.Circ;
+var Power0 = exports.Power0 = _easeMap.Power0,
+  Power1 = exports.Power1 = _easeMap.Power1,
+  Power2 = exports.Power2 = _easeMap.Power2,
+  Power3 = exports.Power3 = _easeMap.Power3,
+  Power4 = exports.Power4 = _easeMap.Power4,
+  Linear = exports.Linear = _easeMap.Linear,
+  Quad = exports.Quad = _easeMap.Quad,
+  Cubic = exports.Cubic = _easeMap.Cubic,
+  Quart = exports.Quart = _easeMap.Quart,
+  Quint = exports.Quint = _easeMap.Quint,
+  Strong = exports.Strong = _easeMap.Strong,
+  Elastic = exports.Elastic = _easeMap.Elastic,
+  Back = exports.Back = _easeMap.Back,
+  SteppedEase = exports.SteppedEase = _easeMap.SteppedEase,
+  Bounce = exports.Bounce = _easeMap.Bounce,
+  Sine = exports.Sine = _easeMap.Sine,
+  Expo = exports.Expo = _easeMap.Expo,
+  Circ = exports.Circ = _easeMap.Circ;
 
 //export some internal methods/orojects for use in CSSPlugin so that we can externalize that file and allow custom builds that exclude it.
-exports.Circ = Circ;
-exports.Expo = Expo;
-exports.Sine = Sine;
-exports.Bounce = Bounce;
-exports.SteppedEase = SteppedEase;
-exports.Back = Back;
-exports.Elastic = Elastic;
-exports.Strong = Strong;
-exports.Quint = Quint;
-exports.Quart = Quart;
-exports.Cubic = Cubic;
-exports.Quad = Quad;
-exports.Linear = Linear;
-exports.Power4 = Power4;
-exports.Power3 = Power3;
-exports.Power2 = Power2;
-exports.Power1 = Power1;
-exports.Power0 = Power0;
 },{}],"../node_modules/gsap/CSSPlugin.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.checkPrefix = exports._createElement = exports._getBBox = exports.default = exports.CSSPlugin = void 0;
+exports.default = exports.checkPrefix = exports._getBBox = exports._createElement = exports.CSSPlugin = void 0;
 var _gsapCore = require("./gsap-core.js");
 /*!
- * CSSPlugin 3.9.1
- * https://greensock.com
+ * CSSPlugin 3.12.4
+ * https://gsap.com
  *
- * Copyright 2008-2021, GreenSock. All rights reserved.
- * Subject to the terms at https://greensock.com/standard-license or for
- * Club GreenSock members, the agreement issued with that membership.
+ * Copyright 2008-2023, GreenSock. All rights reserved.
+ * Subject to the terms at https://gsap.com/standard-license or for
+ * Club GSAP members, the agreement issued with that membership.
  * @author: Jack Doyle, jack@greensock.com
 */
 
@@ -39779,6 +39987,7 @@ var _win,
   _tempDiv,
   _tempDivStyler,
   _recentSetterPlugin,
+  _reverting,
   _windowExists = function _windowExists() {
     return typeof window !== "undefined";
   },
@@ -39788,7 +39997,7 @@ var _win,
   _atan2 = Math.atan2,
   _bigNum = 1e8,
   _capsExp = /([A-Z])/g,
-  _horizontalExp = /(?:left|right|width|margin|padding|x)/i,
+  _horizontalExp = /(left|right|width|margin|padding|x)/i,
   _complexExp = /[\s,\(]\S/,
   _propertyAliases = {
     autoAlpha: "opacity,visibility",
@@ -39839,18 +40048,101 @@ var _win,
   },
   _transformProp = "transform",
   _transformOriginProp = _transformProp + "Origin",
+  _saveStyle = function _saveStyle(property, isNotCSS) {
+    var _this = this;
+    var target = this.target,
+      style = target.style,
+      cache = target._gsap;
+    if (property in _transformProps && style) {
+      this.tfm = this.tfm || {};
+      if (property !== "transform") {
+        property = _propertyAliases[property] || property;
+        ~property.indexOf(",") ? property.split(",").forEach(function (a) {
+          return _this.tfm[a] = _get(target, a);
+        }) : this.tfm[property] = cache.x ? cache[property] : _get(target, property); // note: scale would map to "scaleX,scaleY", thus we loop and apply them both.
+
+        property === _transformOriginProp && (this.tfm.zOrigin = cache.zOrigin);
+      } else {
+        return _propertyAliases.transform.split(",").forEach(function (p) {
+          return _saveStyle.call(_this, p, isNotCSS);
+        });
+      }
+      if (this.props.indexOf(_transformProp) >= 0) {
+        return;
+      }
+      if (cache.svg) {
+        this.svgo = target.getAttribute("data-svg-origin");
+        this.props.push(_transformOriginProp, isNotCSS, "");
+      }
+      property = _transformProp;
+    }
+    (style || isNotCSS) && this.props.push(property, isNotCSS, style[property]);
+  },
+  _removeIndependentTransforms = function _removeIndependentTransforms(style) {
+    if (style.translate) {
+      style.removeProperty("translate");
+      style.removeProperty("scale");
+      style.removeProperty("rotate");
+    }
+  },
+  _revertStyle = function _revertStyle() {
+    var props = this.props,
+      target = this.target,
+      style = target.style,
+      cache = target._gsap,
+      i,
+      p;
+    for (i = 0; i < props.length; i += 3) {
+      // stored like this: property, isNotCSS, value
+      props[i + 1] ? target[props[i]] = props[i + 2] : props[i + 2] ? style[props[i]] = props[i + 2] : style.removeProperty(props[i].substr(0, 2) === "--" ? props[i] : props[i].replace(_capsExp, "-$1").toLowerCase());
+    }
+    if (this.tfm) {
+      for (p in this.tfm) {
+        cache[p] = this.tfm[p];
+      }
+      if (cache.svg) {
+        cache.renderTransform();
+        target.setAttribute("data-svg-origin", this.svgo || "");
+      }
+      i = _reverting();
+      if ((!i || !i.isStart) && !style[_transformProp]) {
+        _removeIndependentTransforms(style);
+        if (cache.zOrigin && style[_transformOriginProp]) {
+          style[_transformOriginProp] += " " + cache.zOrigin + "px"; // since we're uncaching, we must put the zOrigin back into the transformOrigin so that we can pull it out accurately when we parse again. Otherwise, we'd lose the z portion of the origin since we extract it to protect from Safari bugs.
+
+          cache.zOrigin = 0;
+          cache.renderTransform();
+        }
+        cache.uncache = 1; // if it's a startAt that's being reverted in the _initTween() of the core, we don't need to uncache transforms. This is purely a performance optimization.
+      }
+    }
+  },
+  _getStyleSaver = function _getStyleSaver(target, properties) {
+    var saver = {
+      target: target,
+      props: [],
+      revert: _revertStyle,
+      save: _saveStyle
+    };
+    target._gsap || _gsapCore.gsap.core.getCache(target); // just make sure there's a _gsap cache defined because we read from it in _saveStyle() and it's more efficient to just check it here once.
+
+    properties && properties.split(",").forEach(function (p) {
+      return saver.save(p);
+    });
+    return saver;
+  },
   _supports3D,
-  _createElement = function _createElement(type, ns) {
+  _createElement = exports._createElement = function _createElement(type, ns) {
     var e = _doc.createElementNS ? _doc.createElementNS((ns || "http://www.w3.org/1999/xhtml").replace(/^https/, "http"), type) : _doc.createElement(type); //some servers swap in https for http in the namespace which can break things, making "style" inaccessible.
 
-    return e.style ? e : _doc.createElement(type); //some environments won't allow access to the element's style when created with a namespace in which case we default to the standard createElement() to work around the issue. Also note that when GSAP is embedded directly inside an SVG file, createElement() won't allow access to the style object in Firefox (see https://greensock.com/forums/topic/20215-problem-using-tweenmax-in-standalone-self-containing-svg-file-err-cannot-set-property-csstext-of-undefined/).
+    return e && e.style ? e : _doc.createElement(type); //some environments won't allow access to the element's style when created with a namespace in which case we default to the standard createElement() to work around the issue. Also note that when GSAP is embedded directly inside an SVG file, createElement() won't allow access to the style object in Firefox (see https://gsap.com/forums/topic/20215-problem-using-tweenmax-in-standalone-self-containing-svg-file-err-cannot-set-property-csstext-of-undefined/).
   },
   _getComputedProperty = function _getComputedProperty(target, property, skipPrefixFallback) {
     var cs = getComputedStyle(target);
     return cs[property] || cs.getPropertyValue(property.replace(_capsExp, "-$1").toLowerCase()) || cs.getPropertyValue(property) || !skipPrefixFallback && _getComputedProperty(target, _checkPropPrefix(property) || property, 1) || ""; //css variables may not need caps swapped out for dashes and lowercase.
   },
   _prefixes = "O,Moz,ms,Ms,Webkit".split(","),
-  _checkPropPrefix = function _checkPropPrefix(property, element, preferPrefix) {
+  _checkPropPrefix = exports.checkPrefix = function _checkPropPrefix(property, element, preferPrefix) {
     var e = element || _tempDiv,
       s = e.style,
       i = 5;
@@ -39875,6 +40167,7 @@ var _win,
       _tempDiv.style.cssText = "border-width:0;line-height:0;position:absolute;padding:0"; //make sure to override certain properties that may contaminate measurements, in case the user has overreaching style sheets.
 
       _supports3D = !!_checkPropPrefix("perspective");
+      _reverting = _gsapCore.gsap.core.reverting;
       _pluginInitted = 1;
     }
   },
@@ -39917,7 +40210,7 @@ var _win,
       }
     }
   },
-  _getBBox = function _getBBox(target) {
+  _getBBox = exports._getBBox = function _getBBox(target) {
     var bounds;
     try {
       bounds = target.getBBox(); //Firefox throws errors if you try calling getBBox() on an SVG element that's not rendered (like in a <symbol> or <defs>). https://bugzilla.mozilla.org/show_bug.cgi?id=612118
@@ -39939,16 +40232,18 @@ var _win,
   //reports if the element is an SVG on which getBBox() actually works
   _removeProperty = function _removeProperty(target, property) {
     if (property) {
-      var style = target.style;
+      var style = target.style,
+        first2Chars;
       if (property in _transformProps && property !== _transformOriginProp) {
         property = _transformProp;
       }
       if (style.removeProperty) {
-        if (property.substr(0, 2) === "ms" || property.substr(0, 6) === "webkit") {
+        first2Chars = property.substr(0, 2);
+        if (first2Chars === "ms" || property.substr(0, 6) === "webkit") {
           //Microsoft and some Webkit browsers don't conform to the standard of capitalizing the first prefix character, so we adjust so that when we prefix the caps with a dash, it's correct (otherwise it'd be "ms-transform" instead of "-ms-transform" for IE9, for example)
           property = "-" + property;
         }
-        style.removeProperty(property.replace(_capsExp, "-$1").toLowerCase());
+        style.removeProperty(first2Chars === "--" ? property : property.replace(_capsExp, "-$1").toLowerCase());
       } else {
         //note: old versions of IE use "removeAttribute()" instead of "removeProperty()"
         style.removeAttribute(property);
@@ -39967,6 +40262,10 @@ var _win,
     deg: 1,
     rad: 1,
     turn: 1
+  },
+  _nonStandardLayouts = {
+    grid: 1,
+    flex: 1
   },
   //takes a single value like 20px and converts it to the unit specified, like "%", returning only the numeric amount.
   _convertToUnit = function _convertToUnit(target, property, value, unit) {
@@ -40002,16 +40301,24 @@ var _win,
       parent = _doc.body;
     }
     cache = parent._gsap;
-    if (cache && toPercent && cache.width && horizontal && cache.time === _gsapCore._ticker.time) {
+    if (cache && toPercent && cache.width && horizontal && cache.time === _gsapCore._ticker.time && !cache.uncache) {
       return (0, _gsapCore._round)(curValue / cache.width * amount);
     } else {
-      (toPercent || curUnit === "%") && (style.position = _getComputedProperty(target, "position"));
-      parent === target && (style.position = "static"); // like for borderRadius, if it's a % we must have it relative to the target itself but that may not have position: relative or position: absolute in which case it'd go up the chain until it finds its offsetParent (bad). position: static protects against that.
+      if (toPercent && (property === "height" || property === "width")) {
+        // if we're dealing with width/height that's inside a container with padding and/or it's a flexbox/grid container, we must apply it to the target itself rather than the _tempDiv in order to ensure complete accuracy, factoring in the parent's padding.
+        var v = target.style[property];
+        target.style[property] = amount + unit;
+        px = target[measureProperty];
+        v ? target.style[property] = v : _removeProperty(target, property);
+      } else {
+        (toPercent || curUnit === "%") && !_nonStandardLayouts[_getComputedProperty(parent, "display")] && (style.position = _getComputedProperty(target, "position"));
+        parent === target && (style.position = "static"); // like for borderRadius, if it's a % we must have it relative to the target itself but that may not have position: relative or position: absolute in which case it'd go up the chain until it finds its offsetParent (bad). position: static protects against that.
 
-      parent.appendChild(_tempDiv);
-      px = _tempDiv[measureProperty];
-      parent.removeChild(_tempDiv);
-      style.position = "absolute";
+        parent.appendChild(_tempDiv);
+        px = _tempDiv[measureProperty];
+        parent.removeChild(_tempDiv);
+        style.position = "absolute";
+      }
       if (horizontal && toPercent) {
         cache = (0, _gsapCore._getCache)(parent);
         cache.time = _gsapCore._ticker.time;
@@ -40041,16 +40348,16 @@ var _win,
     return unit && !~(value + "").trim().indexOf(" ") ? _convertToUnit(target, property, value, unit) + unit : value;
   },
   _tweenComplexCSSString = function _tweenComplexCSSString(target, prop, start, end) {
-    //note: we call _tweenComplexCSSString.call(pluginInstance...) to ensure that it's scoped properly. We may call it from within a plugin too, thus "this" would refer to the plugin.
+    // note: we call _tweenComplexCSSString.call(pluginInstance...) to ensure that it's scoped properly. We may call it from within a plugin too, thus "this" would refer to the plugin.
     if (!start || start === "none") {
-      // some browsers like Safari actually PREFER the prefixed property and mis-report the unprefixed value like clipPath (BUG). In other words, even though clipPath exists in the style ("clipPath" in target.style) and it's set in the CSS properly (along with -webkit-clip-path), Safari reports clipPath as "none" whereas WebkitClipPath reports accurately like "ellipse(100% 0% at 50% 0%)", so in this case we must SWITCH to using the prefixed property instead. See https://greensock.com/forums/topic/18310-clippath-doesnt-work-on-ios/
+      // some browsers like Safari actually PREFER the prefixed property and mis-report the unprefixed value like clipPath (BUG). In other words, even though clipPath exists in the style ("clipPath" in target.style) and it's set in the CSS properly (along with -webkit-clip-path), Safari reports clipPath as "none" whereas WebkitClipPath reports accurately like "ellipse(100% 0% at 50% 0%)", so in this case we must SWITCH to using the prefixed property instead. See https://gsap.com/forums/topic/18310-clippath-doesnt-work-on-ios/
       var p = _checkPropPrefix(prop, target, 1),
         s = p && _getComputedProperty(target, p, 1);
       if (s && s !== start) {
         prop = p;
         start = s;
       } else if (prop === "borderColor") {
-        start = _getComputedProperty(target, "borderTopColor"); // Firefox bug: always reports "borderColor" as "", so we must fall back to borderTopColor. See https://greensock.com/forums/topic/24583-how-to-return-colors-that-i-had-after-reverse/
+        start = _getComputedProperty(target, "borderTopColor"); // Firefox bug: always reports "borderColor" as "", so we must fall back to borderTopColor. See https://gsap.com/forums/topic/24583-how-to-return-colors-that-i-had-after-reverse/
       }
     }
     var pt = new _gsapCore.PropTween(this._pt, target.style, prop, 0, 1, _gsapCore._renderComplexString),
@@ -40067,20 +40374,20 @@ var _win,
       chunk,
       endUnit,
       startUnit,
-      relative,
       endValues;
     pt.b = start;
     pt.e = end;
-    start += ""; //ensure values are strings
+    start += ""; // ensure values are strings
 
     end += "";
     if (end === "auto") {
+      startValue = target.style[prop];
       target.style[prop] = end;
       end = _getComputedProperty(target, prop) || end;
-      target.style[prop] = start;
+      startValue ? target.style[prop] = startValue : _removeProperty(target, prop);
     }
     a = [start, end];
-    (0, _gsapCore._colorStringFilter)(a); //pass an array with the starting and ending values and let the filter do whatever it needs to the values. If colors are found, it returns true and then we must match where the color shows up order-wise because for things like boxShadow, sometimes the browser provides the computed values with the color FIRST, but the user provides it with the color LAST, so flip them if necessary. Same for drop-shadow().
+    (0, _gsapCore._colorStringFilter)(a); // pass an array with the starting and ending values and let the filter do whatever it needs to the values. If colors are found, it returns true and then we must match where the color shows up order-wise because for things like boxShadow, sometimes the browser provides the computed values with the color FIRST, but the user provides it with the color LAST, so flip them if necessary. Same for drop-shadow().
 
     start = a[0];
     end = a[1];
@@ -40098,10 +40405,7 @@ var _win,
         if (endValue !== (startValue = startValues[matchIndex++] || "")) {
           startNum = parseFloat(startValue) || 0;
           startUnit = startValue.substr((startNum + "").length);
-          relative = endValue.charAt(1) === "=" ? +(endValue.charAt(0) + "1") : 0;
-          if (relative) {
-            endValue = endValue.substr(2);
-          }
+          endValue.charAt(1) === "=" && (endValue = (0, _gsapCore._parseRelative)(startNum, endValue) + startUnit);
           endNum = parseFloat(endValue);
           endUnit = endValue.substr((endNum + "").length);
           index = _gsapCore._numWithUnitExp.lastIndex - endUnit.length;
@@ -40115,14 +40419,14 @@ var _win,
           }
           if (startUnit !== endUnit) {
             startNum = _convertToUnit(target, prop, startValue, endUnit) || 0;
-          } //these nested PropTweens are handled in a special way - we'll never actually call a render or setter method on them. We'll just loop through them in the parent complex string PropTween's render method.
+          } // these nested PropTweens are handled in a special way - we'll never actually call a render or setter method on them. We'll just loop through them in the parent complex string PropTween's render method.
 
           pt._pt = {
             _next: pt._pt,
             p: chunk || matchIndex === 1 ? chunk : ",",
             //note: SVG spec allows omission of comma/space when a negative sign is wedged between two numbers, like 2.5-5.3 instead of 2.5,-5.3 but when tweening, the negative value may switch to positive, so we insert the comma just in case.
             s: startNum,
-            c: relative ? relative * endNum : endNum - startNum,
+            c: endNum - startNum,
             m: color && color < 4 || prop === "zIndex" ? Math.round : 0
           };
         }
@@ -40189,6 +40493,7 @@ var _win,
           _parseTransform(target, 1); // force all the cached values back to "normal"/identity, otherwise if there's another tween that's already set to render transforms on this element, it could display the wrong values.
 
           cache.uncache = 1;
+          _removeIndependentTransforms(style);
         }
       }
     }
@@ -40258,7 +40563,7 @@ var _win,
     		}
     	}
     	cache.classPT = plugin._pt = new PropTween(plugin._pt, target, "className", 0, 0, _renderClassName, data, 0, -11);
-    	if (style.cssText !== cssText) { //only apply if things change. Otherwise, in cases like a background-image that's pulled dynamically, it could cause a refresh. See https://greensock.com/forums/topic/20368-possible-gsap-bug-switching-classnames-in-chrome/.
+    	if (style.cssText !== cssText) { //only apply if things change. Otherwise, in cases like a background-image that's pulled dynamically, it could cause a refresh. See https://gsap.com/forums/topic/20368-possible-gsap-bug-switching-classnames-in-chrome/.
     		style.cssText = cssText; //we recorded cssText before we swapped classes and ran _getAllStyles() because in cases when a className tween is overwritten, we remove all the related tweening properties from that class change (otherwise class-specific stuff can't override properties we've directly set on the target's style object due to specificity).
     	}
     	_parseTransform(target, true); //to clear the caching of transforms
@@ -40306,7 +40611,7 @@ var _win,
         // note: in 3.3.0 we switched target.offsetParent to _doc.body.contains(target) to avoid [sometimes unnecessary] MutationObserver calls but that wasn't adequate because there are edge cases where nested position: fixed elements need to get reparented to accurately sense transforms. See https://github.com/greensock/GSAP/issues/388 and https://github.com/greensock/GSAP/issues/375
         addedToDOM = 1; //flag
 
-        nextSibling = target.nextSibling;
+        nextSibling = target.nextElementSibling;
         _docElement.appendChild(target); //we must add it to the DOM in order to get values properly
       }
       matrix = _getComputedTransformMatrixAsArray(target);
@@ -40340,13 +40645,16 @@ var _win,
     if (!originIsAbsolute) {
       bounds = _getBBox(target);
       xOrigin = bounds.x + (~originSplit[0].indexOf("%") ? xOrigin / 100 * bounds.width : xOrigin);
-      yOrigin = bounds.y + (~(originSplit[1] || originSplit[0]).indexOf("%") ? yOrigin / 100 * bounds.height : yOrigin);
+      yOrigin = bounds.y + (~(originSplit[1] || originSplit[0]).indexOf("%") ? yOrigin / 100 * bounds.height : yOrigin); // if (!("xOrigin" in cache) && (xOrigin || yOrigin)) { // added in 3.12.3, reverted in 3.12.4; requires more exploration
+      // 	xOrigin -= bounds.x;
+      // 	yOrigin -= bounds.y;
+      // }
     } else if (matrix !== _identity2DMatrix && (determinant = a * d - b * c)) {
       //if it's zero (like if scaleX and scaleY are zero), skip it to avoid errors with dividing by zero.
       x = xOrigin * (d / determinant) + yOrigin * (-c / determinant) + (c * ty - d * tx) / determinant;
       y = xOrigin * (-b / determinant) + yOrigin * (a / determinant) - (a * ty - b * tx) / determinant;
       xOrigin = x;
-      yOrigin = y;
+      yOrigin = y; // theory: we only had to do this for smoothing and it assumes that the previous one was not originIsAbsolute.
     }
     if (smooth || smooth !== false && cache.smooth) {
       tx = xOrigin - xOriginOld;
@@ -40380,6 +40688,7 @@ var _win,
       invertedScaleX = cache.scaleX < 0,
       px = "px",
       deg = "deg",
+      cs = getComputedStyle(target),
       origin = _getComputedProperty(target, _transformOriginProp) || "0",
       x,
       y,
@@ -40416,10 +40725,23 @@ var _win,
     x = y = z = rotation = rotationX = rotationY = skewX = skewY = perspective = 0;
     scaleX = scaleY = 1;
     cache.svg = !!(target.getCTM && _isSVG(target));
+    if (cs.translate) {
+      // accommodate independent transforms by combining them into normal ones.
+      if (cs.translate !== "none" || cs.scale !== "none" || cs.rotate !== "none") {
+        style[_transformProp] = (cs.translate !== "none" ? "translate3d(" + (cs.translate + " 0 0").split(" ").slice(0, 3).join(", ") + ") " : "") + (cs.rotate !== "none" ? "rotate(" + cs.rotate + ") " : "") + (cs.scale !== "none" ? "scale(" + cs.scale.split(" ").join(",") + ") " : "") + (cs[_transformProp] !== "none" ? cs[_transformProp] : "");
+      }
+      style.scale = style.rotate = style.translate = "none";
+    }
     matrix = _getMatrix(target, cache.svg);
     if (cache.svg) {
-      t1 = (!cache.uncache || origin === "0px 0px") && !uncache && target.getAttribute("data-svg-origin"); // if origin is 0,0 and cache.uncache is true, let the recorded data-svg-origin stay. Otherwise, whenever we set cache.uncache to true, we'd need to set element.style.transformOrigin = (cache.xOrigin - bbox.x) + "px " + (cache.yOrigin - bbox.y) + "px". Remember, to work around browser inconsistencies we always force SVG elements' transformOrigin to 0,0 and offset the translation accordingly.
-
+      if (cache.uncache) {
+        // if cache.uncache is true (and maybe if origin is 0,0), we need to set element.style.transformOrigin = (cache.xOrigin - bbox.x) + "px " + (cache.yOrigin - bbox.y) + "px". Previously we let the data-svg-origin stay instead, but when introducing revert(), it complicated things.
+        t2 = target.getBBox();
+        origin = cache.xOrigin - t2.x + "px " + (cache.yOrigin - t2.y) + "px";
+        t1 = "";
+      } else {
+        t1 = !uncache && target.getAttribute("data-svg-origin"); //  Remember, to work around browser inconsistencies we always force SVG elements' transformOrigin to 0,0 and offset the translation accordingly.
+      }
       _applySVGOrigin(target, t1 || origin, !!t1 || cache.originIsAbsolute, cache.smooth !== false, matrix);
     }
     xOrigin = cache.xOrigin || 0;
@@ -40529,8 +40851,9 @@ var _win,
         skewX += skewX <= 0 ? 180 : -180;
       }
     }
-    cache.x = x - ((cache.xPercent = x && (cache.xPercent || (Math.round(target.offsetWidth / 2) === Math.round(-x) ? -50 : 0))) ? target.offsetWidth * cache.xPercent / 100 : 0) + px;
-    cache.y = y - ((cache.yPercent = y && (cache.yPercent || (Math.round(target.offsetHeight / 2) === Math.round(-y) ? -50 : 0))) ? target.offsetHeight * cache.yPercent / 100 : 0) + px;
+    uncache = uncache || cache.uncache;
+    cache.x = x - ((cache.xPercent = x && (!uncache && cache.xPercent || (Math.round(target.offsetWidth / 2) === Math.round(-x) ? -50 : 0))) ? target.offsetWidth * cache.xPercent / 100 : 0) + px;
+    cache.y = y - ((cache.yPercent = y && (!uncache && cache.yPercent || (Math.round(target.offsetHeight / 2) === Math.round(-y) ? -50 : 0))) ? target.offsetHeight * cache.yPercent / 100 : 0) + px;
     cache.z = z + px;
     cache.scaleX = (0, _gsapCore._round)(scaleX);
     cache.scaleY = (0, _gsapCore._round)(scaleY);
@@ -40540,7 +40863,7 @@ var _win,
     cache.skewX = skewX + deg;
     cache.skewY = skewY + deg;
     cache.transformPerspective = perspective + px;
-    if (cache.zOrigin = parseFloat(origin.split(" ")[2]) || 0) {
+    if (cache.zOrigin = parseFloat(origin.split(" ")[2]) || !uncache && cache.zOrigin || 0) {
       style[_transformOriginProp] = _firstTwoOnly(origin);
     }
     cache.xOffset = cache.yOffset = 0;
@@ -40702,13 +41025,13 @@ var _win,
     }
     temp = "matrix(" + a11 + "," + a21 + "," + a12 + "," + a22 + "," + tx + "," + ty + ")";
     target.setAttribute("transform", temp);
-    forceCSS && (target.style[_transformProp] = temp); //some browsers prioritize CSS transforms over the transform attribute. When we sense that the user has CSS transforms applied, we must overwrite them this way (otherwise some browser simply won't render the  transform attribute changes!)
+    forceCSS && (target.style[_transformProp] = temp); //some browsers prioritize CSS transforms over the transform attribute. When we sense that the user has CSS transforms applied, we must overwrite them this way (otherwise some browser simply won't render the transform attribute changes!)
   },
-  _addRotationalPropTween = function _addRotationalPropTween(plugin, target, property, startNum, endValue, relative) {
+  _addRotationalPropTween = function _addRotationalPropTween(plugin, target, property, startNum, endValue) {
     var cap = 360,
       isString = (0, _gsapCore._isString)(endValue),
       endNum = parseFloat(endValue) * (isString && ~endValue.indexOf("rad") ? _RAD2DEG : 1),
-      change = relative ? endNum * relative : endNum - startNum,
+      change = endNum - startNum,
       finalValue = startNum + change + "deg",
       direction,
       pt;
@@ -40781,9 +41104,7 @@ var _win,
     }
     _assign(endCache, startCache);
   }; // handle splitting apart padding, margin, borderWidth, and borderRadius into their 4 components. Firefox, for example, won't report borderRadius correctly - it will only do borderTopLeftRadius and the other corners. We also want to handle paddingTop, marginLeft, borderRightWidth, etc.
-exports._getBBox = _getBBox;
-exports.checkPrefix = _checkPropPrefix;
-exports._createElement = _createElement;
+
 (0, _gsapCore._forEachName)("padding,margin,Width,Radius", function (name, index) {
   var t = "Top",
     r = "Right",
@@ -40810,7 +41131,7 @@ exports._createElement = _createElement;
     plugin.init(target, vars, tween);
   };
 });
-var CSSPlugin = {
+var CSSPlugin = exports.default = exports.CSSPlugin = {
   name: "css",
   register: _initCore,
   targetTest: function targetTest(target) {
@@ -40834,8 +41155,13 @@ var CSSPlugin = {
       transformPropTween,
       cache,
       smooth,
-      hasPriority;
-    _pluginInitted || _initCore();
+      hasPriority,
+      inlineProps;
+    _pluginInitted || _initCore(); // we may call init() multiple times on the same plugin instance, like when adding special properties, so make sure we don't overwrite the revert data or inlineProps
+
+    this.styles = this.styles || _getStyleSaver(target);
+    inlineProps = this.styles.props;
+    this.tween = tween;
     for (p in vars) {
       if (p === "autoRound") {
         continue;
@@ -40869,19 +41195,20 @@ var CSSPlugin = {
         endUnit ? startUnit !== endUnit && (startValue = _convertToUnit(target, p, startValue, endUnit) + endUnit) : startUnit && (endValue += startUnit);
         this.add(style, "setProperty", startValue, endValue, index, targets, 0, 0, p);
         props.push(p);
+        inlineProps.push(p, 0, style[p]);
       } else if (type !== "undefined") {
         if (startAt && p in startAt) {
           // in case someone hard-codes a complex value as the start, like top: "calc(2vh / 2)". Without this, it'd use the computed value (always in px)
           startValue = typeof startAt[p] === "function" ? startAt[p].call(tween, index, target, targets) : startAt[p];
           (0, _gsapCore._isString)(startValue) && ~startValue.indexOf("random(") && (startValue = (0, _gsapCore._replaceRandom)(startValue));
-          (0, _gsapCore.getUnit)(startValue + "") || (startValue += _gsapCore._config.units[p] || (0, _gsapCore.getUnit)(_get(target, p)) || ""); // for cases when someone passes in a unitless value like {x: 100}; if we try setting translate(100, 0px) it won't work.
+          (0, _gsapCore.getUnit)(startValue + "") || startValue === "auto" || (startValue += _gsapCore._config.units[p] || (0, _gsapCore.getUnit)(_get(target, p)) || ""); // for cases when someone passes in a unitless value like {x: 100}; if we try setting translate(100, 0px) it won't work.
 
           (startValue + "").charAt(1) === "=" && (startValue = _get(target, p)); // can't work with relative values
         } else {
           startValue = _get(target, p);
         }
         startNum = parseFloat(startValue);
-        relative = type === "string" && endValue.charAt(1) === "=" ? +(endValue.charAt(0) + "1") : 0;
+        relative = type === "string" && endValue.charAt(1) === "=" && endValue.substr(0, 2);
         relative && (endValue = endValue.substr(2));
         endNum = parseFloat(endValue);
         if (p in _propertyAliases) {
@@ -40891,6 +41218,7 @@ var CSSPlugin = {
               //if visibility is initially set to "hidden", we should interpret that as intent to make opacity 0 (a convenience)
               startNum = 0;
             }
+            inlineProps.push("visibility", 0, style.visibility);
             _addNonTweeningPT(this, style, "visibility", startNum ? "inherit" : "hidden", endNum ? "inherit" : "hidden", !endNum);
           }
           if (p !== "scale" && p !== "transform") {
@@ -40901,6 +41229,7 @@ var CSSPlugin = {
         isTransformRelated = p in _transformProps; //--- TRANSFORM-RELATED ---
 
         if (isTransformRelated) {
+          this.styles.save(p);
           if (!transformPropTween) {
             cache = target._gsap;
             cache.renderTransform && !vars.parseTransform || _parseTransform(target, vars.parseTransform); // if, for example, gsap.set(... {transform:"translateX(50vw)"}), the _get() call doesn't parse the transform, thus cache.renderTransform won't be set yet so force the parsing of the transform here.
@@ -40911,10 +41240,12 @@ var CSSPlugin = {
             transformPropTween.dep = 1; //flag it as dependent so that if things get killed/overwritten and this is the only PropTween left, we can safely kill the whole tween.
           }
           if (p === "scale") {
-            this._pt = new _gsapCore.PropTween(this._pt, cache, "scaleY", cache.scaleY, (relative ? relative * endNum : endNum - cache.scaleY) || 0);
+            this._pt = new _gsapCore.PropTween(this._pt, cache, "scaleY", cache.scaleY, (relative ? (0, _gsapCore._parseRelative)(cache.scaleY, relative + endNum) : endNum) - cache.scaleY || 0, _renderCSSProp);
+            this._pt.u = 0;
             props.push("scaleY", p);
             p += "X";
           } else if (p === "transformOrigin") {
+            inlineProps.push(_transformOriginProp, 0, style[_transformOriginProp]);
             endValue = _convertKeywordsToPercentages(endValue); //in case something like "left top" or "bottom right" is passed in. Convert to percentages.
 
             if (cache.svg) {
@@ -40930,7 +41261,7 @@ var CSSPlugin = {
             _applySVGOrigin(target, endValue, 1, smooth, 0, this);
             continue;
           } else if (p in _rotationalProperties) {
-            _addRotationalPropTween(this, cache, p, startNum, endValue, relative);
+            _addRotationalPropTween(this, cache, p, startNum, relative ? (0, _gsapCore._parseRelative)(startNum, relative + endValue) : endValue);
             continue;
           } else if (p === "smoothOrigin") {
             _addNonTweeningPT(this, cache, "smooth", cache.smooth, endValue);
@@ -40951,7 +41282,7 @@ var CSSPlugin = {
 
           endUnit = (0, _gsapCore.getUnit)(endValue) || (p in _gsapCore._config.units ? _gsapCore._config.units[p] : startUnit);
           startUnit !== endUnit && (startNum = _convertToUnit(target, p, startValue, endUnit));
-          this._pt = new _gsapCore.PropTween(this._pt, isTransformRelated ? cache : style, p, startNum, relative ? relative * endNum : endNum - startNum, !isTransformRelated && (endUnit === "px" || p === "zIndex") && vars.autoRound !== false ? _renderRoundedCSSProp : _renderCSSProp);
+          this._pt = new _gsapCore.PropTween(this._pt, isTransformRelated ? cache : style, p, startNum, (relative ? (0, _gsapCore._parseRelative)(startNum, relative + endNum) : endNum) - startNum, !isTransformRelated && (endUnit === "px" || p === "zIndex") && vars.autoRound !== false ? _renderRoundedCSSProp : _renderCSSProp);
           this._pt.u = endUnit || 0;
           if (startUnit !== endUnit && endUnit !== "%") {
             //when the tween goes all the way back to the beginning, we need to revert it to the OLD/ORIGINAL value (with those units). We record that as a "b" (beginning) property and point to a render method that handles that. (performance optimization)
@@ -40961,18 +41292,30 @@ var CSSPlugin = {
         } else if (!(p in style)) {
           if (p in target) {
             //maybe it's not a style - it could be a property added directly to an element in which case we'll try to animate that.
-            this.add(target, p, startValue || target[p], endValue, index, targets);
-          } else {
+            this.add(target, p, startValue || target[p], relative ? relative + endValue : endValue, index, targets);
+          } else if (p !== "parseTransform") {
             (0, _gsapCore._missingPlugin)(p, endValue);
             continue;
           }
         } else {
-          _tweenComplexCSSString.call(this, target, p, startValue, endValue);
+          _tweenComplexCSSString.call(this, target, p, startValue, relative ? relative + endValue : endValue);
         }
+        isTransformRelated || (p in style ? inlineProps.push(p, 0, style[p]) : inlineProps.push(p, 1, startValue || target[p]));
         props.push(p);
       }
     }
     hasPriority && (0, _gsapCore._sortPropTweensByPriority)(this);
+  },
+  render: function render(ratio, data) {
+    if (data.tween._time || !_reverting()) {
+      var pt = data._pt;
+      while (pt) {
+        pt.r(ratio, pt.d);
+        pt = pt._next;
+      }
+    } else {
+      data.styles.revert();
+    }
   },
   get: _get,
   aliases: _propertyAliases,
@@ -40987,8 +41330,8 @@ var CSSPlugin = {
     _getMatrix: _getMatrix
   }
 };
-exports.default = exports.CSSPlugin = CSSPlugin;
 _gsapCore.gsap.utils.checkPrefix = _checkPropPrefix;
+_gsapCore.gsap.core.getStyleSaver = _getStyleSaver;
 (function (positionAndScale, rotation, others, aliases) {
   var all = (0, _gsapCore._forEachName)(positionAndScale + "," + rotation + "," + others, function (name) {
     _transformProps[name] = 1;
@@ -41012,6 +41355,54 @@ _gsapCore.gsap.registerPlugin(CSSPlugin);
 
 Object.defineProperty(exports, "__esModule", {
   value: true
+});
+Object.defineProperty(exports, "Back", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Back;
+  }
+});
+Object.defineProperty(exports, "Bounce", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Bounce;
+  }
+});
+Object.defineProperty(exports, "CSSPlugin", {
+  enumerable: true,
+  get: function () {
+    return _CSSPlugin.CSSPlugin;
+  }
+});
+Object.defineProperty(exports, "Circ", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Circ;
+  }
+});
+Object.defineProperty(exports, "Cubic", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Cubic;
+  }
+});
+Object.defineProperty(exports, "Elastic", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Elastic;
+  }
+});
+Object.defineProperty(exports, "Expo", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Expo;
+  }
+});
+Object.defineProperty(exports, "Linear", {
+  enumerable: true,
+  get: function () {
+    return _gsapCore.Linear;
+  }
 });
 Object.defineProperty(exports, "Power0", {
   enumerable: true,
@@ -41043,22 +41434,10 @@ Object.defineProperty(exports, "Power4", {
     return _gsapCore.Power4;
   }
 });
-Object.defineProperty(exports, "Linear", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Linear;
-  }
-});
 Object.defineProperty(exports, "Quad", {
   enumerable: true,
   get: function () {
     return _gsapCore.Quad;
-  }
-});
-Object.defineProperty(exports, "Cubic", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Cubic;
   }
 });
 Object.defineProperty(exports, "Quart", {
@@ -41073,22 +41452,10 @@ Object.defineProperty(exports, "Quint", {
     return _gsapCore.Quint;
   }
 });
-Object.defineProperty(exports, "Strong", {
+Object.defineProperty(exports, "Sine", {
   enumerable: true,
   get: function () {
-    return _gsapCore.Strong;
-  }
-});
-Object.defineProperty(exports, "Elastic", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Elastic;
-  }
-});
-Object.defineProperty(exports, "Back", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Back;
+    return _gsapCore.Sine;
   }
 });
 Object.defineProperty(exports, "SteppedEase", {
@@ -41097,34 +41464,10 @@ Object.defineProperty(exports, "SteppedEase", {
     return _gsapCore.SteppedEase;
   }
 });
-Object.defineProperty(exports, "Bounce", {
+Object.defineProperty(exports, "Strong", {
   enumerable: true,
   get: function () {
-    return _gsapCore.Bounce;
-  }
-});
-Object.defineProperty(exports, "Sine", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Sine;
-  }
-});
-Object.defineProperty(exports, "Expo", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Expo;
-  }
-});
-Object.defineProperty(exports, "Circ", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.Circ;
-  }
-});
-Object.defineProperty(exports, "TweenLite", {
-  enumerable: true,
-  get: function () {
-    return _gsapCore.TweenLite;
+    return _gsapCore.Strong;
   }
 });
 Object.defineProperty(exports, "TimelineLite", {
@@ -41139,20 +41482,18 @@ Object.defineProperty(exports, "TimelineMax", {
     return _gsapCore.TimelineMax;
   }
 });
-Object.defineProperty(exports, "CSSPlugin", {
+Object.defineProperty(exports, "TweenLite", {
   enumerable: true,
   get: function () {
-    return _CSSPlugin.CSSPlugin;
+    return _gsapCore.TweenLite;
   }
 });
-exports.TweenMax = exports.default = exports.gsap = void 0;
+exports.gsap = exports.default = exports.TweenMax = void 0;
 var _gsapCore = require("./gsap-core.js");
 var _CSSPlugin = require("./CSSPlugin.js");
-var gsapWithCSS = _gsapCore.gsap.registerPlugin(_CSSPlugin.CSSPlugin) || _gsapCore.gsap,
+var gsapWithCSS = exports.default = exports.gsap = _gsapCore.gsap.registerPlugin(_CSSPlugin.CSSPlugin) || _gsapCore.gsap,
   // to protect from tree shaking
-  TweenMaxWithCSS = gsapWithCSS.core.Tween;
-exports.TweenMax = TweenMaxWithCSS;
-exports.default = exports.gsap = gsapWithCSS;
+  TweenMaxWithCSS = exports.TweenMax = gsapWithCSS.core.Tween;
 },{"./gsap-core.js":"../node_modules/gsap/gsap-core.js","./CSSPlugin.js":"../node_modules/gsap/CSSPlugin.js"}],"shaders/brain.vertex.glsl":[function(require,module,exports) {
 module.exports = "#define GLSLIFY 1\nuniform vec3 uPointer;\nuniform vec3 uColor;\nuniform float uRotation;\nuniform float uSize;\nuniform float uHover;\n\nvarying vec3 vColor;\n\n#define PI 3.14159265359\n\nmat2 rotate(float angle) {\n  float s = sin(angle);\n  float c = cos(angle);\n\n  return mat2(c, -s, s, c);\n}\n\nvoid main() {\n  // First, calculate `mvPosition` to get the distance between the instance and the\n  // projected point `uPointer`.\n  vec4 mvPosition = vec4(position, 1.0);\n  mvPosition = instanceMatrix * mvPosition;\n\n  // Distance between the point projected from the mouse and each instance\n  float d = distance(uPointer, mvPosition.xyz);\n\n  // Define the color depending on the above value\n  float c = smoothstep(0.45, 0.1, d);\n\n  float scale = uSize + c*8.*uHover;\n  vec3 pos = position;\n  pos *= scale;\n  pos.xz *= rotate(PI*c*uRotation + PI*uRotation*0.43);\n  pos.xy *= rotate(PI*c*uRotation + PI*uRotation*0.71);\n\n  // Re-define `mvPosition` with the scaled and rotated position.\n  mvPosition = instanceMatrix * vec4(pos, 1.0);\n\n  gl_Position = projectionMatrix * modelViewMatrix * mvPosition;\n\n  vColor = uColor;\n}\n";
 },{}],"shaders/brain.fragment.glsl":[function(require,module,exports) {
@@ -41472,7 +41813,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "42565" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "44829" + '/');
   ws.onmessage = function (event) {
     checkedAssets = {};
     assetsToAccept = [];

@@ -5,9 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ThreeJS starter</title>
   <link rel="stylesheet" href="./index.scss">
+  <link rel="stylesheet" href="./hover.scss">
 </head>
 <body>
+  <section class="cd-text-center cd-margin-bottom-xl">
+  
+    <div class="cd-position-relative js-morph-bg-wrapper">
+      <ul class="demo-morph-bg-list cd-position-relative cd-z-index-2" data-morph-bg-preserve>
+        <li class="cd-position-relative" data-morph-bg="morph-bg-1" data-morph-bg-active>
+          <a class="demo-morph-bg-link" href="#0">About</a>
+  
+          <span class="demo-morph-bg-target" data-morph-bg-target style="height: 2px;" aria-hidden="true"></span>
+        </li>
+  
+        <li class="cd-position-relative" data-morph-bg="morph-bg-1">
+          <a class="demo-morph-bg-link" href="#0">Products</a>
+  
+          <span class="demo-morph-bg-target" data-morph-bg-target style="height: 2px;" aria-hidden="true"></span>
+        </li>
+  
+        <li class="cd-position-relative" data-morph-bg="morph-bg-1">
+          <a class="demo-morph-bg-link" href="#0">Contact us</a>
+  
+          <span class="demo-morph-bg-target" data-morph-bg-target style="height: 2px;" aria-hidden="true"></span>
+        </li>
+      </ul>
+  
+      <span class="morph-bg cd-z-index-1 demo-morph-bg-1 js-morph-bg" id="morph-bg-1" data-morph-bg-event="hover" aria-hidden="true"></span>
+    </div>
+  </section>
   <div id="app"></div>
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./hover.js"></script>
   <script src="./index.js"></script>
 </body>
 </html>
