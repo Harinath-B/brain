@@ -9,11 +9,20 @@
     <link rel="stylesheet" href="./hover-effect.css">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
 
+
+
+
+    <link rel="stylesheet" href="./scroll.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+
 </head>
 
 <body>
     <img class="logo" src="../logo.png"></img>
-    <div class="title"><h1><a>Mystery.AI</a></h1></div>
+    <div class="title">
+        <h1><a>Mystery.AI</a></h1>
+    </div>
     <div class="topcorner">
         <section class="cd-text-center cd-margin-bottom-xl">
 
@@ -43,13 +52,18 @@
         </section>
 
     </div>
-    <div id="app">
+
+    <div id="app" data-0="opacity: 1; display: flex" data-99="opacity: 0; display: none" data-100="display: none">
 
     </div>
     <script src="./index.js"></script>
     <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
     <script src="./hover-effect.js"></script>
 
+
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js'></script>
+    <script src="./scroll.js"></script>
 </body>
 
 </html>
