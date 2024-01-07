@@ -3,7 +3,8 @@
     font-family: pavelt;
     font-weight: bold;
     src: url("../Pavelt.otf") format("opentype");
-  }
+}
+
 *,
 *::after,
 *::before {
@@ -23,14 +24,16 @@
     right: 0;
 }
 
-.logo{
+.logo {
     top: 0;
     left: 0;
     margin-right: 94%;
-    margin-top: 15px;
+    margin-top: 10px;
     height: 80px;
     width: 80px;
+    position: absolute;
 }
+
 .title {
     margin-top: 30px;
     margin-left: 70px;
@@ -39,6 +42,7 @@
     top: 0;
     left: 0;
 }
+
 body {
     height: 100vh;
     display: flex;
