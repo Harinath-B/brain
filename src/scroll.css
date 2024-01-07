@@ -1,0 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
+a {
+    transition: background 0.5s;
+}
