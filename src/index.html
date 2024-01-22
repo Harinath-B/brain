@@ -1,75 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ThreeJS starter</title>
     <link rel="stylesheet" href="./index.scss">
     <link rel="stylesheet" href="./hover-effect.css">
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
-
-
-
-
     <link rel="stylesheet" href="./scroll.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
     <link rel="stylesheet" href="./space.css">
-
-    
-
-
+    <link rel="stylesheet" href="./city.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css2?family=Montserrat:wght@900&amp;display=swap'>
+    <link rel='stylesheet' href='https://yandex.st/highlightjs/8.0/styles/vs.min.css'>
+    <style>
+        section {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .topcorner {
+            /* Change from absolute to fixed */
+            top: 0;
+            right: 0;
+            z-index: 10; /* Ensure it stays on top of other content */
+             /* Add some spacing from the top and right edges */
+        }
+        #page3 {
+             /* Set black background for Page 3 */
+            overflow: hidden; /* Hide overflow to contain the css-doodle effect within the section */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position:relative;
+             /* Ensure proper stacking context for css-doodle */
+        }
+      
+    </style>
 </head>
-
 <body>
-    <div class="main"></div>
-    <img class="logo" src="../logo.png"></img> 
-    <div class="title">
-        <h1><a>Mystery.AI</a></h1>
-    </div>
-    <div class="topcorner">
-        
-        <section class="cd-text-center cd-margin-bottom-xl">
 
+    <!-- Section 1 -->
+    <section id="page1">
+        <div class="main"></div>
+        <img class="logo" src="../logo.png">
+        <div class="title">
+            <h1><a>Mystery.AI</a></h1>
+        </div>
+
+        <!-- Updated content -->
+        <div class="topcorner">
             <div class="cd-position-relative js-morph-bg-wrapper">
                 <ul class="demo-morph-bg-list cd-position-relative cd-z-index-2" data-morph-bg-preserve>
                     <li class="cd-position-relative" data-morph-bg="morph-bg-1" data-morph-bg-active>
                         <a class="demo-morph-bg-link" href="#0">About</a>
-
                         <span class="demo-morph-bg-target" data-morph-bg-target style="height: 2px;" aria-hidden="true"></span>
                     </li>
-
                     <li class="cd-position-relative" data-morph-bg="morph-bg-1">
                         <a class="demo-morph-bg-link" href="#0">Project</a>
-
                         <span class="demo-morph-bg-target" data-morph-bg-target style="height: 2px;" aria-hidden="true"></span>
                     </li>
-
                     <li class="cd-position-relative" data-morph-bg="morph-bg-1">
                         <a class="demo-morph-bg-link" href="#0">Contact us</a>
-
                         <span class="demo-morph-bg-target" data-morph-bg-target style="height: 2px;" aria-hidden="true"></span>
                     </li>
                 </ul>
-
                 <span class="morph-bg cd-z-index-1 demo-morph-bg-1 js-morph-bg" id="morph-bg-1" data-morph-bg-event="hover" aria-hidden="true"></span>
             </div>
+        </div>
+        
+        <div id="app" data-0="opacity: 1; display: flex" data-99="opacity: 0; display: none" data-100="display: none">
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section id="page2" style=" color: white;  width: 100%; height: 100vh; position: relative;">
+        <div class="container-fluid fixed-top header disable-selection">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Additional HTML content for Page 2 can go here -->
+    </section>
+    
+    <!-- Make sure to include the Three.js, GSAP, and other necessary scripts at the bottom of your body or within this section as needed. -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/89/three.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
+    <script src="./city.js"></script> <!-- Your 3D city effect script should be referenced here -->
+
+    <!-- Section 3 -->
+    <section id="page3">
+         <!-- css-doodle content -->
+         <css-doodle>
+            :doodle {
+              @grid: 500x1 / 40vmin;
+            }
+            :container {
+              perspective: 10vmin;
+            }
             
-        </section>
+            @place-cell: center;
+            @size: 50% 1px;
+            
+            will-change: transform, opacity;
+            transform-style: preserve-3d;
+            
+            background: linear-gradient(to left,
+              @multi(@p([2-4]), @p(#009688, #fdd835, #e91e63, #ffeb3b)),
+              transparent @r(80%)
+            );
+          
+            animation: move @r(1s, 2s, .1) linear infinite;
+            animation-delay: -@r(.1s, 2s);
+          
+            --trans:
+              translateX(35%)
+              rotateX(@r(-180deg, 180deg))
+              rotateY(@r(-180deg, 180deg))
+              rotateZ(@r(-180deg, 180deg));
+          
+            transform-origin: 0 center;
+            transform: var(--trans) scale(2);
+            opacity: 0;
+          
+            @keyframes move {
+              20% { opacity: 1; }
+              100% { transform: var(--trans) scale(0); }
+            }
+          </css-doodle>
+          
+        <p>Page 3 Content Here</p>
+    </section>
 
-    </div>
-
-    <div id="app" data-0="opacity: 1; display: flex" data-99="opacity: 0; display: none" data-100="display: none">
-
-    </div>
+    <!-- Global Scripts -->
     <script src="./index.js"></script>
-    <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+    <script src='https://unpkg.com/gsap@3/dist/gsap.min.js'></script>
     <script src="./hover-effect.js"></script>
-
-
     <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.26/skrollr.min.js'></script>
     <script src="./scroll.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/css-doodle/0.4.9/css-doodle.min.js'></script>
 </body>
-
 </html>
