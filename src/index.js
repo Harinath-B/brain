@@ -195,7 +195,7 @@ class App {
     }
 
     _onMousemove(e) {
-        const x = e.clientX / this.container.offsetWidth * 2 - 1
+        const x = e.clientX / this.container.offsetWidth * 0.75 - 1
         const y = -(e.clientY / this.container.offsetHeight * 2 - 1)
 
         this.mouse.set(x, y)
@@ -264,3 +264,26 @@ class App {
 
 const app = new App('#app')
 app.init()
+
+function sendMail() {
+    var params = {
+        name: document.getElementById("name").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+    };
+
+    const serviceID = "service_u8i5aze";
+    const templateID = "template_e9d2jd2";
+
+    emailjs.send(serviceID, templateID, params)
+        .then(res => {
+            document.getElementById("name").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("message").value = "";
+            console.log(res);
+            alert("Your message sent successfully!!")
+
+        })
+        .catch(err => console.log(err));
+
+}

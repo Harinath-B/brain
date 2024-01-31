@@ -277,8 +277,23 @@ var animate = function() {
   camera.lookAt(city.position);
   renderer.render( scene, camera );  
 }
+// Create a div element for the text
+var textElement = document.createElement('div');
+textElement.innerText = '⚡️ Byte Into Future ⚡️'; // Replace with your desired text
+textElement.style.position = 'absolute';
+textElement.style.top = '250%';
+textElement.style.left = '50%';
+textElement.style.transform = 'translate(-50%, -50%)';
+textElement.style.color = 'white'; // Set text color (change if needed)
+textElement.style.fontSize = '24px'; // Set font size (change if needed)
+textElement.style.textAlign = 'center';
+
+// Append the text element to the body of the document
+document.body.appendChild(textElement);
 
 //----------------------------------------------------------------- START functions
+
 generateLines();
 init();
 animate();
+
